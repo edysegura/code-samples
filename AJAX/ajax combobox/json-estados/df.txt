@@ -1,0 +1,5 @@
+['Bras%EDlia', 'Gama', 'Taguatinga',
+'Ceil%E2ndia', 'Brazl%E2ndia', 'Guar%E1', 'N%FAcleo Bandeirante',
+'Sobradinho', 'Planaltina', 'Samambaia', 'Santa Maria', 'Cruzeiro',
+'Parano%E1', 'Recanto das Emas', 'Lago Sul', 'Lago Norte',
+'Candangol%E2ndia', 'Riacho Fundo', 'S%E3o Sebasti%E3o']

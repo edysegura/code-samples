@@ -1,0 +1,4 @@
+['Abreu e Lima', 'Arcoverde', 'Cabo de Santo Agostinho', 'Camaragibe', 'Carpina', 
+ 'Caruaru', 'Garanhuns','Gravat%E1', 'Igarassu', 'Jaboat%E3o dos Guararapes', 'Olinda',
+ 'Paulista', 'Petrolina', 'Recife', 'S%E3o Louren%E7o da Mata', 'Serra Talhada', 
+ 'Vit%F3ria de Santo Ant%E3o']

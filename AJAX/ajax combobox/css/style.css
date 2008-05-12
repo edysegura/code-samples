@@ -1,0 +1,31 @@
+/**
+ *
+ * Definicoes CSS para pagina inicial
+ * @author: Edy Segura - edy@segura.eti.br
+ *
+ */
+
+select { 
+	width:200px; 
+}
+
+label { 
+	font-weight:bold; 
+	position:relative; 
+	top:-150px; 
+}
+
+option.title { 
+	color:#000; 
+	background:#CBCBE4; 
+}
+
+p.loading {
+	position:absolute;
+	top:0px;
+	right:5px;
+	background:#F00;
+	color:#fff;
+	padding:10px;
+	font:bold 10px Verdana, Arial, Helvetica, sans-serif;
+}

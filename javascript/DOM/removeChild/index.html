@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="author" content="Edy Segura" />
+<meta name="reply-to" content="edy@segura.eti.br" />
+<meta name="description" content="Exemplo do uso do método javascript/DOM removeChild" />
+<title>Uso do método javascript/DOM removeChild</title>
+
+<link rel="stylesheet" href="css/style.css" type="text/css" title="Padrão" />
+<script type="text/javascript" src="js/Index.js"></script>
+
+</head>
+<body>
+
+<h1>
+	Uso do método javascript/DOM 
+	<code><a href="http://developer.mozilla.org/en/docs/removeChild">removeChild</a></code>
+</h1>
+<p>
+	Exemplo do uso do método javascript/DOM 
+	<code><a href="http://developer.mozilla.org/en/docs/removeChild">removeChild</a></code>. 
+	Para mais detalhes veja o código fonte.
+</p>
+
+<noscript>
+	<p class="noscript">Habilite seu javascript para visualizar este exemplo.</p>
+</noscript>
+
+<table id="first">
+	<colgroup span="3">
+		<col class="coluna-01" />
+		<col class="coluna-02" />
+		<col class="coluna-03" />
+	</colgroup>
+	
+	<thead>
+		<tr>
+			<th><span>Remover coluna</span></th>
+			<th><span>Remover coluna</span></th>
+			<th>Total</th>
+		</tr>
+	</thead>
+	
+	<tbody>
+		<tr>
+			<td>0001</td>
+			<td>0002</td>
+			<td>0003</td>
+		</tr>
+		<tr>
+			<td>0001</td>
+			<td>0002</td>
+			<td>0003</td>
+		</tr>
+		<tr>
+			<td>0001</td>
+			<td>0002</td>
+			<td>0003</td>
+		</tr>
+		<tr>
+			<td>0001</td>
+			<td>0002</td>
+			<td>0003</td>
+		</tr>
+	</tbody>
+</table>
+
+<table id="second">
+	<colgroup span="3">
+		<col class="coluna-01" />
+		<col class="coluna-02" />
+		<col class="coluna-03" />
+	</colgroup>
+	
+	<thead>
+		<tr>
+			<th>Coluna 01</th>
+			<th>Coluna 02</th>
+			<th axis="remove"><span id="action-remove">Coluna Removida</span></th>
+		</tr>
+	</thead>
+	
+	<tbody>
+		<tr>
+			<td>0001</td>
+			<td>0002</td>
+			<td axis="remove">0003</td>
+		</tr>
+		<tr>
+			<td>0001</td>
+			<td>0002</td>
+			<td axis="remove">0003</td>
+		</tr>
+		<tr>
+			<td>0001</td>
+			<td>0002</td>
+			<td axis="remove">0003</td>
+		</tr>
+		<tr>
+			<td>0001</td>
+			<td>0002</td>
+			<td axis="remove">0003</td>
+		</tr>
+	</tbody>
+</table>
+
+</body>
+</html>

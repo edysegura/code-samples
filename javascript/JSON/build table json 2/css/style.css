@@ -1,0 +1,74 @@
+/**
+ * 
+ * Definicoes de estilo para main
+ * @author Edy, edy@liveware.com.br
+ *
+ */
+
+* {
+	margin:0;
+	padding:0;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#333;
+	outline:none;
+}
+
+body {
+	padding: 10px;
+}
+
+div#transacao {
+	background: #EBEBEB;
+	border: 1px solid #000;
+	border-top: none;
+	width: 700px;
+	margin: 10px auto;
+}
+
+div#transacao h3 {
+	background: #7DA7CF;
+	color: #fff;
+	font-size: 16px;
+	padding:3px;
+	margin-bottom: 10px;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000; 
+}
+
+div#transacao p {
+	margin-left: 4px;
+}
+
+div#transacao p.buttons {
+	border-top: 1px solid #000;
+	margin: 10px 0px;
+	text-align: left;
+}
+
+div#transacao p.buttons input {
+	margin: 10px 0 0 5px;
+	background: #DFE9F2;
+	border: 1px solid #79A2CE;
+	padding: 2px;
+}
+
+table#lista-transacoes { 
+	width: 95%;
+	margin: 10px auto;
+	border: 1px solid #000;
+	border-collapse: collapse;
+}
+
+table#lista-transacoes th,
+table#lista-transacoes td {
+	padding: 3px;
+}
+
+table#lista-transacoes thead { 
+	border-bottom: 1px solid #000;
+}
+
+table#lista-transacoes thead th { 
+	text-align: left;
+}

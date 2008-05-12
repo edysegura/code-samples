@@ -1,0 +1,16 @@
+/* CSS Document
+Autor: Edy Segura - edy@segura.eti.br
+Descrição: Definições de CSS para página inicial
+*/
+
+a       { color:#00F; }
+label   { text-align:right; font-weight:bold; }
+caption { font-weight:bold; text-align:left; }
+table   { background:#D1D1E9; color:#000; }
+thead   { background:#36366D; color:#FFF; }
+tfoot   { background:#FF9; font-weight:bold; }
+
+tfoot td { border:1px solid #36366D; }
+tbody th { text-align:right; }
+
+form#frmaluno { display:none; }

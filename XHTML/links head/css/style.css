@@ -1,0 +1,24 @@
+/**
+ *
+ * Stylesheet for page index.html
+ * @author Edy Segura, edy@segura.eti.br
+ *
+ */
+
+table {
+	border:1px solid #999;
+	border-collapse:collapse;
+}
+
+th, td {
+	padding:5px;
+}
+
+thead, tfoot {
+	background:#666;
+	color:#fff;
+}
+
+tbody td {
+	border-bottom:1px solid #999;
+}

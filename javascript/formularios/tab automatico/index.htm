@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="author" content="Edy Segura" />
+<meta name="reply-to" content="edy@segura.eti.br" />
+<meta name="description" content="Tab automatico" />
+<title>Tab Automático</title>
+
+<!-- stylesheet -->
+<link rel="stylesheet" href="css/stylesheets.css" type="text/css" title="Padrão" />
+
+<!-- javascript -->
+<script type="text/javascript" src="js/form.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+
+</head>
+<body>
+
+<h1>Tab Automático</h1>
+<p>Técnica utilizada para ir ao próximo campo automaticamente. Para mais detalhes veja o código fonte.</p>
+
+<!-- resultado -->
+<h2>Resultado</h2>
+
+<form id="frmautotab" action="" onsubmit="return false;">
+	<fieldset>
+		<legend>Código:</legend>
+		
+		<label for="inputA">Entre com 15 digitos:</label>
+		<input type="text" name="inputA" id="inputA" size="4" maxlength="5" /> - 
+		<input type="text" name="inputB" id="inputB" size="4" maxlength="5" /> - 
+		<input type="text" name="inputC" id="inputC" size="4" maxlength="5" />
+		
+		<button type="reset" accesskey="t">Apagar <span>t</span>udo</button>
+		
+		<!-- fim fieldset -->
+	</fieldset>
+</form>
+
+</body>
+</html>

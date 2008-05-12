@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xml-2-json.xsl"?>
+<java version="1.5.0" class="java.beans.XMLDecoder"> 
+ <object class="transferEncodedObject.Test"> 
+  <void property="array"> 
+   <object class="java.util.ArrayList"> 
+    <void method="add"> 
+     <string>Primeiro elemento</string> 
+    </void> 
+    <void method="add"> 
+     <string>Segundo elemento</string> 
+    </void> 
+    <void method="add"> 
+     <string>Terceiro elemento</string> 
+    </void> 
+   </object> 
+  </void> 
+  <void property="nome"> 
+   <string>Jeferson Zanin</string> 
+  </void> 
+  <void property="sexo"> 
+   <string>Masculino</string> 
+  </void> 
+  <void property="text"> 
+   <string>MEUS DADOS</string> 
+  </void> 
+ </object> 
+</java>

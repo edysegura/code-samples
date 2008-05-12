@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cidades>
+	<cidade>
+		<id>1</id>
+		<nome>ACRELANDIA</nome>
+	</cidade>
+	<cidade>
+		<id>2</id>
+		<nome>ASSIS BRASIL</nome>
+	</cidade>
+	<cidade>
+		<id>3</id>
+		<nome>BRASILEIA</nome>
+	</cidade>
+	<cidade>
+		<id>4</id>
+		<nome>BUJARI</nome>
+	</cidade>
+	<cidade>
+		<id>5</id>
+		<nome>CAPIXABA</nome>
+	</cidade>
+	<cidade>
+		<id>6</id>
+		<nome>CRUZEIRO DO SUL</nome>
+	</cidade>
+	<cidade>
+		<id>7</id>
+		<nome>EPITACIOLANDIA</nome>
+	</cidade>
+	<cidade>
+		<id>8</id>
+		<nome>FEIJO</nome>
+	</cidade>
+	<cidade>
+		<id>9</id>
+		<nome>JORDAO</nome>
+	</cidade>
+	<cidade>
+		<id>10</id>
+		<nome>MANCIO LIMA</nome>
+	</cidade>
+	<cidade>
+		<id>11</id>
+		<nome>MANOEL URBANO</nome>
+	</cidade>
+	<cidade>
+		<id>12</id>
+		<nome>MARECHAL THAUMATURGO</nome>
+	</cidade>
+	<cidade>
+		<id>13</id>
+		<nome>PLACIDO DE CASTRO</nome>
+	</cidade>
+	<cidade>
+		<id>14</id>
+		<nome>PORTO ACRE</nome>
+	</cidade>
+	<cidade>
+		<id>15</id>
+		<nome>PORTO WALTER</nome>
+	</cidade>
+	<cidade>
+		<id>16</id>
+		<nome>RIO BRANCO</nome>
+	</cidade>
+	<cidade>
+		<id>17</id>
+		<nome>RODRIGUES ALVES</nome>
+	</cidade>
+	<cidade>
+		<id>18</id>
+		<nome>SANTA ROSA</nome>
+	</cidade>
+	<cidade>
+		<id>19</id>
+		<nome>SENA MADUREIRA</nome>
+	</cidade>
+	<cidade>
+		<id>20</id>
+		<nome>SENADOR GUIOMARD</nome>
+	</cidade>
+	<cidade>
+		<id>21</id>
+		<nome>TARAUACA</nome>
+	</cidade>
+	<cidade>
+		<id>22</id>
+		<nome>XAPURI</nome>
+	</cidade>
+</cidades>

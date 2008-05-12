@@ -1,0 +1,34 @@
+/* CSS Document
+Autor: Edy Segura - edy@liveware.com.br, edy@segura.eti.br
+Descrição: CSS para index.html
+*/
+
+/* Definições para técnica da régua */
+div.line hr {
+	display:none;
+}
+
+div.line { 
+	background:transparent url(../imagens/hr.gif) no-repeat center center;
+	height:30px;
+}/* Fim das definições */
+
+
+p, h3 {
+	width:465px;
+	margin:10px auto;
+}
+
+p {
+	background:#F2F1EC;
+	padding:3px;
+	border:2px solid #C8C7C3;
+}
+
+p.normal {
+	width:100%;
+	background:none;
+	border:none;
+	margin:10px 0;
+}
+

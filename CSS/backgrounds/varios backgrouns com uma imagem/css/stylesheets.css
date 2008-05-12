@@ -1,0 +1,28 @@
+/* 
+ * CSS Document
+ * @author: Edy Segura - edy@segura.eti.br
+ * @description: Descrição
+ */
+
+h3 {
+	background:url(../imagens/bg-steps.jpg) center no-repeat;
+	text-indent:-9999px;
+	height:55px;
+	width:270px;
+}
+
+h3#step-1 {
+	background-position:0px 0px;
+}
+
+h3#step-2 {
+	background-position:0px -50px;
+}
+
+h3#step-3 {
+	background-position:0px -100px;
+}
+
+h3#step-4 {
+	background-position:0px -150px;
+}

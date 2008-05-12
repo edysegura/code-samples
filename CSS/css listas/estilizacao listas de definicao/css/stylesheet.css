@@ -1,0 +1,80 @@
+/* CSS Document */
+
+ul.sidebar
+{
+	float:right;
+	list-style-type:none;
+	margin:0; padding:10px;
+	background:#D5EAEA;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+ul.sidebar li{border-bottom:1px solid #408080;}
+ul.sidebar a{text-decoration:none; padding:3px; color:#333;}
+
+
+/* Sem Margens */
+dl.sem-margens{margin:0; padding:0;}
+dl.sem-margens dt{margin:0; padding:0; font-weight:bold;}
+dl.sem-margens dd{margin:0 0 1em 0; padding:0;}
+
+/* Com imagem de fundo */
+dl.imagem-fundo dt{color:#000; font-weight:bold; padding:0;}
+dl.imagem-fundo dd
+{
+	margin:0 0 1em 0;
+	padding:0 0 0 10px;
+	background:transparent url(../imagens/arrow.gif) no-repeat 0 50%;
+}
+
+/* Com Bordas */
+dl.com-bordas{margin:2em 0; padding:0; width:20em;}
+dl.com-bordas dt
+{
+	background-color:#131210;
+	color:#959289;
+	padding:.5em .5em;
+	font-weight:bold;
+	text-align:center;
+	text-transform:uppercase;
+	border-left:1px solid #131210;
+	border-right:1px solid #131210;
+	border-top:1px solid #131210;
+}
+dl.com-bordas dd
+{
+	margin:0 0 1em 0;
+	background:#DBD8D8;
+	text-align:center;
+	padding:1em .5em;
+	font-style:italic;
+	border-left:1px solid #131210;
+	border-right:1px solid #131210;
+	border-bottom:1px solid #131210;
+}
+
+/* Como Tabelas */
+dl.tabela
+{
+	width:41.1em;
+	margin:2em 0;
+	padding:0;
+}
+dl.tabela dt
+{
+	width:15em;
+	float:left;
+	margin:0;
+	padding:.5em;
+	border-top:1px solid #999;
+	font-weight:bold;
+}
+
+dl.tabela dd
+{
+	float:left;
+	width:24em;
+	margin:0;
+	padding:.5em;
+	border-top:1px solid #999;
+}

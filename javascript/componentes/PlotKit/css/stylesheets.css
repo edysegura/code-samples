@@ -1,0 +1,29 @@
+/* 
+ * stylesheets.css
+ *
+ * Definicoes para nomeDoArquivo.html
+ * @author: Edy Segura - edy@liveware.com.br
+ *
+ */
+
+table {
+	width:500px;
+	background:#E8EEF6;
+	margin-bottom:20px;
+	border:1px solid #476FB2;
+}
+
+thead th {
+	text-align:left;
+	background:#38588E;
+	color:#fff;
+	padding:2px;
+}
+
+tbody td {
+	background:#D6DFEF;
+}
+
+div.graph {
+	margin-bottom:15px;
+}

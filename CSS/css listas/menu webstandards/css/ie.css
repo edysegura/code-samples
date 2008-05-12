@@ -1,0 +1,9 @@
+/**
+ *
+ * Correções para o IE6
+ * @author Edy Segura, edy@segura.pro.br
+ *
+ */
+
+/* ajuste para o menu */
+ul.horizontal{height:19px;}

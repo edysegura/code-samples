@@ -1,0 +1,30 @@
+/**
+ *
+ * Definition of forms
+ * @author Lidiane Bernardes - lidiane@liveware.com.br
+ *
+ */
+
+/* buttons */
+p.buttons {
+	text-align:center;
+	margin-top:5px;
+	padding:5px;
+	clear:both;
+}
+
+p.buttons input,
+button {
+	color:#666;
+	border:1px solid #b9b9b9;
+	font:bold 12px verdana;
+	padding:0;
+	width:90px;
+	text-transform:capitalize;
+}
+
+p.buttons input:hover, 
+button:hover {
+	border:1px solid #b5b5b5;
+}
+/* fim botoes */

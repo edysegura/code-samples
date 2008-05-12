@@ -1,0 +1,22 @@
+﻿/**
+ *
+ * Definicoes para index.html
+ * @author: Edy Segura - edy@liveware.com.br
+ *
+ */
+
+table * { font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; }
+table   { width:500px; }
+caption { font-weight: bold; }
+
+/* formatacao das colunas */
+.coluna-1 { background:#FFDBCA; width:20px;  }
+.coluna-2 { background:#DFF4FF; width:100px; }
+.coluna-3 { background:#E1FFE1; width:250px; }
+.coluna-4 { background:#F4F4F4; width:100px; }
+
+tfoot td {
+	background:#FFF;
+	font-weight:bold;
+	text-align:center;
+}

@@ -1,0 +1,21 @@
+/* CSS Document */
+
+/* Formatação das tabelas */
+table {
+	border:1px solid #999;
+	border-collapse:collapse;
+	font:10px Verdana, Arial, Helvetica, sans-serif;
+	width:400px;
+}
+
+thead{background:#666; color:#fff;}
+thead th,thead td{padding:2px; text-align:left; font-size:1.2em;}
+tbody td{border-bottom:1px solid #999;}
+tbody th,tbody td{padding:2px;}
+
+
+/* Cores para striped table */
+tr.normal{background:#E5E5E5; color:#000;}
+tr.alternada{background:#ccc; color:#000;}
+tr.selected{background:#FCA;}
+tr.over{background:#CFC;}

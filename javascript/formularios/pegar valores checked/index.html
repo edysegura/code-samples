@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="author" content="Edy Segura" />
+<meta name="reply-to" content="edy@segura.eti.br" />
+<meta name="description" content="Método para pegar os valores checados" />
+<title>Pegar valores checked</title>
+
+<!-- stylesheet -->
+<link rel="stylesheet" href="css/stylesheets.css" type="text/css" title="Padrão" />
+
+<!-- javascript -->
+<script type="text/javascript" src="js/script.js"></script>
+
+</head>
+<body>
+
+<h1>Pegar valores checked</h1>
+<p>Exemplo de como pegar os valores selecionados em um grupo de checkboxes ou de radio. Para mais detalhes veja o código fonte.</p>
+<p>Obs.: Os elementos checkbox e radio com os mesmos nomes são por default uma colletions de todos os elementos do mesmo.</p>
+
+<!-- Resultado -->
+<h2>Resultado</h2>
+<form id="frmget" action="" method="post" onsubmit="return fnCheckToSubmit(this)" onreset="fnInit()">
+	<fieldset>
+		<legend>Valores:</legend>
+		
+		<!-- Nomes -->
+		<fieldset>
+			<legend>Nomes:</legend>
+			
+			<div>
+				<input type="checkbox" name="nomes" id="nome1" value="Edy Segura" />
+				<label for="nome1">Edy Segura</label>
+			</div>
+			
+			<div>
+				<input type="checkbox" name="nomes" id="nome2" value="Lidy Bernardes" />
+				<label for="nome2">Lidy Bernardes</label>
+			</div>
+			
+			<div>
+				<input type="checkbox" name="nomes" id="nome3" value="Jeferson Zamin" />
+				<label for="nome3">Jeferson Zamin</label>
+			</div>
+			
+			<div>
+				<input type="checkbox" name="nomes" id="nome4" value="Eduardo Lopes" />
+				<label for="nome4">Eduardo Lopes</label>
+			</div>
+			
+		</fieldset>
+		
+		<!-- Profissões -->
+		<fieldset>
+			<legend>Profissão:</legend>
+			
+			<div>
+				<input type="radio" name="profissao" id="prof1" value="Web Designer" />
+				<label for="prof1">Web Designer</label>
+			</div>
+			
+			<div>
+				<input type="radio" name="profissao" id="prof2" value="Engenheiro de Software" />
+				<label for="prof2">Engenheiro de Software</label>
+			</div>
+			
+			<div>
+				<input type="radio" name="profissao" id="prof3" value="Web Engineers" />
+				<label for="prof3">Web Engineers</label>
+			</div>
+			
+			<div>
+				<input type="radio" name="profissao" id="prof4" value="Web Developer" />
+				<label for="prof4">Web Developer</label>
+			</div>
+			
+		</fieldset>
+		
+		<!-- Cadastrados -->
+		<fieldset>
+			<legend>Cadastrados:</legend>
+			<select id="cadastrados" name="cadastrados" size="8" onchange="showDetails(this)">
+				<option value="">&nbsp;</option>
+			</select>
+		</fieldset>
+		
+		<!-- Botões -->
+		<button type="submit">Confirmar</button>
+		<button type="reset">Limpar</button>
+		
+	</fieldset>
+</form>
+
+</body>
+</html>

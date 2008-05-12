@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="author" content="Edy Segura" />
+<meta name="reply-to" content="edy@liveware.com.br">
+<title>PRAZOS PARA PROPOSTA</title>
+
+<!-- stylesheet -->
+<link rel="stylesheet" href="css/prazo.css" type="text/css" title="Padrão">
+
+<style type="text/css" media="print">
+	p.buttons {
+		display:none;
+	}
+</style>
+
+</head>
+<body>
+
+<div id="prazo-container">
+	<h1>PRAZOS PARA PROPOSTA</h1>
+	
+	<div id="information">
+		<p class="de">
+			<span class="label">DE:</span>
+			<span class="value"><input type="text" class="input" value="SEVEX" maxlength="15" /></span>
+		</p>
+		
+		<p class="para">
+			<span class="label">PARA:</span>
+			<span class="value"><input type="text" class="input" value="SEPLA" maxlength="15" /></span>
+		</p>
+		
+		<p>
+			<span class="label">DATA:</span>
+			<span class="value">2007-12-20</span>
+		</p>
+		
+		<p>
+			<span class="label">CLIENTE:</span>
+			<span class="value">SIEMENS</span>
+		</p>
+		
+		<p>
+			<span class="label">OFERTA:</span>
+			<span class="value">GA07266</span>
+		</p>
+		
+		<p>
+			<span class="label">VALIDADE:</span>
+			<span class="value">50</span>
+		</p>
+	</div>
+	
+	<table id="items">
+		<thead>
+			<tr>
+				<th class="no-border">ITEM</th>
+				<th>QUANT</th>
+				<th>TIPO</th>
+				<th>ISOLADOR</th>
+				<th>PRAZO DESEJADO<br />(MESES)</th>
+				<th>PRAZO SEPLA<br />(DIAS)</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td class="no-border">72</td>
+				<td>3</td>
+				<td>CCV 245</td>
+				<td></td>
+				<td>0</td>
+				<td><input type="text" class="input" value="0" /></td>
+			</tr>
+			<tr>
+				<td class="no-border">57</td>
+				<td>10</td>
+				<td>CCV 245</td>
+				<td></td>
+				<td>0</td>
+				<td><input type="text" class="input" value="0" /></td>
+			</tr>
+		</tbody>
+	</table>
+	
+	<h2>OBS.:</h2>
+	<table id="obs">
+		<col class="coluna-1" />
+		<col class="coluna-2" />
+		<tbody>
+			<tr>
+				<th colspan="2">0 = NAO | X = SIM</th>
+			</tr>
+			<tr>
+				<td>CONECTOR</td>
+				<td><input type="text" class="checked" maxlength="1" /></td>
+			</tr>
+			<tr>
+				<td>PLACA ESPECIAL</td>
+				<td><input type="text" class="checked" maxlength="1" /></td>
+			</tr>
+			<tr>
+				<td>INSPECAO</td>
+				<td><input type="text" class="checked" maxlength="1" /></td>
+			</tr>
+			<tr>
+				<td>NUCLE MUMETAL ESPECIAL</td>
+				<td><input type="text" class="checked" maxlength="1" /></td>
+			</tr>
+			<tr>
+				<td>OUTROS:</td>
+				<td><input type="text" class="checked" maxlength="1" /></td>
+			</tr>
+			<tr>
+				<td><input type="text" class="outros" /></td>
+				<td><input type="text" class="checked" maxlength="1" /></td>
+			</tr>
+		</tbody>
+	</table>
+	
+	<p>&nbsp;</p>
+	
+	<p class="buttons">
+		<button onclick="window.print();">Imprimir</button>
+	</p>
+	
+</div>
+
+</body>
+</html>

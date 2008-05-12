@@ -1,0 +1,1 @@
+['Caucaia', 'Crato', 'Fortaleza', 'Juazeiro do Norte', 'Maracana%FA', 'Sobral']

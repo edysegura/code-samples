@@ -1,0 +1,31 @@
+/* 
+ * stylesheets.css
+ *
+ * Definicoes para pagina inicial
+ * @author Edy Segura, edy@segura.eti.br
+ *
+ */
+
+a {
+	color:#00F;
+}
+
+/* definicoes para tabela */
+table {
+	border:1px solid #000;
+	width:500px;
+	table-layout:fixed;
+	border-collapse:collapse;
+}
+
+caption {
+	font:bold 12px Verdana, Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	padding-bottom:5px;
+}
+
+col.name    { width: 130px; }
+col.content { width: 370px; }
+td, th      { border-bottom:1px solid #000; padding:2px; }
+thead       { background:#CCC; }
+tbody th    { text-align:right; }

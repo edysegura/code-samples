@@ -1,0 +1,39 @@
+/* CSS Document
+Autor: Edy Segura - edy@segura.eti.br
+Descrição: Definições para colocar ícones no menu
+Referência: http://www.maujor.com/blog/2006/04/27/link-back-click/
+Referência: http://www.simplebits.com/notebook/2004/07/18/clickable.html
+*/
+
+ul {
+	width:170px;
+	margin:0;
+	padding:0;
+	list-style:none;
+	background:#eee;
+	border:1px solid #000;
+}
+
+ul li {
+	margin:2px 0 6px 0;
+	padding:0;
+	font-weight:bold;
+	line-height:24px; /* altura do ícone */
+	background-repeat:no-repeat;
+	background-position:2px 50%;
+}
+
+ul li a {
+	padding-left:30px; /* largura do ícone + espaço em branco */
+	text-decoration:none;
+	color:#595959;
+}
+
+ul li a:hover { text-decoration:underline; }
+
+/* Ícones */
+li#email  { background-image:url(../imagens/email.gif);  }
+li#doacao { background-image:url(../imagens/doacao.gif); }
+li#amigo  { background-image:url(../imagens/amigo.gif);  }
+li#alerta { background-image:url(../imagens/alerta.gif); }
+li#votar  { background-image:url(../imagens/votar.gif);  }

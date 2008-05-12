@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="author" content="Edy Segura" />
+<meta name="reply-to" content="edy@segura.eti.br" />
+<meta name="description" content="Script para validação de campos" />
+<title>Validação de campos</title>
+
+<!-- stylesheet -->
+<link rel="stylesheet" href="css/stylesheets.css" type="text/css" title="Padrão" />
+
+<!-- javascript -->
+<script type="text/javascript" src="js/script.js"></script>
+
+</head>
+<body>
+
+<h1>Validação de campos</h1>
+<p>Uso de expressão regular para validação de campos. Para mais detalhes veja o código fonte.</p>
+
+<!-- Resultado -->
+<h2>Resultado</h2>
+<form action="" method="post" onsubmit="return fnCheckToSubmit(this)">
+	<fieldset>
+		<legend>Dados:</legend>
+		
+		<div id="info"></div>
+		
+		<label for="nome">Nome completo:</label>
+		<input type="text" name="nome" id="nome" maxlength="100" 
+		 onkeypress="return fnCheckIsLetter(event, 'info')" />
+		
+		<label for="telefone">Telefone:</label>
+		<input type="text" name="telefone" id="telefone" maxlength="10" 
+		 onkeypress="return fnCheckIsNumber(event, 'info')" />
+		
+		<button type="submit">Validar</button>
+	</fieldset>
+</form>
+
+</body>
+</html>

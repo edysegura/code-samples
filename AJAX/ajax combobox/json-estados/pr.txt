@@ -1,0 +1,7 @@
+['Almirante Tamandar%E9', 'Apucarana',
+'Arapongas', 'Arauc%E1ria', 'Camb%E9', 'Campo Largo', 'Campo Mour%E3o',
+'Cascavel', 'Castro', 'Colombo', 'Curitiba', 'Foz do Igua%E7u',
+'Francisco Beltr%E3o', 'Guarapuava', 'Laranjeiras do Sul', 'Londrina',
+'Maring%E1', 'Paranagu%E1', 'Paranava%ED', 'Pato Branco', 'Pinhais',
+'Piraquara', 'Ponta Grossa', 'S%E3o Jos%E9 dos Pinhais', 'Sarandi',
+'Tel%EAmaco Borba', 'Toledo', 'Umuarama']

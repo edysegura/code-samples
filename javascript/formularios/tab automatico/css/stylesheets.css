@@ -1,0 +1,5 @@
+/* CSS Document */
+
+label,button{display:block;}
+button{margin-top:10px;}
+button span{text-decoration:underline;}

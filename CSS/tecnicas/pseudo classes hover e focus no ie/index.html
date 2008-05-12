@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="author" content="Edy Segura" />
+<meta name="reply-to" content="edy@segura.eti.br" />
+<meta name="description" content="Falso :hover no Internet Explorer" />
+<title>Falso :hover no Internet Explorer</title>
+
+<!-- stylesheet -->
+<link rel="stylesheet" href="css/stylesheet.css" type="text/css" title="Padrão" />
+
+<!-- conditional comment -->
+<!--[if lte IE 6]>
+<style type="text/css">
+	body { behavior:url(htc/csshover.htc); }
+</style>
+<![endif]-->
+
+</head>
+<body>
+
+<h1>Falso :hover no Internet Explorer</h1>
+<p>Através desta extensão proprietária da Microsoft, o <span>IE 5 e 6</span> reconhecem regras de CSS que usam o pseudo elemento <span>:hover</span> em qualquer outro elemento como tables e inputs por exemplo. Para mais detalhes veja o código fonte.</p>
+
+<h2>Resultado</h2>
+<p>Mexa com o mouse nos <span>parágrafos</span>.</p>
+<p><input type="text" /></p>
+
+</body>
+</html>

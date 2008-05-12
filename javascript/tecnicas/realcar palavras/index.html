@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Realçar Palavra</title>
+
+<!-- stylesheet -->
+<link rel="stylesheet" href="css/stylesheets.css" type="text/css" title="Padrão" />
+<!-- javascript -->
+<script type="text/javascript" src="js/script.js"></script>
+
+</head>
+<body>
+
+<h1>Realçar Palavra</h1>
+<p>Técnica que faz uso de expressões regulares para realçar a palavra desejada. Para mais detalhes veja o código fonte.</p>
+
+<!-- Resultado -->
+<h2>Resultado</h2>
+<form id="frmrealcar" action="" method="post" onsubmit="return realcar(this)">
+	<fieldset>
+		<legend>Filtro:</legend>
+		<label>Insira a palavra a realçar:</label>
+		<input type="text" name="palavra" id="palavra" onkeyup="realcar(this.form)" />
+		<button type="submit">Realçar</button>
+	</fieldset>
+</form>
+
+<!-- div content -->
+<div id="content">
+	<h2>WebEngineers</h2>
+	<p>A WebEngineers traz para você todas as novidades sobre o que está acontecendo no mundo WWW.</p>
+</div>
+
+</body>
+</html>

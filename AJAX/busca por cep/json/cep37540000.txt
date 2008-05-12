@@ -1,0 +1,6 @@
+﻿{
+	logradouro : "Av. Antônio de Cássia",
+	bairro     : "Jr. Santo Antônio",
+	cidade     : "Santa Rita do Sapucaí",
+	estado     : "MG"
+}

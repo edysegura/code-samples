@@ -1,0 +1,191 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>overflow-x/y tests</title>
+<style type="text/css">
+body {
+	background-color: #fff;
+	color: #000;
+	font-size: 100%;
+}
+.sp {
+	margin: 10px;
+	float: left;
+	position: relative;
+}
+.wrapper {
+	background: #f8f8f8 url(g100c2.gif) 30px 30px;
+	border: 1px solid #000;
+}
+.wrapper {
+	width: 232px;
+	height: 232px;
+	w\idth: 230px;
+	he\ight: 230px;
+}
+.container, .containNL {
+	padding: 10px;
+	border: 10px solid #9c9;
+	background-image: url(checkb_cfc.gif);
+}
+.container {
+	width: 140px;
+	height: 140px;
+	w\idth: 100px;
+	he\ight: 100px;
+	margin: 10px 0 0 10px;
+}
+.containNL {
+	margin: 10px 80px 80px 10px;
+}
+.uno {
+	width: 150px;
+	height: 40px;
+	background: #99f url(g10v.gif);
+}
+.due {
+	width: 40px;
+	height: 110px;
+	background: #f99 url(g10o.gif);
+}
+p {
+	margin: 1em 0 0 0;
+}
+.sp p {
+	margin: 0.2em;
+	font-size: 0.9em;
+}
+hr {
+	clear: both;
+}
+</style>
+</head>
+
+<body>
+<h1>overflow-x, overflow-y tests</h1>
+<p>W3C CCS3 working draft: <a href="http://www.w3.org/TR/css3-box/#the-overflow-x">The 'overflow-x' and 'overflow-y' properties</a>.</p>
+<p>The green box has dimension 100px &times; 100px, padding 10px, border 10px, margin 20px.
+The blue bar (width 150px) should overflow at the right, and the red one (height 110px) at the bottom. The grey box is just an external container, big enough to always enclose the green box and its overflowing contents.</p>
+
+<div class="sp">
+<p>overflow-x: visible; overflow-y: visible;</p>
+	<div class="wrapper"><div class="container" style="overflow-x: visible; overflow-y: visible;">
+		<div class="uno"></div>
+		<div class="due"></div>
+	</div></div>
+</div>
+
+<div class="sp">
+<p>overflow-x: hidden; overflow-y: hidden;</p>
+	<div class="wrapper"><div class="container" style="overflow-x: hidden; overflow-y: hidden;">
+		<div class="uno"></div>
+		<div class="due"></div>
+	</div></div>
+</div>
+
+<div class="sp">
+<p>overflow-x: auto; overflow-y: auto;</p>
+	<div class="wrapper"><div class="container" style="overflow-x: auto; overflow-y: auto;">
+		<div class="uno"></div>
+		<div class="due"></div>
+	</div></div>
+</div>
+
+<div class="sp">
+<p>overflow-x: hidden; overflow-y: visible;</p>
+	<div class="wrapper"><div class="container" style="overflow-x: hidden; overflow-y: visible;">
+		<div class="uno"></div>
+		<div class="due"></div>
+	</div></div>
+</div>
+
+<div class="sp">
+<p>overflow-x: visible; overflow-y: hidden;</p>
+	<div class="wrapper"><div class="container" style="overflow-x: visible; overflow-y: hidden;">
+		<div class="uno"></div>
+		<div class="due"></div>
+	</div></div>
+</div>
+
+<div class="sp">
+<p>overflow-x: hidden; overflow-y: auto;</p>
+	<div class="wrapper"><div class="container" style="overflow-x: hidden; overflow-y: auto;">
+		<div class="uno"></div>
+		<div class="due"></div>
+	</div></div>
+</div>
+
+<div class="sp">
+<p>overflow-x: auto; overflow-y: hidden;</p>
+	<div class="wrapper"><div class="container" style="overflow-x: auto; overflow-y: hidden;">
+		<div class="uno"></div>
+		<div class="due"></div>
+	</div></div>
+</div>
+
+<div class="sp">
+<p>overflow-x: auto; overflow-y: visible;</p>
+	<div class="wrapper"><div class="container" style="overflow-x: auto; overflow-y: visible;">
+		<div class="uno"></div>
+		<div class="due"></div>
+	</div></div>
+</div>
+
+<div class="sp">
+<p>overflow-x: visible; overflow-y: auto;</p>
+	<div class="wrapper"><div class="container" style="overflow-x: visible; overflow-y: auto;">
+		<div class="uno"></div>
+		<div class="due"></div>
+	</div></div>
+</div>
+
+<hr/>
+
+
+<p>green box has no dimensions (no hasLayout), its width should be 100px because of its margins</p>
+
+<div class="sp">
+<p>overflow-x: visible; overflow-y: visible;</p>
+	<div class="wrapper"><div class="containNL" style="overflow-x: visible; overflow-y: visible;">
+		<div class="uno"></div>
+		<div class="due"></div>
+	</div></div>
+</div>
+
+<div class="sp">
+<p>overflow-x: hidden; overflow-y: visible;</p>
+	<div class="wrapper"><div class="containNL" style="overflow-x: hidden; overflow-y: visible;">
+		<div class="uno"></div>
+		<div class="due"></div>
+	</div></div>
+</div>
+
+<div class="sp">
+<p>overflow-x: auto; overflow-y: visible;</p>
+	<div class="wrapper"><div class="containNL" style="overflow-x: auto; overflow-y: visible;">
+		<div class="uno"></div>
+		<div class="due"></div>
+	</div></div>
+</div>
+
+<div class="sp">
+<p>overflow-x: visible; overflow-y: hidden;</p>
+	<div class="wrapper"><div class="containNL" style="overflow-x: visible; overflow-y: hidden;">
+		<div class="uno"></div>
+		<div class="due"></div>
+	</div></div>
+</div>
+
+<div class="sp">
+<p>overflow-x: visible; overflow-y: auto;</p>
+	<div class="wrapper"><div class="containNL" style="overflow-x: visible; overflow-y: auto;">
+		<div class="uno"></div>
+		<div class="due"></div>
+	</div></div>
+</div>
+
+<hr/>
+<p><a href="./">CSS tests home</a></p>
+</body>
+</html>

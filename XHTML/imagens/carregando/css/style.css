@@ -1,0 +1,17 @@
+/** 
+ *
+ * Estilos para index.html
+ * @author: Edy Segura - edy@segura.eti.br
+ * 
+ */
+
+img {
+	margin:5px;
+}
+
+div#image-container {
+	width: 300px;
+	height: 250px;
+	overflow: auto;
+	background: #eee;
+}

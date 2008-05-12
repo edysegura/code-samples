@@ -1,0 +1,15 @@
+/**
+ *
+ * Global reset for all elements
+ * @author Edy Segura - edy@liveware.com.br
+ *
+ */
+ 
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+p {
+	font:12px Verdana,Geneva,Arial,Helvetica,sans-serif;
+}

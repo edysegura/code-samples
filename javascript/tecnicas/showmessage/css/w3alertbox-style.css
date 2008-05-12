@@ -1,0 +1,48 @@
+/*
+	w3AlertBox (1.0) - 14/12/2006
+	Por Leandro Vieira Pinho - http://leandro.w3invent.com.br
+	
+	Para informações de uso deste add-on visite:
+	http://leandro.w3invent.com.br/addons/freedom/alertBox
+
+	Nota: O alertBox trabalha em conjunto com a freeDOM 0.2.7 ou superior
+	freeDOM: http://metzen.com.br/freedom/
+
+	O código HTML gerado para exibir a alertBox é o seguinte:
+	
+	 * HTML gerado pelo alertBox (customize como desejar :) via CSS)
+	 * <div id="w3alertbox">
+	 *	<h3>Alerta</h3>
+	 *	<p>
+	 *		strParam
+	 *	</p>
+	 *	<input id="w3alertbox_btnOk" value="Ok" type="button">
+	 * </div>
+*/
+
+#w3alertbox {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 350px;
+	margin-left: -175px;
+	background-color: #C0E7FA;
+	border: 2px solid #59C0F1;
+	color: #000;
+	padding: 0 0 5px 5px;
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	font-size: small;
+	text-align: left;
+}
+#w3alertbox h3 {
+	background-color: #59C0F1;
+	margin: 0 0 5px -5px;
+	padding: 5px;
+}
+#w3alertbox input {
+	width: 65px;
+	font-weight: bold;
+	padding: 0;
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	margin: 0;
+}

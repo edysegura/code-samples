@@ -1,0 +1,40 @@
+/* CSS Document
+Autor: Edy Segura - edy@liveware.com.br, edy@segura.eti.br
+Descrição: Definições da div#container
+*/
+
+div#container {
+	width:500px;
+	height:300px;
+	border:1px solid #F90;
+	overflow:hidden;
+}
+
+div#container div {
+	padding-left:5px;
+	font:10px Verdana, Arial, Helvetica, sans-serif;
+}
+
+div#header,
+div#footer {
+	font-weight:bold !important;
+}
+
+div#header {
+	height:5%;
+	background:#CFE7E7;
+	overflow:hidden;
+}
+
+div#content {
+	height:90%;
+	overflow:auto;
+	background:#F4F4F4;
+}
+
+div#footer {
+	height:5%;
+	background:#F0E1FF;
+	overflow:hidden;
+}
+

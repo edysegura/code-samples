@@ -1,0 +1,15 @@
+/* CSS Document
+Autor: Edy Segura - edy@liveware.com.br, edy@segura.eti.br
+Descrição: Definições para técnica 02
+Referência: http://www.ilovejackdaniels.com/css/image-replacement/
+*/
+
+h3#image-replacement {
+	overflow:hidden;
+	height:80px; /* Tamanho da imagem */
+}
+
+h3#image-replacement:before {
+	display:block;
+	content:url("../imagens/logo_ilovejackdaniels.png");
+}

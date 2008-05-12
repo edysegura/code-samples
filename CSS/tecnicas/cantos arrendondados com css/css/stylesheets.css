@@ -1,0 +1,54 @@
+/* CSS Document
+Autor: Edy Segura - edy@liveware.com.br, edy@segura.eti.br
+Descrição: Definições para cantos arrendondados
+Referência: http://www.maujor.com/tutorial/box-arred.php
+*/
+
+div#boxes {
+	font:0.9em Arial, Helvetica, sans-serif;
+	width:100%;
+	color:#333; 
+	margin:0;
+}
+
+div.fixo {
+	margin:0 auto;
+	width:25em;
+	background:url(../imagens/canto-inf-dir.jpg) no-repeat 100% 100%;
+	font-size:100%;
+}
+
+div.titulo {
+	background:url(../imagens/canto-sup-dir.jpg) no-repeat 100% 0;
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+
+div.titulo h6 { 
+	background:url(../imagens/canto-sup-esq.jpg) no-repeat 0 0;
+	margin:0;
+	padding:45px 20px 5px;
+	color:#333; 
+	font-weight:bold; 
+	font-size:1.4em; 
+	line-height:1.0em;
+}
+
+div.conteudo {
+	background:url(../imagens/canto-inf-esq.jpg) no-repeat  0 100%;
+	color:#fff;
+	margin:0;
+	padding:5px 35px 45px;
+}
+
+div#boxes div.conteudo p {
+	margin:0.7em;
+	line-height:1.2em;
+}
+
+div.elastico {
+	width:100%;
+	background:url(../imagens/canto-inf-dir.jpg) no-repeat 100% 100%;
+	font-size:100%;
+}

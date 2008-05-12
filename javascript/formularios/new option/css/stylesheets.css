@@ -1,0 +1,39 @@
+/* CSS Document */
+
+fieldset {
+	padding:10px;
+	border:1px solid #666;
+}
+
+legend { color:#000; }
+
+fieldset.dados {
+	width:250px;
+}
+
+label {
+	display:block;
+	margin:2px 0;
+}
+
+input {
+	width:274px;
+	border:1px solid #666;
+}
+
+div.botoes {
+	text-align:center;
+	padding:5px;
+}
+
+div.botoes button {
+	width:100px;
+	border:1px solid #666;
+	padding:2px;
+	margin-right:3px;
+}
+
+select#emails {
+	width:250px;
+	border:1px solid #666;
+}

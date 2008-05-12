@@ -1,0 +1,118 @@
+/* CSS Document
+Autor: Edy Segura - edy@liveware.com.br, edy@segura.eti.br
+Descrição: Descrição
+*/
+
+* {
+	padding:0;
+	margin:0;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+html {
+	background:#F0F3FB;
+}
+
+body {
+	padding:5px;
+}
+
+fieldset {
+	border:1px solid #004B97;
+	padding:10px;
+}
+
+legend {
+	font-size:10px;
+	font-weight:bold;
+}
+
+h1, h2 {
+	margin:15px 0;
+}
+
+h1 { font-size:17px; }
+h2 { font-size:14px; }
+p  { font-size:12px; }
+
+a.detalhes {
+	color:#fff;
+	font-weight:bold;
+}
+
+td.detalhes {
+	text-align:center;
+}
+
+/* Topologia */
+fieldset#topologia {
+	position:relative;
+}
+
+fieldset#topologia div.normal {
+	position:relative;
+	float:left;
+	margin:0 10px 5px 0;
+	width:150px;
+	height:125px;
+	background:#004080;
+	color:#fff;
+	font-size:10px;
+	background:#004080;
+}
+
+fieldset#topologia div.vermelho {
+	background:#F00;
+}
+
+fieldset#topologia div.verde {
+	background:#060;
+}
+
+fieldset#topologia h3 {
+	font-size:12px;
+	background:#004B97 url(../imagens/border_right.gif) no-repeat right top;
+	color:#fff;
+	padding:2px 2px 2px 5px;
+	border-bottom:1px solid #fff;
+}
+
+fieldset#topologia table {
+	margin-left:3px;
+	table-layout:fixed;
+	width:95%;
+}
+
+fieldset#topologia th {
+	text-align:right;
+	width:50px;
+}
+
+div#painel {
+	position:absolute;
+	background:transparent;
+	top:-1px;
+	left:95px;
+	height:20px;
+	overflow:hidden;
+}
+
+/* Hack para IE */
+div>div#painel {
+	top:3px;
+	left:98px;
+}
+
+div#painel img {
+	cursor:pointer;
+	margin-left:3px;
+}
+
+/* Hack para IE */
+div#painel>img {
+	vertical-align:text-bottom;
+}
+
+div#painel input {
+	margin-left:3px;
+}

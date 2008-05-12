@@ -1,0 +1,57 @@
+/**
+ *
+ * Definições para construção do menu
+ * @author Edy Segura, edy@segura.pro.br
+ *
+ */
+
+/* Definições para o menu horizontal */
+ul.horizontal {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	border-bottom:1px solid red;
+	height:20px; /* propriedade obrigatória para não dar diferença no layout */
+}
+
+ul.horizontal li { display: inline; }
+
+ul.horizontal a {
+	display:block;
+	float:left;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	padding:.2em 1em;
+	text-decoration: none;
+	color:#fff;
+	background:#036;
+	border-right:1px solid #fff;
+}
+
+ul.horizontal a:hover { color:#000; background:#E8F3FF; }
+
+/* Definições para o menu vertical */
+ul.vertical {
+	clear:both;
+	margin:10px 0 0 0;
+	padding:0;
+	list-style-type:none;
+}
+
+ul.vertical a {
+	display:block;
+	text-decoration:none;
+	background:#036;
+	color:#fff;
+	padding:.2em .5em;
+	border-bottom:1px solid #fff;
+	width:100px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+}
+
+ul.vertical a:hover { background:#E8F3FF; color:#000; }
+ul.vertical li { display:inline; }
+

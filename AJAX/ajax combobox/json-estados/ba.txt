@@ -1,0 +1,4 @@
+['Alagoinhas', 'Barreiras', 'Cama%E7ari', 'Candeias', 
+ 'Eun%E1polis', 'Feira de Santana', 'Ilh%E9us', 'Itabuna', 
+ 'Jequi%E9', 'Juazeiro', 'Paulo Afonso', 'Salvador', 
+ 'Santo Ant%F4nio de Jesus', 'Teixeira de Freitas', 'Vit%F3ria da Conquista']

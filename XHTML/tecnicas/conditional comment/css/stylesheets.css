@@ -1,0 +1,13 @@
+/* 
+ * CSS Document
+ * 
+ * @author: Edy Segura - edy@segura.eti.br
+ * @description: Definições para página index.html
+ */
+
+p.info {
+	padding:5px;
+	background:#FCF0D8;
+	border:1px solid #D3BE96;
+}
+

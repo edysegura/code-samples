@@ -1,0 +1,43 @@
+/* CSS Document
+Autor: Edy Segura - edy@segura.eti.br
+Descrição: Definições CSS da Index
+*/
+
+a {
+	color:#00F;
+}
+
+table {
+	font:10px Verdana, Arial, Helvetica, sans-serif;
+	border:1px solid #000;
+	background:#fff;
+	margin-bottom:10px;
+}
+
+table th,
+table td {
+	padding:2px;
+}
+
+table thead, 
+table tfoot {
+	background:#FFD5AA;
+}
+
+table tbody td {
+	background:#FFF2E6;
+}
+
+.number {
+	text-align:right;
+}
+
+p.loading {
+	position:absolute;
+	top:0px;
+	right:5px;
+	background:#F00;
+	color:#fff;
+	padding:10px;
+	font:bold 10px Verdana, Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,3 @@
+['Altamira', 'Ananindeua', 'Bel%E9m', 'Capanema', 'Castanhal', 
+ 'Itaituba', 'Marab%E1', 'Paragominas', 'Reden%E7%E3o', 
+ 'Santar%E9m', 'Tucuru%ED', 'Xinguara']

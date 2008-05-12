@@ -1,0 +1,3 @@
+['Blumenau', 'Brusque', 'Chapec%F3',
+'Crici%FAma', 'Florian%F3polis', 'Itaja%ED', 'Jaragu%E1 do Sul',
+'Joinville', 'Lages', 'Palho%E7a', 'S%E3o Jos%E9', 'Tubar%E3o']

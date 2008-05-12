@@ -1,0 +1,20 @@
+/* CSS Document */
+
+dl.galeria
+{
+	border:1px solid #000;
+	background-color:#ddd;
+	width:102px;
+	text-align:center;
+	padding:10px;
+	float:left;
+	margin-right:1em;
+}
+dl.galeria dt{font-weight: bold;}
+dl.galeria dt img
+{
+	border:1px solid #000;
+	width:100px;
+	height:100px;
+}
+dl.galeria dd{margin:0; padding:0;}

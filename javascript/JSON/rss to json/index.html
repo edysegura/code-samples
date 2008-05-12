@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="author" content="Edy Segura" />
+<meta name="reply-to" content="edy@segura.eti.br" />
+<meta name="description" content="Conversão de RSS para JSON" />
+<title>RSS to JSON</title>
+
+<!-- stylesheet -->
+<link rel="stylesheet" href="css/stylesheets.css" type="text/css" title="Padrão" />
+<!-- javascript -->
+<script type="text/javascript" src="js/script.js"></script>
+
+</head>
+<body>
+
+<h1>RSS to JSON</h1>
+<p>Conversão de RSS para JSON. Para mais detalhes veja o código fonte.</p>
+<p>Obrs.: A página deve estar com o charset=ISO-8859-1.</p>
+
+<!-- Resultado -->
+<h2>Resultado</h2>
+<p>
+	<select id="rss">
+		<option value="" selected="selected">Feeds</option>
+		<option value="http://www.flickr.com/services/feeds/photos_public.gne?id=52309888@N00&amp;format=rss_200">Flick Edy</option>
+		<option value="http://idgnow.uol.com.br/RSS2">IDGNow</option>
+		<option value="http://del.icio.us/rss/wdedy">del.icio.us/wdedy</option>
+		<option value="http://rss.home.uol.com.br/index.xml">UOL</option>
+		<option value="http://feeds.feedburner.com/Revolucao">Revolucão Etc</option>
+		<option value="http://www.maujor.com/rss.xml">Maujor</option>
+		<option value="http://www.fai-mg.br/portal/paginas/index.xml">FAI</option>
+		<option value="http://www.grigsoft.com/grigsoft.xml">Grigsoft</option>
+	</select>
+	<a href="javascript:void(0);" onclick="fnGo()">Pegar feeds</a>
+</p>
+
+</body>
+</html>

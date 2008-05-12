@@ -1,0 +1,24 @@
+/* CSS Document */
+
+dl.evento
+{
+	margin:2em 0;
+	padding:0;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+}
+dl.evento dt
+{
+	position:relative;
+	left:0;
+	top:1.8em;
+	width:8em;
+	font-weight:bold;
+}
+dl.evento dd
+{
+	border-left:1px solid #000;
+	margin:0 0 0 10em;
+	padding:0 0 .5em .5em;
+}
+

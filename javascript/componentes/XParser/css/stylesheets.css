@@ -1,0 +1,38 @@
+/* CSS Document
+Autor: Edy Segura - edy@liveware.com.br, edy@segura.eti.br
+Descrição: Definições da página index.html
+*/
+
+a { color: blue; }
+
+body {
+	margin: 0px;
+	border-top: 5px solid #3B619C;
+	font: 13px arial;
+}
+
+fieldset {
+	width:265px;
+	display:block;
+}
+
+.Item {
+	padding: 10px;
+}
+
+.ItemTitle {
+	font-weight: bold;
+}
+
+#leftSide {
+	position: absolute;
+	top: 50px;
+	left: 10px;
+}
+
+#FeedContent {
+	position: absolute;
+	top: 50px;
+	left: 300px;
+	width: 500px;		
+}

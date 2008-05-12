@@ -1,0 +1,15 @@
+/**
+ *
+ * Definicoes para pagina inicial
+ * @author: Edy Segura - edy@segura.eti.br
+ *
+ */
+
+fieldset#checkfield fieldset {
+	width: 200px;
+	height: 125px;
+	padding: 5px;
+	float: left;
+}
+
+label { text-decoration:underline; }

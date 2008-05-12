@@ -1,0 +1,42 @@
+/**
+ *
+ * Definicoes para pagina inicial
+ * @author: Edy Segura - edy@segura.eti.br
+ *
+ */
+
+a {
+	color: #00F;
+}
+
+table {
+	border: 1px solid #000; 
+	margin-bottom: 10px;
+}
+
+thead { 
+	background: #387272; 
+	color: #fff;
+}
+
+thead span {
+	color: #fff;
+	cursor: pointer;
+}
+
+thead span:hover {
+	text-decoration: underline;
+}
+
+thead th {
+	padding: 5px;
+}
+
+col.coluna-01,
+col.coluna-03 { background: #ccc;    }
+col.coluna-02 { background: #ffcc99; }
+
+table#first {
+	float: left;
+	margin-right: 15px;
+}

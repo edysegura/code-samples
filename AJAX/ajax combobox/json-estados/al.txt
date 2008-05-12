@@ -1,0 +1,17 @@
+[
+	'Agua Branca',
+	'Belem',
+	'Belo Monte',
+	'Boa Sorte',
+	'Boa Vista',
+	'Boca Da Mata',
+	'Bom Jardim',
+	'Bonifacio',
+	'Branquinha',
+	'Cacimbinhas',
+	'Cajarana',
+	'Cajueiro',
+	'Caldeiroes De Cima',
+	'Camadanta',
+	'Campestre'
+]

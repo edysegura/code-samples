@@ -1,0 +1,33 @@
+ RewriteEngine on
+
+#regra para qualquer arquivo - chamar com extensao
+RewriteBase /
+RewriteCond %{HTTP_HOST} !site.internetigrejas.com.br(.*)
+RewriteCond %{REQUEST_URI} !site/(.*)
+RewriteCond %{REQUEST_URI} !igrejas/(.*)
+RewriteCond %{REQUEST_URI} !arquivos/(.*)
+RewriteCond %{REQUEST_URI} !estilos/(.*)
+RewriteCond %{REQUEST_URI} !(.*)\.php
+RewriteRule ^(.*)/(.*)\.(.*)$ arquivos/$1/$2\.$3 [L]
+
+#regra para arquivos php - serao sempre chamados sem extensao
+RewriteCond %{HTTP_HOST} !site.internetigrejas.com.br(.*)
+RewriteCond %{REQUEST_URI} !site/(.*)
+RewriteCond %{REQUEST_URI} !igrejas/(.*)
+RewriteCond %{REQUEST_URI} !arquivos/(.*)
+RewriteCond %{REQUEST_URI} !estilos/(.*)
+RewriteCond %{REQUEST_URI} !(.*)\.php
+RewriteRule ^(.*)/(.*) igrejas/index.php?usuario=$1&sec=$2 [L]
+
+#regra para se o usuario digitar apenas dominio.com.br/asdfasdf
+RewriteCond %{HTTP_HOST} !site.internetigrejas.com.br(.*)
+RewriteCond %{REQUEST_URI} !/$
+RewriteCond %{REQUEST_URI} !site/(.*)
+RewriteCond %{REQUEST_URI} !igrejas/(.*)
+RewriteCond %{REQUEST_URI} !arquivos/(.*)
+RewriteCond %{REQUEST_URI} !estilos/(.*)
+RewriteCond %{REQUEST_URI} !(.*)\.php
+RewriteCond %{REQUEST_URI} !(.*)\.html
+RewriteCond %{REQUEST_URI} !(.*)\.shtml
+RewriteCond %{REQUEST_URI) !(.*)/$
+RewriteRule ([^/\.]{0,30}) igrejas/index.php?usuario=$1 [L]

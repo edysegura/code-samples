@@ -1,0 +1,21 @@
+﻿/**
+ *
+ * Definicoes para pagina inicial
+ * @author: Edy Segura - edy@segura.eti.br
+ *
+ */
+
+h2 {
+	text-align: center;
+}
+
+p.destaque {
+	width: 700px;
+	margin: 5px auto;
+	padding: 5px;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+	background: yellow;
+	border: 2px solid orange;
+} 

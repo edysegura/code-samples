@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="author" content="Edy Segura" />
+<meta name="reply-to" content="edy@segura.eti.br" />
+<meta name="description" content="Uso de máscaras em javascript" />
+<title>Uso de m&aacute;scaras</title>
+
+<!-- stylesheet -->
+<link rel="stylesheet" href="css/stylesheets.css" type="text/css" title="Padrão" />
+
+<!-- javascript -->
+<script type="text/javascript" src="js/dom-kit.js"></script>
+<script type="text/javascript" src="js/Mask.js"></script>
+<script type="text/javascript" src="js/Index.js"></script>
+
+</head>
+<body>
+
+<h1>Objeto Mask</h1>
+<p>Objeto para aplicar máscara em campos do formulário. Para mais detalhes veja o código fonte.</p>
+<p>Mais informações no endereço: <a href="http://www.pengoworks.com/workshop/js/mask/" title="Objeto Mask">http://www.pengoworks.com/workshop/js/mask/</a></p>
+
+<!-- resultado -->
+<h2>Resultado</h2>
+<noscript>
+	<p class="noscript">Para visualizar este exemplo, o interpretador de javascript deve estar habilitado.</p>
+</noscript>
+
+<form action="" method="post" id="frmTeste">
+	<fieldset>
+		<legend>Uso de máscaras:</legend>
+		
+		<div>
+			<label for="telefone">Telefone:</label>
+			<input type="text" id="telefone" name="telefone" />
+			<span>ex.: +55 (35) 9999-9999</span>
+		</div>
+		
+		<div>
+			<label for="data">Data:</label>
+			<input type="text" id="data" name="data" />
+			<span>ex.: 14/09/1983</span>
+		</div>
+		
+		<div>
+			<label for="cep">CEP:</label>
+			<input type="text" id="cep" name="cep" />
+			<span>ex.: 37550-000</span>
+		</div>
+		
+		<div>
+			<label for="dinheiro">Dinheiro R$:</label>
+			<input type="text" id="dinheiro" name="dinheiro" />
+		</div>
+		
+		<div>
+			<label for="peso">Peso:</label>
+			<input type="text" id="peso" name="peso" />
+		</div>
+		
+		<fieldset>
+			<legend>Teste:</legend>
+			
+			<div>
+				<label for="teste">Teste:</label>
+				<input type="text" id="teste" name="teste" />
+				
+				<label for="padrao" class="cancel-default">Padrão:</label>
+				<input type="text" id="padrao" value="###.###.###-##" />
+				<button type="button">Aplicar Máscara</button>
+			</div>
+			
+			<div>
+				<input type="radio" id="choice-none" name="type" value="" checked="checked" />
+				<label for="choice-none" class="cancel-default">Nenhum</label>
+				
+				<input type="radio" id="choice-number" name="type" value="number" />
+				<label for="choice-number" class="cancel-default">Número</label>
+				
+				<input type="radio" id="choice-date" name="type" value="date" />
+				<label for="choice-date" class="cancel-default">Data</label>
+			</div>
+			
+		</fieldset>
+	</fieldset>
+</form>
+
+</body>
+</html>

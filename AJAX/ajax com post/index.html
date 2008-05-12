@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="author" content="Edy Segura" />
+<meta name="reply-to" content="edy@segura.eti.br" />
+<meta name="description" content="Enviando dados através do método POST com AJAX" />
+<title>AJAX com POST</title>
+
+<!-- stylesheet -->
+<link rel="stylesheet" href="css/style.css" type="text/css" title="Padrão" />
+
+<!-- libraries -->
+<script type="text/javascript" src="http://jscomponentes.googlecode.com/svn/trunk/Ajax/js/Ajax/Ajax.js"></script>
+<script type="text/javascript" src="http://jscomponentes.googlecode.com/svn/trunk/Form/js/Form/Form.js"></script>
+
+<!-- behavior -->
+<script type="text/javascript" src="js/Index.js"></script>
+
+</head>
+<body>
+
+<h1>AJAX com POST</h1>
+<p>
+	Utilização do método POST para envio de informações ao servidor com AJAX. 
+	Este exemplo necessita de um servidor com PHP. 
+	Para mais detalhes veja o código fonte.
+</p>
+
+<noscript>
+	<p class="noscript">Para visualizar este exemplo o interpretador de javascript deve estar habilitado.</p>
+</noscript>
+
+<form action="" method="post">
+	<fieldset id="dados-pessoais">
+		<legend>Dados Pessoais:</legend>
+		
+		<label for="nome">Nome:</label>
+		<input type="text" name="nome" id="nome" title="Nome" class="campo" />
+		
+		<label for="email">E-mail:</label>
+		<input type="text" name="email" id="email" title="E-mail" class="campo" />
+		
+		<label for="sexo">Sexo:</label>
+		<select name="sexo" id="sexo" title="Sexo">
+			<option value="">[...]</option>
+			<option value="Masculino">Masculino</option>
+			<option value="Femenino">Femenino</option>
+		</select>
+		
+		<label for="bicho">Bichos de estimação:</label>
+		<select name="bicho[]" id="bicho" title="Bichos de estimação" multiple="multiple">
+			<option value="Gato">Gato</option>
+			<option value="Cachorro">Cachorro</option>
+			<option value="Galinha">Galinha</option>
+			<option value="Porquinho">Porquinho</option>
+		</select>
+		
+		<input type="submit" value="Enviar" />
+		
+		<fieldset>
+			<legend>Resultado do POST:</legend>
+			
+			<select id="pessoas" size="10">
+				<option value="" selected="selected">Pessoas</option>
+			</select>
+			
+			<!-- fim fieldset -->
+		</fieldset>
+	</fieldset>
+</form>
+
+</body>
+</html>

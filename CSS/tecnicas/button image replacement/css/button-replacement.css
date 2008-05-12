@@ -1,0 +1,21 @@
+/** 
+ *
+ * Definicoes para o Button Replacement
+ * @author: Edy Segura - edy@liveware.com.br
+ *
+ */
+
+input.botao {
+	border: none;
+	background: url(imagens/save.png) no-repeat;
+	content: ""; /* opera */
+	display: inline-block; /* opera */
+	height: 32px;
+	line-height: 0; /* ie */
+	text-indent: -9999px;
+	width: 32px;
+}
+
+input.botao:hover {
+	background: url(imagens/save_hover.png) no-repeat;
+}

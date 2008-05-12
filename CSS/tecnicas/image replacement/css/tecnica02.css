@@ -1,0 +1,19 @@
+/* CSS Document
+Autor: Edy Segura - edy@liveware.com.br, edy@segura.eti.br
+Descrição: Definições para técnica 02
+Referência: http://www.maujor.com/tutorial/image-replacement.php
+*/
+
+h3#image-replacement {
+	position:relative;
+	width:281px;
+	height:44px;
+}	
+
+h3#image-replacement span {
+	background:url(../imagens/edysegura.gif) no-repeat;
+	position:absolute;
+	width:100%;
+	height:100%;
+}
+

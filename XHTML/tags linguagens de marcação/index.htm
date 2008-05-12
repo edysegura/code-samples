@@ -1,0 +1,2399 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    
+        <title>Tags de Linguagens de marcação</title>
+        
+        <style type="text/css">
+        <!--
+				body { margin:3em; }
+				body, tr, td, code { font-family:Tahoma, Arial, Helvetica, sans-serif; font-size:0.9em; }
+				table { width:100%; }
+				table thead { }
+				table thead th { text-align:center; background-color:#000; color:#FFF; }
+				table thead th a { color:#FC0; }
+				
+				table tfoot { }
+				table tfoot th { text-align:center; background-color:#000; color:#FFF; }
+				table tfoot th a { color:#FC0; }
+				
+				table tbody { }
+				table tbody th { text-align:right; background-color:#000; color:#FFF; padding:0 1em; }
+				table tbody td { border:0px solid #ededed; text-align:left; }
+				table tbody .plus, table tbody .minus { text-align:center; font-weight:bold; color:#000; }
+				table tbody .plus { background-color:#FC0; font-size:1.2em; }
+				table tbody .minus { background-color:#e5e4e4; font-size:1.5em; }
+        -->
+        </style>
+    </head><body>
+    		<h1>Tags de Linguagens de marcação</h1>
+            <p>Por <strong>Henrique Costa Pereira</strong> baseado na compilação de <a href="http://meiert.com/en/">Jens Meiert</a> chamado"<a href="http://meiert.com/en/indices/html-elements/">HTML Elements Index</a>"</p>
+    		<p>Eu
+criei esta tabela de elementos presentes em algumas linguagens de
+marcação baseado no modelo de Jens Meirt (créditos acima), com o
+objetivo de servir de guia para iniciantes e de consulta para os
+desenvolvedores já experiêntes. Eu resolvi inserir linguagens de
+marcação específicas para mobile como WML 1.1, XHTML Basic 1.1 e
+XHTML-MP devido a sua proximidade e origem das tags. Se encontrar algum
+erro neste documento entre em contato comigo para atualizarmos esta
+fonte de referência e eu daria a você os devidos créditos. Sinta-se
+livre para me enviar outras sugestões.</p>
+<table class="alt" summary="Seven columns covering HTML elements from HTML 4.01 to XHTML 2.0.">
+					<!-- <caption><abbr>HTML</abbr> Elements Index</caption> -->
+					<thead>
+						<tr>
+							<th scope="col" style="width: 15%;">Elemento</th>
+							<th scope="col" style="width: 10%;"><a href="http://www.w3.org/TR/REC-html32"><abbr>HTML</abbr> 3.2</a></th>
+							<th scope="col" style="width: 10%;"><a href="http://www.w3.org/TR/html401/"><abbr>HTML</abbr> 4.01</a></th>
+							<th scope="col" style="width: 10%;"><a href="http://www.w3.org/TR/xhtml1/"><abbr title="Extensible Hypertext Markup Language">XHTML</abbr> 1.0</a></th>
+							<th scope="col" style="width: 10%;"><a href="http://www.w3.org/TR/xhtml11/"><abbr>XHTML</abbr> 1.1</a></th>
+							<th scope="col" style="width: 10%;"><a href="http://dev.w3.org/cvsweb/html5/spec/Overview.html"><abbr>HTML</abbr> 5</a></th>
+							<th scope="col" style="width: 10%;"><a href="http://developer.openwave.com/docs/51/wml_ref.pdf">WML 1.1</a></th>
+						  	<th scope="col" style="width: 10%;"><a href="http://www.w3.org/TR/xhtml-basic/">XHTML Basic 1.1</a></th>
+							<th scope="col" style="width: 10%;"><a href="http://developer.openwave.com/dvl/support/documentation/guides_and_references/xhtml-mp_style_guide/index.htm">XHTML-MP</a></th>
+						  	<th scope="col" style="width: 10%;"><a href="http://www.w3.org/TR/xhtml2/"><abbr>XHTML</abbr> 2.0</a></th>
+							<th scope="col" style="width: 25%;">Significado do elemento</th>
+						</tr>
+					</thead>
+					<tfoot>
+						<tr>
+							<th scope="col" style="width: 15%;">Elemento</th>
+							<th scope="col" style="width: 10%;"><a href="http://www.w3.org/TR/REC-html32"><abbr>HTML</abbr> 3.2</a></th>
+							<th scope="col" style="width: 10%;"><a href="http://www.w3.org/TR/html401/"><abbr>HTML</abbr> 4.01</a></th>
+							<th scope="col" style="width: 10%;"><a href="http://www.w3.org/TR/xhtml1/"><abbr title="Extensible Hypertext Markup Language">XHTML</abbr> 1.0</a></th>
+							<th scope="col" style="width: 10%;"><a href="http://www.w3.org/TR/xhtml11/"><abbr>XHTML</abbr> 1.1</a></th>
+							<th scope="col" style="width: 10%;"><a href="http://dev.w3.org/cvsweb/html5/spec/Overview.html"><abbr>HTML</abbr> 5</a></th>
+							<th scope="col" style="width: 10%;"><a href="http://developer.openwave.com/docs/51/wml_ref.pdf">WML 1.1</a></th>
+						  	<th scope="col" style="width: 10%;"><a href="http://www.w3.org/TR/xhtml-basic/">XHTML Basic 1.1</a></th>
+							<th scope="col" style="width: 10%;"><a href="http://developer.openwave.com/dvl/support/documentation/guides_and_references/xhtml-mp_style_guide/index.htm">XHTML-MP</a></th>
+						  	<th scope="col" style="width: 10%;"><a href="http://www.w3.org/TR/xhtml2/"><abbr>XHTML</abbr> 2.0</a></th>
+							<th scope="col" style="width: 25%;">Significado do elemento</th>
+						</tr>
+					</tfoot>
+
+					<tbody>
+						<tr class="common">
+							<th scope="row"><code>a</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td>Âncora.</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>abbr</code></th>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td>Abreviação.</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>access</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td>Mapeamento de acessibilidade</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>acronym</code></th>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td>Acrônimo</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>action</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td>Ação.</td>
+						</tr>
+						<tr class="common">
+							<th scope="row"><code>address</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td>Informação de autor</td>
+						</tr>
+                        <tr class="common">
+							<th scope="row"><code>anchor</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td>Link</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>applet</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td>Java applet</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>area</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td>Mapa de imagem no client-side</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>article</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td>Seção "independente"</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>aside</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td>Seção "auxiliar"</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>audio</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td>Stream de audio</td>
+						</tr>
+						<tr>
+
+							<th scope="row"><code>b</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td>Estilo de texto negrito</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>base</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td>Document base <abbr title="Uniform Resource Identifier">URI</abbr>.</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>basefont</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td>Base font size</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>bdo</code></th>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td><abbr title="Internationalization">I18N</abbr>: <abbr title="Bi&lt;em&gt;-&lt;/em&gt;directionality">Bidi</abbr> override.</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>big</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td>Estilo de texto Grande</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>blockcode</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td>Bloco de código</td>
+						</tr>
+						<tr class="common">
+							<th scope="row"><code>blockquote</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td>Citação longa</td>
+						</tr>
+						<tr class="common">
+							<th scope="row"><code>body</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td>Corpo do documento</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>br</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td>Quebra de linha</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>button</code></th>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td>Botão</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>canvas</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td>Bitmap canvas</td>
+						</tr>
+						<tr class="common">
+							<th scope="row"><code>caption</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td>(Table) caption</td>
+						</tr>
+						<tr>
+						  <th scope="row">card</th>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="plus">+</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td>&nbsp;</td>
+					  </tr>
+                      <tr>
+						  <th scope="row">catch</th>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="plus">+</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td>&nbsp;</td>
+					  </tr>
+						<tr>
+							<th scope="row"><code>center</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td>Centralizar</td>
+						</tr>
+						<tr class="common">
+							<th scope="row"><code>cite</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td>Citação</td>
+						</tr>
+						<tr class="common">
+							<th scope="row"><code>code</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td>Fragmento de código</td>
+						</tr>
+
+						<tr>
+							<th scope="row"><code>col</code></th>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td>Coluna de tabela</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>colgroup</code></th>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td>Grupo de coluna de tabela</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>command</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td>User<em>-</em>invokable command.</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>datagrid</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td>Tree, list, or tabular data.</td>
+						</tr>
+
+						<tr>
+							<th scope="row"><code>datalist</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td>Data list.</td>
+						</tr>
+						<tr class="common">
+							<th scope="row"><code>dd</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td>Descrição de definição</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>del</code></th>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td>Texto deletado</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>delete</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td>Delete</td>
+						</tr>
+
+						<tr>
+							<th scope="row"><code>details</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td>Informação adicional</td>
+						</tr>
+						<tr class="common">
+							<th scope="row"><code>dfn</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td>Instância de definição</td>
+					  </tr>
+						<tr>
+							<th scope="row"><code>di</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td>Item de definição</td>
+					  </tr>
+						<tr>
+							<th scope="row"><code>dialog</code></th>
+
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td>Diálogo.</td>
+						</tr>
+
+						<tr>
+							<th scope="row"><code>dir</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td>Listagem de diretório</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>dispatch</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td>Despachar.</td>
+						</tr>
+						<tr class="common">
+							<th scope="row"><code>div</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td>Container genérico.</td>
+						</tr>
+						<tr class="common">
+							<th scope="row"><code>dl</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td>Lista de definição</td>
+						</tr>
+                        
+                        <tr>
+						  <th scope="row">do</th>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="plus">+</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td>Associa uma tarefa a um elemento</td>
+					  </tr>
+
+						<tr class="common">
+							<th scope="row"><code>dt</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+
+							<td>Termo de definição.</td>
+						</tr>
+						<tr class="common">
+							<th scope="row"><code>em</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td>Ênfase.</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>embed</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td>Ponto de integraçãot.</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>ev:listener</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td>Event listener.</td>
+						</tr>
+
+						<tr>
+							<th scope="row"><code>event<em>-</em>source</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td>Events target.</td>
+						</tr>
+                        <tr>
+						  <th scope="row">exit</th>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="plus">+</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td>&nbsp;</td>
+					  </tr>
+						<tr>
+							<th scope="row"><code>fieldset</code></th>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td>Form control group.</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>figure</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td>Paragraph with embedded content and caption.</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>font</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td>Local change to font.</td>
+						</tr>
+
+						<tr>
+							<th scope="row"><code>footer</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+
+							<td>Section footer.</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>form</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td>Interactive form.</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>frame</code></th>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td>Subwindow.</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>frameset</code></th>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td>Window subdivision.</td>
+						</tr>
+                        
+                        <tr>
+						  <th scope="row">go</th>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="plus">+</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td>&nbsp;</td>
+					  </tr>
+
+						<tr>
+							<th scope="row"><code>group</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+
+							<td>Grupo de elementos.</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>h</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td>Título/Cabeçalho.</td>
+						</tr>
+						<tr class="common">
+							<th scope="row"><code>h1</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td>Título 1</td>
+						</tr>
+						<tr class="common">
+							<th scope="row"><code>h2</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td>Título 2</td>
+						</tr>
+
+						<tr class="common">
+							<th scope="row"><code>h3</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td>Título 3</td>
+						</tr>
+						<tr class="common">
+							<th scope="row"><code>h4</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td>Título 4</td>
+						</tr>
+						<tr class="common">
+							<th scope="row"><code>h5</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td>Título 5</td>
+						</tr>
+						<tr class="common">
+							<th scope="row"><code>h6</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td>Título 6</td>
+						</tr>
+
+						<tr>
+							<th scope="row"><code>handler</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+
+							<td>Handler definition.</td>
+						</tr>
+						<tr class="common">
+							<th scope="row"><code>head</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td>Document head.</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>header</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td>Cabeçalho</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>hr</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td>Traço horizontal</td>
+						</tr>
+
+						<tr class="common">
+							<th scope="row"><code>html</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+
+							<td>Document root.</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>i</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td>Estilo de texto itálico</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>iframe</code></th>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td>Inline subwindow.</td>
+						</tr>
+						<tr class="common">
+							<th scope="row"><code>img</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td>Embedded image.</td>
+						</tr>
+
+						<tr class="common">
+							<th scope="row"><code>input</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td>Form control.</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>ins</code></th>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td>Texto inserido</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>insert</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td>Insert.</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>isindex</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td>Single line prompt.</td>
+						</tr>
+
+						<tr class="common">
+							<th scope="row"><code>kbd</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+
+							<td>Text to be entered.</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>l</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td>Line of text.</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>label</code></th>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td>Form field label (<abbr>XHTML</abbr> 2: list label).</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>legend</code></th>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td>Fieldset legend.</td>
+						</tr>
+						<tr class="common">
+							<th scope="row"><code>li</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td>List item.</td>
+						</tr>
+						<tr class="common">
+							<th scope="row"><code>link</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td>Media-independent link.</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>listing</code></th>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td>Listing.</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>load</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td>Load.</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>m</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td>Marked text.</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>map</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td>Client-side image map.</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>menu</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td>Lista de ítens de um menu</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>message</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td>Message</td>
+						</tr>
+						<tr class="common">
+							<th scope="row"><code>meta</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td>Meta-informação genérica</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>meter</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td>Scalar measurement</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>model</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td>Model</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>nav</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td>Navigation links section</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>nl</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td>Lista de navegação</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>noframes</code></th>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td>Alternate container.</td>
+						</tr>
+                        <tr>
+						  <th scope="row">noop</th>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="plus">+</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td>&nbsp;</td>
+					  </tr>
+						<tr>
+							<th scope="row"><code>noscript</code></th>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td>Alternate container.</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>object</code></th>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td>Generic embedded object.</td>
+						</tr>
+						<tr class="common">
+							<th scope="row"><code>ol</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td>Lista ordenada</td>
+						</tr>
+                        <tr>
+						  <th scope="row">onevent</th>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="plus">+</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td>&nbsp;</td>
+					  </tr>
+						<tr>
+							<th scope="row"><code>optgroup</code></th>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td>Option group.</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>option</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td>Selectable choice.</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>output</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td>Output.</td>
+						</tr>
+						<tr class="common">
+							<th scope="row"><code>p</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td>Parágrafo</td>
+						</tr>
+						<tr class="common">
+							<th scope="row"><code>param</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td>Named property value.</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>plaintext</code></th>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td>Plain text.</td>
+						</tr>
+                        <tr>
+						  <th scope="row">postfield</th>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="plus">+</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td>&nbsp;</td>
+					  </tr>
+						<tr class="common">
+							<th scope="row"><code>pre</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td>Texto pré-formatado</td>
+						</tr>
+                        <tr>
+						  <th scope="row">prev</th>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="plus">+</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td>&nbsp;</td>
+					  </tr>
+						<tr>
+							<th scope="row"><code>progress</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td>Progresso de uma tarefa</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>q</code></th>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td>Citação inline curta</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>range</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td>Range definition</td>
+						</tr>
+                        <tr>
+						  <th scope="row">receive</th>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="plus">+</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td>&nbsp;</td>
+					  </tr>
+						<tr>
+							<th scope="row"><code>rb</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td><a href="http://www.w3.org/TR/ruby/">Ruby</a> base</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>rbc</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td>Ruby base container</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>rebuild</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td>Rebuild</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>recalculate</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td>Recalculate</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>refresh</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td>Refresh</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>repeat</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td>Repeat</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>reset</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td>Reset</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>revalidate</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td>Revalidate</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>rp</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td>Ruby parentheses</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>rt</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td>Ruby text</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>rtc</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td>Ruby text container</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>ruby</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td>Ruby markup</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>s</code></th>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td>Estilo de texto tachado</td>
+						</tr>
+						<tr class="common">
+							<th scope="row"><code>samp</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td>Sample output.</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>script</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td>Script statements.</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>secret</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td>Secret input.</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>section</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td>Document section.</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>select1</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td>Single select.</td>
+						</tr>
+						<tr class="common">
+							<th scope="row"><code>select</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td>Option selector.</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>send</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td>Send.</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>separator</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td>Break.</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>setfocus</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td>Set focus.</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>setindex</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td>Set index.</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>setvalue</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td>Set value.</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>small</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td>Estilo de texto pequeno</td>
+						</tr>
+                        <tr>
+						  <th scope="row">setvar</th>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="plus">+</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td>&nbsp;</td>
+					  </tr>
+						<tr>
+							<th scope="row"><code>source</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td>Media resource.</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>span</code></th>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td>Container genérico</td>
+						</tr>
+                        <tr>
+						  <th scope="row">spawn</th>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="plus">+</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td>&nbsp;</td>
+					  </tr>
+						<tr>
+							<th scope="row"><code>standby</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td>Mensagem (enquanto carrega)</td>
+						</tr>
+						<tr>
+
+							<th scope="row"><code>strike</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td>Strike-through text</td>
+						</tr>
+						<tr class="common">
+							<th scope="row"><code>strong</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td>Ênfase forte</td>
+						</tr>
+						<tr class="common">
+							<th scope="row"><code>style</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td>Estilo</td>
+						</tr>
+						<tr class="common">
+							<th scope="row"><code>sub</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td>Subscrito</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>submit</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td>Submeter</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>summary</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td>Sumário de tabela</td>
+						</tr>
+						<tr class="common">
+							<th scope="row"><code>sup</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td>Sobrescrito.</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>switch</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td>Seleção</td>
+						</tr>
+						<tr class="common">
+							<th scope="row"><code>table</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">x</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td>Tabela</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>tbody</code></th>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td>Table body.</td>
+						</tr>
+						<tr class="common">
+							<th scope="row"><code>td</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td>Céulula de uma tabela</td>
+						</tr>
+						<tr class="common">
+						  <th scope="row"><code>template</code></th>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="plus">+</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td>Template</td>
+					  </tr>
+						<tr class="common">
+							<th scope="row"><code>textarea</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td>Campo de textarea</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>tfoot</code></th>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td>Table footer.</td>
+						</tr>
+						<tr class="common">
+							<th scope="row"><code>th</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td>Célula de um table header</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>thead</code></th>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td>Table header</td>
+						</tr>
+                        <tr>
+						  <th scope="row">throw</th>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="plus">+</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td>&nbsp;</td>
+					  </tr>
+						<tr>
+							<th scope="row"><code>time</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td>Data e/ou hora</td>
+						</tr>
+                        <tr>
+						  <th scope="row">timer</th>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="plus">+</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td>&nbsp;</td>
+					  </tr>
+						<tr class="common">
+							<th scope="row"><code>title</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td>Título do documento</td>
+						</tr>
+						<tr class="common">
+							<th scope="row"><code>tr</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td>Linha de tabela</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>trigger</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td>Trigger.</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>tt</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td>Estilo de texto de teletipo (teleimpressão)</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>u</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td>Estilo de texto sublinhado</td>
+						</tr>
+						<tr class="common">
+							<th scope="row"><code>ul</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td>Listagem não ordenada</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>upload</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td>upload de arquivo</td>
+						</tr>
+						<tr class="common">
+							<th scope="row"><code>var</code></th>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td class="plus">+</td>
+							<td>Variável</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>video</code></th>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td>Video ou filme</td>
+						</tr>
+						<tr>
+							<th scope="row"><code>xmp</code></th>
+							<td class="plus">+</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td class="minus">-</td>
+							<td>Texto pré-formatado</td>
+						</tr>
+                        <tr>
+						  <th scope="row"><code>wml</code></th>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="plus">+</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td class="minus">-</td>
+						  <td>&nbsp;</td>
+					  </tr>
+					</tbody>
+				</table>
+                
+                <h3>Encontrou algo de errado?</h3>
+                <p>Sinta-se livre para contribuir me informando o que está errado. Este documento é gratuito para todos.</p>
+                
+                <h3>Atualizações</h3>
+                <ul>
+                	<li><strong>18/01/2008</strong> - xxxxx</li>
+                </ul>
+                
+</body></html>

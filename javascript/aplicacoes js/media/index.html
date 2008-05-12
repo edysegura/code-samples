@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="author" content="Edy Segura" />
+<meta name="reply-to" content="edy@segura.eti.br" />
+<meta name="description" content="Aplicação para calcular média do aluno" />
+<title>Média do Aluno</title>
+
+<!-- stylesheet -->
+<link rel="stylesheet" href="css/stylesheets.css" type="text/css" title="Padrão" />
+<!-- javascript -->
+<script type="text/javascript" src="js/script.js"></script>
+
+</head>
+<body>
+
+<h1>M&eacute;dia do Aluno</h1>
+<p>
+	<a href="javascript:fnShowHide('block');" title="Cadastrar notas do aluno">Cadastrar notas via formulário</a> |
+	<a href="javascript:fnGetPrompt();" title="Cadastrar notas do aluno">Cadastrar notas via prompt</a>
+</p>
+
+<!-- Formulário para cadastro do aluno -->
+<form id="frmaluno" action="" method="post" onsubmit="return fnCheckToSubmit(this)">
+	<fieldset id="aluno">
+		<legend>Aluno(a):</legend>
+		<label for="nome">Nome</label>: <input type="text" name="nome" id="nome" />
+		
+		<fieldset id="nota">
+			<legend>Notas:</legend>
+			<table>
+				<tr>
+					<th><label for="trabalho">Trabalho</label>:</th>
+					<td><input type="text" name="trabalho" id="trabalho" value="0.0" maxlength="3" /></td>
+				</tr>
+				<tr>
+					<th><label for="exercicios">Exercícios</label>:</th>
+					<td><input type="text" name="exercicios" id="exercicios" value="0.0" maxlength="3" /></td>
+				</tr>
+				<tr>
+					<th><label for="avparcial" title="Avaliação Parcial">Av. Parcial</label>: </th>
+					<td><input type="text" name="avparcial" id="avparcial" value="0.0" maxlength="3" /></td>
+				</tr>
+				<tr>
+					<th><label for="avregimental" title="Avaliação Regimental">Av. Regimental</label>: </th>
+					<td><input type="text" name="avregimental" id="avregimental" value="0.0" maxlength="3" /></td>
+				</tr>
+			</table>
+		</fieldset>
+		
+		<!-- botões -->
+		<div id="btns">
+			<button type="submit">Média</button>
+			<button type="reset">Limpar</button>
+			<button type="button" onclick="fnShowHide('none')">Fechar</button>
+		</div>
+		
+	</fieldset>
+</form>
+
+<!-- Tabela com as informações dos alunos -->
+<table id="talunos">
+	<caption>Média dos Alunos(as)</caption>
+	<col class="col01" />
+	<col class="col02" />
+	<col class="col03" />
+	<col class="col04" />
+	<col class="col05" />
+	<col class="col06" />
+	<thead>
+		<tr>
+			<th>Nome do aluno(a)</th>
+			<th>T</th>
+			<th>E</th>
+			<th>AP</th>
+			<th>AR</th>
+			<th>Média</th>
+			<th>Excluir</th>
+		</tr>
+	</thead>
+	<tfoot>
+		<tr>
+			<td colspan="7">T = Trabalho | E = Exercício | AP = Avaliação Parcial | AR = Avaliação Regimental</td>
+		</tr>
+	</tfoot>
+	<tbody>
+		<tr>
+			<td colspan="7">Se você está lendo esta mensagem é porque o seu javascript está desabilitado.</td>
+		</tr>
+	</tbody>
+</table>
+
+</body>
+</html>

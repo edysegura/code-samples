@@ -1,0 +1,13 @@
+/* CSS Document
+Autor: Edy Segura - edy@segura.eti.br
+Descrição: Definições para página index.html
+*/
+
+label {
+	display:block;
+	margin-top:10px;
+}
+
+div#info {
+	color:#F00;
+}

@@ -1,0 +1,27 @@
+﻿/**
+ *
+ * Definicoes para pagina inicial
+ * @author: Edy Segura - edy@segura.eti.br
+ *
+ */
+
+
+body { margin-bottom:50px; }
+
+dl.galeria {
+	border:1px solid #000;
+	background-color:#ddd;
+	width:102px;
+	text-align:center;
+	padding:10px;
+	float:left;
+	margin:.5em .5em 0 0;
+}
+
+dl.galeria dt { font-weight: bold; }
+dl.galeria dd { margin:0; padding:0; }
+dl.galeria dt img {
+	border:1px solid #000;
+	width:100px;
+	height:100px;
+}

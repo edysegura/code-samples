@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="author" content="Edy Segura" />
+<meta name="reply-to" content="edy@segura.eti.br" />
+<meta name="description" content="Exemplo de como adicionar novos options ao elemento select" />
+<title>New Option</title>
+
+<!-- stylesheet -->
+<link rel="stylesheet" href="css/stylesheets.css" type="text/css" title="Padrão" />
+<!--[if IE]><link rel="stylesheet" href="css/ie_corretions.css" type="text/css" /><![endif]-->
+
+<!-- javascript -->
+<script type="text/javascript" src="js/script.js"></script>
+
+</head>
+<body>
+
+<h1>New Option</h1>
+<p>Essa aplicação mostra como é criado e manipulado novos options dinamicamente. Para mais detalhes veja o código fonte.</p>
+
+<!-- resultado -->
+<h2>Resultado</h2>
+
+<form action="" method="post" onsubmit="return fnCheckToSubmit(this)">
+	<fieldset class="dados">
+		<legend>Dados pessoais:</legend>
+		
+		<label for="nome">Nome:</label>
+		<input type="text" name="nome" id="nome" />
+		
+		<label for="email">E-mail:</label>
+		<input type="text" name="email" id="email" />
+		
+		<div class="botoes">
+			<button type="submit">Cadastrar</button>
+			<button type="button" onclick="fnRemoveOption($('emails'))">Remover</button>
+		</div>
+		
+		<fieldset>
+			<legend>E-mails:</legend>
+			<select name="emails" id="emails" size="10">
+				<option value="" selected="selected">Nenhum e-mail cadastrado</option>
+			</select>
+		</fieldset>
+		
+	</fieldset>
+</form>
+
+</body>
+</html>

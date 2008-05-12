@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="author" content="Edy Segura" />
+<meta name="reply-to" content="edy@liveware.com.br" />
+<title>Build Table JSON 2</title>
+
+<!-- stylesheet -->
+<link rel="stylesheet" href="css/style.css" type="text/css" title="Padrão" />
+
+<!-- javascript -->
+<script type="text/javascript" src="js/Transacao.js"></script>
+<script type="text/javascript" src="js/Index.js"></script>
+
+</head>
+<body>
+
+<h1>Build Table JSON 2</h1>
+<p>Uso do JSON para manipulação de tabela (X)HTML. Para mais detalhes veja o código fonte.</p>
+
+<div id="transacao">
+	<h3>Informações</h3>
+	
+	<p>Comerciante: <span id="comerciante">&nbsp;</span></p>
+	<p>Saldo: R$ <span id="saldo">&nbsp;</span></p>
+	
+	<p class="buttons">
+		<input type="button" id="enviarTransacoes" value="Ver Transações" />
+	</p>
+	
+	<h3>Transações realizadas</h3>
+	<table id="lista-transacoes" class="report">
+		<thead>
+			<tr>
+				<th scope="col">Nome</th>
+				<th scope="col">Data e horário</th>
+				<th scope="col">Tipo</th>
+				<th scope="col">Valor</th>
+				<th scope="col">Placa</th>
+				<th scope="col">KM</th>
+				<th scope="col">Litros</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td id="first-line" colspan="7">Buscando transações realizadas...</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+</body>
+</html>

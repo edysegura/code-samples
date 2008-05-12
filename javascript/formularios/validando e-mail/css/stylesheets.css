@@ -1,0 +1,31 @@
+/* CSS Document
+Autor: Edy Segura - edy@segura.eti.br
+Descrição: Definições da página inícial
+*/
+
+div#info {
+	display:none;
+	padding:2px;
+	margin:5px;
+	background:#FFFFCE;
+	border:1px solid #000;
+}
+
+fieldset {
+	width:430px;
+	border:1px solid #999;
+	padding:5px;
+}
+
+input.campo {
+	width:300px;
+	border:1px solid #000;
+}
+
+.botao {
+	margin:5px 0 0 245px;
+	border-width:1px;
+}
+
+span.invalida { color:red; }
+span.valida { color:green; }

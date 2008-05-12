@@ -1,0 +1,17 @@
+
+#Redirecinamento para os sites hospedados na liveware
+Redirect /bugs 		http://www2.liveware.com.br/bugs
+Redirect /suporte 	http://www2.liveware.com.br/suporte
+#Redirect /contactweb 	http://www2.liveware.com.br/contactweb
+Redirect /contactweb	http://www2.liveware.com.br/contact
+Redirect /contact	http://www2.liveware.com.br/contact
+Redirect /dotproject 	http://www2.liveware.com.br/dotproject
+Redirect /igov   	http://www2.liveware.com.br/igov
+Redirect /igov-teste  	http://www2.liveware.com.br/igov-teste
+Redirect /twiki  	http://www2.liveware.com.br/twiki
+Redirect /webmail  	http://www2.liveware.com.br/webmail
+
+#Redirecinamento para o SDE
+Redirect /index1.htm http://www.liveware.com.br/produtos/sde
+Redirect /sde.htm http://www.liveware.com.br/produtos/sde
+Redirect /sde_liveware_main.htm http://www.liveware.com.br/produtos/sde

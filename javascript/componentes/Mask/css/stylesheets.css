@@ -1,0 +1,25 @@
+/* CSS Document
+Autor: Edy Segura - edy@liveware.com.br, edy@segura.eti.br
+Descrição: Definições da página inicial
+*/
+
+label {
+	display:block;
+	float:left;
+	width:80px;
+	text-align:right;
+	padding-right:2px;
+}
+
+
+label.cancel-default {
+	display:inline;
+	float:none;
+	text-align:left;
+	padding:0;
+}
+
+
+fieldset div {
+	margin-bottom:10px;
+}

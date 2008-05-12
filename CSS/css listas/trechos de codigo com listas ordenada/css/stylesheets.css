@@ -1,0 +1,15 @@
+/* 
+ * Style Sheets
+ *
+ * CSS para index.html
+ * @author: Edy Segura - edy@segura.eti.br
+ */
+
+@import url("codesnip.css");
+
+body {
+	padding:20px 0 0 4px;
+	font-size:79%;
+	color:#000;
+}
+

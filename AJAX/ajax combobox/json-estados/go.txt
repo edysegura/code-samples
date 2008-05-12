@@ -1,0 +1,3 @@
+['An%E1polis', 'Aparecida de Goi%E2nia','Catal%E3o', 'Goi%E2nia', 
+ 'Itumbiara', 'Jata%ED', 'Planaltina de Goi%E1s', 'Rio Verde', 
+ 'Formosa', 'Luzi%E2nia', 'Novo Gama','Valpara%EDso de Goi%E1s']

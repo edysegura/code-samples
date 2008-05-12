@@ -1,0 +1,20 @@
+/* 
+ * stylesheets.css
+ * 
+ * Definicoes para pagina index.html
+ * @author: Edy Segura -edy@segura.eti.br
+ * 
+ */
+
+div#exemplo {
+	position:absolute;
+	top:50%;
+	left:50%;
+	width:450px; 
+	height:150px;
+	margin:-75px 0px 0px -225px; /* divide as dimensoes do elemento por 2 */
+	border:1px dotted #F00;
+	background:#FFF2E6;
+	color:#000;
+}
+

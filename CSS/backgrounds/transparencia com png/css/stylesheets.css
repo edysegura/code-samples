@@ -1,0 +1,25 @@
+/* 
+ * CSS Document 
+ * 
+ * Transparencia com background PNG
+ * @author: Edy Segura - edy@segura.eti.br
+ * 
+ */
+
+div {
+	position:relative;
+	width:300px;
+	height:150px;
+	vertical-align:middle;
+}
+
+div.transparente {
+	background:transparent url(../imagens/box_bg.png);
+	z-index:1;
+}
+
+div.normal {
+	background:#FC0;
+	margin:-55px 0 0 20px;
+	z-index:0;
+}

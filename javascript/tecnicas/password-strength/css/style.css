@@ -1,0 +1,14 @@
+﻿/**
+ *
+ * Cores para validacao da senha
+ * @author Edy Segura, edy@segura.pro.br
+ *
+ */
+
+.valid {
+	color: green;
+}
+
+.no-valid {
+	color: red;
+}

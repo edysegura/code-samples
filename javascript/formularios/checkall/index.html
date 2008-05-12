@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="author" content="Edy Segura" />
+<meta name="reply-to" content="edy@segura.eti.br" />
+<meta name="description" content="Selecionar todos checkboxes" />
+<title>Selecionar Todos Checkboxes</title>
+
+<!-- stylesheet -->
+<link rel="stylesheet" href="css/style.css" type="text/css" title="Padrão" />
+
+<!-- javascript -->
+<script type="text/javascript" src="js/libs/Form.js"></script>
+<script type="text/javascript" src="js/Index.js"></script>
+
+</head>
+<body>
+
+<h1>Selecionar todos checkboxes</h1>
+<p>Clássico exemplo de como selecionar todos os checkboxes de um grupo. Para mais detalhes veja o código fonte.</p>
+
+<form id="frmcheck" action="" method="post" onsubmit="return false;">
+	<fieldset id="checkfield">
+		<legend>Checkboxes</legend>
+		
+		<fieldset>
+			<legend>Grupo 01:</legend>
+			<input type="checkbox" id="area" /> 
+			<label for="area"><strong>Selecionar todos</strong></label><br />
+			
+			<input type="checkbox" name="area[]" id="area1" value="1" /> 
+			<label for="area1">Fortaleza</label><br />
+			
+			<input type="checkbox" name="area[]" id="area2" value="2" /> 
+			<label for="area2">Curitiba</label><br />
+			
+			<input type="checkbox" name="area[]" id="area3" value="3" /> 
+			<label for="area3">Bahia</label><br />
+			
+			<input type="checkbox" name="area[]" id="area4" value="4" /> 
+			<label for="area4">Bonito</label><br />
+		</fieldset>
+		
+		<fieldset>
+			<legend>Grupo 02:</legend>
+			<input type="checkbox" id="location" /> 
+			<label for="location"><strong>Selecionar todos</strong></label><br />
+			
+			<input type="checkbox" name="location[]" id="location1" value="1" /> 
+			<label for="loc1">Lagoa</label><br />
+			
+			<input type="checkbox" name="location[]" id="location2" value="2" /> 
+			<label for="loc2">Praia</label><br />
+		</fieldset>
+		
+		<fieldset>
+			<legend>Grupo 03:</legend>
+			<input type="checkbox" id="host" /> 
+			<label for="host"><strong>Selecionar todos</strong></label><br />
+			
+			<input type="checkbox" name="host[]" id="host1" value="1" /> 
+			<label for="host1">Apartamento</label><br />
+			
+			<input type="checkbox" name="host[]" id="host2" value="2" /> 
+			<label for="host2">Chalé</label><br />
+			
+			<input type="checkbox" name="host[]" id="host3" value="3" /> 
+			<label for="host3">Acampamento</label><br />
+		</fieldset>
+		
+		<fieldset>
+			<legend>Grupo 04:</legend>
+			<input type="checkbox" id="areaLocation" /> 
+			<label for="areaLocation"><strong>Selecionar todos</strong></label><br />
+			
+			<input type="checkbox" name="areaLocation[]" id="areaLocation-1" value="1" /> 
+			<label for="loc1">Lagoa</label><br />
+			
+			<input type="checkbox" name="areaLocation[]" id="areaLocation-2" value="2" /> 
+			<label for="loc2">Praia</label><br />
+		</fieldset>
+		
+	</fieldset>
+</form>
+
+</body>
+</html>

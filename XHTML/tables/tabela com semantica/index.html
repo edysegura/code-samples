@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="author" content="Edy Segura" />
+<meta name="reply-to" content="edy@segura.eti.br" />
+<meta name="description" content="Exemplo de uma tabela com semântica" />
+<title>Tabela com semântica</title>
+
+</head>
+<body>
+
+<h1>Tabela com semântica</h1>
+<p>Exemplo de uma tabela com semântica. Para mais detalhes veja o código fonte.</p>
+
+<h2>Resultado</h2>
+
+<table summary="Exemplo de uma tabela com semântica">
+	<caption>Tabela Semântica</caption>
+	
+	<colgroup span="2">
+		<col class="coluna-1" />
+		<col class="coluna-2" />
+	</colgroup>
+	
+	<thead>
+		<tr>
+			<th scope="col">Nome</th>
+			<th scope="col">Descrição</th>
+			<th scope="col">Idade</th>
+			<th scope="col">Sexo</th>
+		</tr>
+	</thead>
+	
+	<tfoot>
+		<tr>
+			<td colspan="4">WebEngineers - Consultoria e Desenvolvimento Web</td>
+		</tr>
+	</tfoot>
+	
+	<tbody>
+		<tr>
+			<th scope="row">Edy Segura</th>
+			<td>Analista de Sistemas formado em Ciência da Computação</td>
+			<td>23</td>
+			<td>Masculino</td>
+		</tr>
+		<tr>
+			<th scope="row">Lidy Bernardes</th>
+			<td>Analista de Sistemas formando em Sistemas de Informação</td>
+			<td>21</td>
+			<td>Femenino</td>
+		</tr>
+	</tbody>
+</table>
+
+</body>
+</html>

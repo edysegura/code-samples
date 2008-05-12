@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="author" content="Edy Segura" />
+<meta name="reply-to" content="edy@segura.eti.br" />
+<meta name="description" content="Exemplo do usa da lista de definição" />
+<title>Lista de Definição</title>
+
+</head>
+<body>
+
+<h1>Lista de Definição</h1>
+<p>Lista de definição, são usadas para fazer corresponder entre si, quaisquer itens que tenham um relacionamento direto uns com os outros (conjuntos de nomes/valores). Para mais detalhes veja o código fonte.</p>
+
+
+<h2>Resultado</h2>
+<p>Você pode colocar elementos nível de bloco dentro do elemento <code>&lt;dd&gt;</code> <strong>descrição</strong>, tais como elementos <code>&lt;p&gt;</code> e elementos <code>&lt;ul&gt;</code>, mas você não pode colocar elementos nível de bloco dentro do elemento <code>&lt;dt&gt;</code> <strong>termo</strong>.</p>
+
+<hr />
+
+<!-- lista de definição -->
+<dl>
+	<dt>Sapo</dt>
+	<dd>Criatura verde e pegajosa que coacha.</dd>
+	<dt>Coelho</dt>
+	<dd>Criatura quente e fofa.</dd>
+</dl>
+
+<hr />
+
+<!-- lista de definição com uma lista não ordenada -->
+<dl>
+	<dt>Sapo</dt>
+	<dd>
+		<ul>
+			<li>Pegajoso</li>
+			<li>Verde</li>
+			<li>Coacha</li>
+		</ul>
+	</dd>
+</dl>
+
+<hr />
+
+<!-- lista de definição para uma conversa -->
+<dl>
+	<dt>Edy Segura</dt>
+	<dd>Não importa qual linguagem dinâmica na web seja usada no back-end/servidor, no final a saída será (X)HTML.</dd>
+</dl>
+
+<dl>
+	<dt>Lidy Segura</dt>
+	<dd>Devemos separar o desenvolvimento do front-end em 3 camadas. Estrutura, Apresentação e Comportamento.</dd>
+</dl>
+
+</body>
+</html>

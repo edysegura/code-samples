@@ -1,0 +1,20 @@
+/**
+ *
+ * Definicoes para pagina inicial
+ * @author: Edy Segura - edy@segura.eti.br
+ *
+ */
+
+fieldset {
+	width: 200px;
+}
+
+div#principal p {
+	width: 70px;
+	float: left;
+}
+
+div#principal p.buttons {
+	width: 50px;
+	text-align: center;
+}

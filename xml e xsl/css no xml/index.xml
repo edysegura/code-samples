@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/css" href="css/catalogo.css"?>
+
+<catalog>
+	<cd>
+		<title>Axé Brasil</title>
+		<artist>Jacaré</artist>
+		<country>Brasil</country>
+		<company>Columbia</company>
+		<price>10.00</price>
+		<year>2003</year>
+	</cd>
+	<cd>
+		<title>Skazi Tour 2006</title>
+		<artist>Skazi</artist>
+		<country>Brasil</country>
+		<company>Columbia</company>
+		<price>20.00</price>
+		<year>2006</year>
+	</cd>
+</catalog>

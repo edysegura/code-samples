@@ -1,0 +1,6 @@
+﻿{
+	logradouro : "R. Belizária Beatriz Ferreira",
+	bairro     : "Belo Horizonte",
+	cidade     : "Pouso Alegre",
+	estado     : "MG"
+}

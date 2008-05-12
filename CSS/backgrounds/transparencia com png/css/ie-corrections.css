@@ -1,0 +1,12 @@
+/* 
+ * CSS Document 
+ * 
+ * Filtro para pegar transparencia em arquivos PNG
+ * @author: Edy Segura - edy@segura.eti.br
+ * 
+ */
+
+div.transparente {
+	/* funciona somente para tag img */
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../imagens/box_bg.png');
+}

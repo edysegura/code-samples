@@ -1,0 +1,45 @@
+/* CSS Document */
+
+table {
+	background:#FFF;
+	text-align:left;
+	border:1px solid #000;
+	margin-bottom:50px;
+}
+
+thead th {
+	padding:2px;
+	background:#FFC488;
+	text-transform:capitalize;
+}
+
+tbody td {
+	background:#F2F2FF;
+	padding:2px;
+}
+
+tbody th {
+	background:#DFDFFF;
+	padding:2px;
+}
+
+div#box {
+	width:250px;
+	height:50px;
+	padding:10px;
+	background:#D9D9FF;
+	color:#000;
+}
+
+div#box h3 {
+	font-size:1.5em;
+	margin:3px 0; 
+}
+
+div#box p {
+	margin:3px 0; 
+}
+
+li.ident-1 {
+	text-indent:10px;
+}

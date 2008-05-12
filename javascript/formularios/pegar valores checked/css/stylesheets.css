@@ -1,0 +1,20 @@
+/* CSS Document
+Autor: Edy Segura - edy@liveware.com.br, edy@segura.eti.br
+Descrição: Definições de CSS da página principal
+*/
+
+fieldset {
+	border:1px solid #999;
+	padding:10px;
+}
+
+fieldset fieldset {
+	width:29%;
+	height:160px;
+	float:left;
+	margin:5px;
+}
+
+fieldset div { margin:5px 0; }
+select       { width:250px; }
+button       { margin:5px; clear:both; }

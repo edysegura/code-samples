@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="author" content="Edy Segura" />
+<meta name="reply-to" content="edy@segura.eti.br" />
+<meta name="description" content="Técnica para tirar o serrilhado dos elementos" />
+<title>T&eacute;cnica noFocus</title>
+
+<!-- javascript -->
+<script type="text/javascript" src="js/Common.js"></script>
+<script type="text/javascript" src="js/Index.js"></script>
+
+</head>
+<body>
+
+<h1>Técnica noFocus</h1>
+<p>Método desenvolvido para remover os tracejados que ficam em links e botões. Veja a diferença habilitando e desabilitando essa função. Para mais detalhes veja o código fonte.</p>
+
+<h2>Resultado</h2>
+<fieldset id="botoes">
+	<legend>Painel de controle:</legend>
+	<button onclick="Index.noFocus(false, 'frm-teste')" disabled="disabled">Habilitar Focus</button>
+	<button onclick="Index.noFocus(true, 'frm-teste')">Desabilitar Focus</button>
+</fieldset>
+
+<!-- elementos para teste -->
+<form id="frm-teste" action="" method="post" onsubmit="return false;" onreset="return false;">
+	<fieldset>
+		<legend>Elementos para teste:</legend>
+			<a href="javascript:;">Links</a>
+			<input type="checkbox" />
+			<input type="button" value="inputBtn" />
+			<input type="submit" value="inputSbt" />
+			<input type="radio" name="radio" value="radio" />
+			<input type="reset" value="inputRst" />
+			<button>button</button>
+	</fieldset>
+</form>
+
+</body>
+</html>

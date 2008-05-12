@@ -1,0 +1,4 @@
+['Barra do Pira%ED', 'Barra Mansa', 'Belford Roxo', 'Cabo Frio', 'Campos dos Goytacazes', 
+ 'Duque de Caxias','Itagua%ED','Japeri', 'Maca%E9', 'Nil%F3polis', 'Niter%F3i', 'Nova Friburgo', 
+ 'Nova Igua%E7u', 'Mesquita', 'Petr%F3polis', 'Quatis','Queimados', 'Resende', 'Rio de Janeiro', 
+ 'S%E3o Gon%E7alo', 'S%E3o Jo%E3o de Meriti', 'Teres%F3polis', 'Tr%EAs Rios', 'Volta Redonda']

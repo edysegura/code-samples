@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xml-2-json.xsl"?>
+
+<alunos>
+	<aluno>
+		<nome>Edy</nome>
+		<sobrenome>Segura</sobrenome>
+	</aluno>
+	<aluno>
+		<nome>Eduardo</nome>
+		<sobrenome>Lopes</sobrenome>
+	</aluno>
+	<aluno>
+		<nome>Lidy</nome>
+		<sobrenome>Bernardes</sobrenome>
+	</aluno>
+	<aluno>
+		<nome>Jeferson</nome>
+		<sobrenome>Zamin</sobrenome>
+	</aluno>
+	<aluno>
+		<nome>André</nome>
+		<sobrenome>Dias</sobrenome>
+	</aluno>
+</alunos>

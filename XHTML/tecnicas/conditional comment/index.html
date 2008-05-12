@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="author" content="Edy Segura" />
+<meta name="Reply-to" content="edy@segura.eti.br" />
+<meta name="Description" content="Exemplo do uso da técnica dos comentários condicionais" />
+<title>Conditional Comment</title>
+
+<!-- stylesheet -->
+<link rel="stylesheet" href="css/stylesheets.css" type="text/css" title="Padrão" />
+
+</head>
+<body>
+
+<h1>Conditional Comment</h1>
+<p>Conditional Comments trata-se de uma sintaxe especial para escrever comentários em documentos de (X)HTML que são interpretados somente pelo Internet Explorer. Para mais detalhes veja o código fonte.</p>
+
+<p>Para mais informações:</p>
+<ul>
+	<li><a href="http://www.revolucao.etc.br/archives/conditional-comments-no-internet-explorer/" title="Mais informações sobre Conditional Comments">Conditional Comments no IE</a></li>
+	<li><a href="http://www.quirksmode.org/css/condcom.html" title="Conditional Comments - Quirk Mode">Conditionl Comments - Quirk Mode</a></li>
+</ul>
+
+<h2>Resultado</h2>
+<p>Obs.: Abra essa página no IEca para você ver a diferênça dos outros navegadores.</p>
+
+<!--[if IE]>
+	<p class="info">Se você está lendo este paragrafo é porque você está no internet explorer.</p>
+<![endif]-->
+
+<!--[if !IE]> 
+	<-->
+		<p class="info">Se você está lendo este paragrafo é porque você não está no Internet Explorer.</p>
+	<!--> 
+<![endif]-->
+
+<pre>
+<code>
+	&lt;!--[if IE]&gt; Para todas as versões &lt;![endif]--&gt;
+	
+	&lt;!--[if IE 5]&gt; Apenas para o Internet Explorer 5 &lt;![endif]--&gt;
+	
+	&lt;!--[if IE 5.0]&gt; Apenas para o Internet Explorer 5 &lt;![endif]--&gt;
+	
+	&lt;!--[if IE 5.5]&gt; Apenas para o Internet Explorer 5.5 &lt;![endif]--&gt;
+	
+	&lt;!--[if IE 6]&gt; Apenas para o Internet Explorer 6 &lt;![endif]--&gt;
+	
+	&lt;!--[if gte IE 5]&gt; Para o Internet Explorer 5 e versões superior &lt;![endif]--&gt;
+	
+	&lt;!--[if lt IE 6]&gt; Para versões anteriores ao Internet Explorer 6 &lt;![endif]--&gt;
+	
+	&lt;!--[if lte IE 5.5]&gt; Para o Internet Explorer 5.5 e versão inferior &lt;![endif]--&gt;
+	
+	&lt;!--[if lte IE 5.5]&gt; Para o Internet Explorer 5.5 e versão inferior &lt;![endif]--&gt;
+	
+	&lt;!--[if !IE]> &lt;--&gt; Para o Internet Explorer não interpretar o que estiver neste bloco &lt;!--&gt; &lt;![endif]--&gt;
+</code>
+</pre>
+
+</body>
+</html>

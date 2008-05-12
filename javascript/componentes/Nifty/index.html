@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="author" content="Edy Segura" />
+<meta name="reply-to" content="edy@segura.eti.br" />
+<meta name="description" content="Componemte javascript para cantos arrendondados" />
+<title>Cantos arredondados com CSS e JavaScript</title>
+
+<!-- stylesheet -->
+<link rel="stylesheet" href="css/stylesheets.css" type="text/css" title="Padrão" />
+
+<!-- javascript -->
+<script type="text/javascript" src="js/niftycube.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+
+</head>
+<body>
+
+<h1>Cantos arredondados com CSS e JavaScript</h1>
+<p>Framework para adicionar cantos arredondados nos elementos especificados. Para mais detalhes veja o código fonte.</p>
+
+<!-- resultado -->
+<h2>Resultado</h2>
+
+<div id="box">
+	<h3>Nifty Corners Cube&trade;</h3>
+	<p>Framework para cantos arredondados.</p>
+</div>
+
+<h2>Instruções</h2>
+
+<ol>
+	<li>window.onload=function() {</li>
+	<li class="ident-1">Nifty(&quot;div#box&quot;,&quot;big&quot;);</li>
+	<li>}</li>
+</ol>
+
+<p>O primeiro parâmetro da função é o nome da camada onde qual será aplicado o efeito. O segundo parâmetro é uma palavra-chave que indica o tipo de arredondamento que será feito (vide tabela abaixo).</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>palavra-chave</th>
+      <th>significado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>tl</th>
+      <td>canto superior esquerdo</td>
+    </tr>
+    <tr>
+      <th>tr</th>
+      <td>canto superior direito</td>
+    </tr>
+    <tr>
+      <th>bl</th>
+      <td>canto inferior esquerdo</td>
+    </tr>
+    <tr>
+      <th>br</th>
+      <td>canto inferior direito</td>
+    </tr>
+    <tr>
+      <th>top</th>
+      <td>cantos superiores</td>
+    </tr>
+    <tr>
+      <th>bottom</th>
+      <td>cantos inferiores</td>
+    </tr>
+    <tr>
+      <th>left</th>
+      <td>cantos da esquerda</td>
+    </tr>
+    <tr>
+      <th>right</th>
+      <td>cantos da direita</td>
+    </tr>
+    <tr>
+      <th>all <em>(padrão)</em></th>
+      <td>todos os cantos</td>
+    </tr>
+    <tr>
+      <th>none</th>
+      <td>nenhum dos cantos</td>
+    </tr>
+    <tr>
+      <th>small</th>
+      <td>tamanho dos cantos pequenos (2px)</td>
+    </tr>
+    <tr>
+      <th>normal <em>(padrão)</em></th>
+      <td>tamanho dos cantos normal (5px)</td>
+    </tr>
+    <tr>
+      <th>big</th>
+      <td>tamanho dos cantos maior (10px)</td>
+    </tr>
+    <tr>
+      <th>transparent</th>
+      <td>aplica transparência do canto para o preenchimento interno (veja um <a href="http://pro.html.it/niftycube/nifty3.html">exemplo</a>)</td>
+    </tr>
+    <tr>
+      <th>fixed-height</th>
+      <td>para ser aplicado quando uma altura (height) é fixa e definida no CSS</td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>

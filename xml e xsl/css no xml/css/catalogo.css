@@ -1,0 +1,8 @@
+/* CSS Document */
+
+catalog { background:#fff; width:100%; }
+cd { display:block; margin-bottom:30px; margin-left:5px; }
+title { color:#2E5A5A; font-size:20pt; }
+artist { color:#030; font-size:20pt; }
+country,price,year,company
+{ display:block; color:#000; margin-left:20pt; }

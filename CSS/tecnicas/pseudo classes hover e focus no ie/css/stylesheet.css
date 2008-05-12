@@ -1,0 +1,12 @@
+/* CSS Document */
+
+p:hover { color:#ccc; }
+
+p:hover span {
+	color:#000;
+	background:#ccc;
+}
+
+input:focus {
+	background:#FFF4EA;
+}

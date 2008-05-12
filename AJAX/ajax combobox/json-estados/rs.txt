@@ -1,0 +1,5 @@
+['Alegrete', 'Alvorada', 'Bag%E9', 'Cachoeira do Sul', 'Cachoeirinha', 'Canoas', 
+ 'Caxias do Sul', 'Cruz Alta', 'Esteio', 'Gravata%ED', 'Novo Hamburgo', 'Passo Fundo', 
+ 'Pelotas','Porto Alegre', 'Rio Grande', 'Santa Cruz do Sul', 'Santa Maria', 
+ 'Santana do Livramento', 'Santo %C2ngelo', 'S%E3o Leopoldo', 'Sapucaia do Sul', 
+ 'Uruguaiana', 'Viam%E3o']

@@ -1,0 +1,12 @@
+/* CSS Document */
+
+a {
+	color:#00F;
+	text-decoration:none;
+}
+a:active {color:#F90;}
+a:visited {color:#F00;}
+a:hover {
+	color:#0F0;
+	text-decoration:underline;
+}

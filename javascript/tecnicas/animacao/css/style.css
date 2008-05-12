@@ -1,0 +1,24 @@
+/**
+ *
+ * Formatacao para pagina index.html
+ * @author Edy Segura, edy@segura.pro.br
+ *
+ */
+
+span {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#000;
+}
+
+span.selected {
+	color:#F00;
+}
+
+p.noscript {
+	width:350px;
+	border:2px solid #FC0;
+	background:#FFC;
+	color:#000;
+	padding:5px;
+	font-weight:bold;
+}
