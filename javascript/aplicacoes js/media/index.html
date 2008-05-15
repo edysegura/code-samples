@@ -4,13 +4,11 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="author" content="Edy Segura" />
 <meta name="reply-to" content="edy@segura.eti.br" />
-<meta name="description" content="Aplicação para calcular média do aluno" />
+<meta name="description" content="Aplicação em javascript para calcular a média do aluno" />
 <title>Média do Aluno</title>
 
-<!-- stylesheet -->
-<link rel="stylesheet" href="css/stylesheets.css" type="text/css" title="Padrão" />
-<!-- javascript -->
-<script type="text/javascript" src="js/script.js"></script>
+<link rel="stylesheet" href="css/style.css" type="text/css" title="Padrão" />
+<script type="text/javascript" src="js/Index.js"></script>
 
 </head>
 <body>
@@ -62,12 +60,16 @@
 <!-- Tabela com as informações dos alunos -->
 <table id="talunos">
 	<caption>Média dos Alunos(as)</caption>
-	<col class="col01" />
-	<col class="col02" />
-	<col class="col03" />
-	<col class="col04" />
-	<col class="col05" />
-	<col class="col06" />
+	
+	<colgroup span="6">
+		<col class="col01" />
+		<col class="col02" />
+		<col class="col03" />
+		<col class="col04" />
+		<col class="col05" />
+		<col class="col06" />
+	</colgroup>
+	
 	<thead>
 		<tr>
 			<th>Nome do aluno(a)</th>
@@ -79,11 +81,13 @@
 			<th>Excluir</th>
 		</tr>
 	</thead>
+	
 	<tfoot>
 		<tr>
 			<td colspan="7">T = Trabalho | E = Exercício | AP = Avaliação Parcial | AR = Avaliação Regimental</td>
 		</tr>
 	</tfoot>
+	
 	<tbody>
 		<tr>
 			<td colspan="7">Se você está lendo esta mensagem é porque o seu javascript está desabilitado.</td>
