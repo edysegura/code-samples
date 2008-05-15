@@ -1,0 +1,26 @@
+﻿/**
+ *
+ * Cores para validacao da senha
+ * @author Edy Segura, edy@segura.pro.br
+ *
+ */
+
+span#message {
+	font-weight: bold;
+}
+
+.muito-baixa {
+	color: red;
+}
+
+.baixa {
+	color: orange;
+}
+
+.bom {
+	color: darkblue;
+}
+
+.excelente {
+	color: green;
+}
