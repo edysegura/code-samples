@@ -1,36 +1,38 @@
-/* JavaScript Document
-Autor: Edy Segura - edy@segura.eti.br
-Descrição: Script da página inicial
-*/
+﻿/**
+ *
+ * Objeto Literal Index para uso do componente Browser.js
+ * @author: Edy Segura - edy@segura.eti.br
+ *
+ */
 
 var Index = {
 	
 	init: function() {
-		Index.getPageSize();
 		Index.setWinResize();
-	},//fim init
+	},
 	
 	
 	setWinResize: function() {
+		Index.getPageSize();
 		window.onresize = Index.getPageSize;
-	},//fim setWinResize
+	},
 	
 	
 	getPageSize: function() {
-		var oPageSize   = Common.getPageSize();
-		var oPageWidth  = $('pageWidth');
-		var oPageHeight = $('pageHeight');
-		var oViewWidth  = $('viewWidth');
-		var oViewHeight = $('viewHeight');
+		var pageSize   = Browser.getPageSize();
+		var pageWidth  = document.getElementById('pageWidth');
+		var pageHeight = document.getElementById('pageHeight');
+		var viewWidth  = document.getElementById('viewWidth');
+		var viewHeight = document.getElementById('viewHeight');
 		
-		oPageWidth.innerHTML  = oPageSize.pageWidth;
-		oPageHeight.innerHTML = oPageSize.pageHeight;
-		oViewWidth.innerHTML  = oPageSize.viewWidth;
-		oViewHeight.innerHTML = oPageSize.viewHeight;
-	}//fim buildTable
+		pageWidth.innerHTML  = pageSize.pageWidth;
+		pageHeight.innerHTML = pageSize.pageHeight;
+		viewWidth.innerHTML  = pageSize.viewWidth;
+		viewHeight.innerHTML = pageSize.viewHeight;
+	}
 
-};//fim Index
+};
 
-//inicialização
+//inicializacao
 window.onload = Index.init;
 

@@ -1,9 +1,11 @@
-/* JavaScript Document
-Autor: Edy Segura - edy@segura.eti.br
-Descrição: Objeto Common
-*/
+﻿/**
+ *
+ * Componente Browser.js
+ * @author: Edy Segura - edy@segura.eti.br
+ *
+ */
 
-var Common = {
+var Browser = {
 
 	getPageSize: function() {
 		var iScrollX, iScrollY, oPageSize;
@@ -62,23 +64,4 @@ var Common = {
 		
 	}//getPageSize
 
-};//fim Common
-
-
-//atalho document.getElementById()
-function $() {
- 	var aElements = new Array;
-
-	for(var i=0; i<arguments.length; i++) {
-		var vElement = arguments[i];
-
-		vElement = (typeof vElement == 'string') ? 
-		            document.getElementById(vElement) : vElement;
-
-		if(arguments.length == 1) return vElement;
-		aElements.push(vElement);
-	}
-	
-	return aElements;
-}//fim $
-
+};
