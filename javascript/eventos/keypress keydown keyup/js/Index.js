@@ -1,5 +1,4 @@
-/* 
- * Index.js
+﻿/**
  * 
  * Exemplo do uso dos eventos keypress, keydown e keyup
  * @author: Edy Segura - edy@segura.eti.br
@@ -10,72 +9,72 @@ var Index = {
 	
 	init: function() {
 		Index.setHandles();
-	},//fim init
+	},
 	
 	
 	setHandles: function() {
-		var oTableKeyPress = document.getElementById('key-press');
-		var oTableKeyDown  = document.getElementById('key-down');
-		var oTableKeyUp    = document.getElementById('key-up');
+		var tableKeyPress = document.getElementById('keypress');
+		var tableKeyDown  = document.getElementById('keydown');
+		var tableKeyUp    = document.getElementById('keyup');
 		
 		document.onkeypress = function () {
-			Index.buildTable(Event.getEvent(), oTableKeyPress);
+			Index.buildTable(Event.getEvent(), tableKeyPress);
 		};
 		
 		document.onkeydown = function () {
-			Index.buildTable(Event.getEvent(), oTableKeyDown);
+			Index.buildTable(Event.getEvent(), tableKeyDown);
 		};
 		
 		document.onkeyup = function () {
-			Index.buildTable(Event.getEvent(), oTableKeyUp);
+			Index.buildTable(Event.getEvent(), tableKeyUp);
 		};
-	},//fim setHandlers
+	},
 	
 	
-	buildTable: function(oEvent, oTable) {
-		var aDados;
+	buildTable: function(pageEvent, table) {
+		var tableData;
 		
 		//json com os dados do evento
-		if(oTable.id == "key-press") {
+		if(table.id == "keypress") {
 			
-			aDados = [
-				(oEvent.charCode) ? oEvent.charCode : oEvent.keyCode,
-				String.fromCharCode(oEvent.charCode),
-				oEvent.ctrlKey,
-				oEvent.altKey,
-				oEvent.shiftKey
+			tableData = [
+				(pageEvent.charCode) ? pageEvent.charCode : pageEvent.keyCode,
+				String.fromCharCode(pageEvent.charCode),
+				pageEvent.ctrlKey,
+				pageEvent.altKey,
+				pageEvent.shiftKey
 			];
 			
 		}
 		else {
 			
-			aDados = [
-				oEvent.keyCode,
-				oEvent.ctrlKey,
-				oEvent.altKey,
-				oEvent.shiftKey
+			tableData = [
+				pageEvent.keyCode,
+				pageEvent.ctrlKey,
+				pageEvent.altKey,
+				pageEvent.shiftKey
 			];
 			
 		}
 		
-		Index.clearTable(oTable);
+		Index.clearTable(table);
 		
-		var oTbody = oTable.tBodies[0];
-		var oRow   = oTbody.insertRow(oTbody.rows.length);
+		var tbody = table.tBodies[0];
+		var row   = tbody.insertRow(tbody.rows.length);
 		
-		for(var i=0; i<aDados.length; i++) {
-			oRow.insertCell(oRow.cells.length).innerHTML = 
-			(aDados[i].toString() != 'true') ? aDados[i] : "<span>" + aDados[i] + "</span>";
+		for(var i=0; i<tableData.length; i++) {
+			row.insertCell(row.cells.length).innerHTML = 
+			(tableData[i].toString() != 'true') ? tableData[i] : "<span>" + tableData[i] + "</span>";
 		}
-	},//fim buildTable
+	},
 	
 	
-	clearTable: function(oTable) {
-		oTable.removeChild(oTable.tBodies[0]);
-		oTable.appendChild(document.createElement('tbody'));
-	}//fim clearTable
+	clearTable: function(table) {
+		table.removeChild(table.tBodies[0]);
+		table.appendChild(document.createElement('tbody'));
+	}
 	
-};//fim Index
+};
 
 //inicializacao
 window.onload = Index.init;

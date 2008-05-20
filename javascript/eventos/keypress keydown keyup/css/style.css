@@ -34,6 +34,14 @@ td span {
 	color:#F00;
 }
 
+p {
+	margin-top: -20px;
+}
+
+h2 + p {
+	margin-bottom: 50px;
+}
+
 p.noscript {
 	border:2px solid #FC0;
 	background:#FFC;
