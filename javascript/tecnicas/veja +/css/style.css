@@ -1,0 +1,24 @@
+﻿/**
+ *
+ * Definicoes CSS para pagina index.html
+ * @author: Edy Segura - edy@segura.eti.br
+ *
+ */
+
+a {
+	text-decoration:none; 
+	color:#00F;
+}
+
+div#information div p.complete {
+	display:none;
+}
+
+div#information div.show p.complete {
+	display:block; 
+	margin-top:0;
+}
+
+div#information div.show p.resume {
+	display:none;
+}
