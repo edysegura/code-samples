@@ -4,25 +4,26 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="author" content="Edy Segura" />
 <meta name="reply-to" content="edy@segura.eti.br" />
-<meta name="description" content="Objeto para adição e remoção dinâmica de eventos" />
-<title>Event - Objeto para adição e remoção dinâmica de eventos</title>
+<meta name="description" content="Componente para adição e remoção dinâmica de eventos" />
+<title>Event.js, Componente para adição e remoção dinâmica de eventos</title>
 
 <!-- stylesheet -->
-<link rel="stylesheet" href="css/stylesheets.css" type="text/css" title="Padrão" />
+<link rel="stylesheet" href="css/style.css" type="text/css" title="Padrão" />
 
 <!-- javascript -->
-<script type="text/javascript" src="js/common.js"></script>
-<script type="text/javascript" src="js/event.js"></script>
-<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="http://jscomponentes.googlecode.com/svn/trunk/Event/js/Event/Event.js"></script>
+<script type="text/javascript" src="js/Index.js"></script>
 
 </head>
 <body>
 
-<h1>Event - Objeto para adição e remoção dinâmica de eventos</h1>
-<p>Objeto para adição e remoção dinâmica de eventos ao elemento específicado. Para mais detalhes veja o código fonte.</p>
+<h1>Event, Componente para adição e remoção dinâmica de eventos</h1>
+<p>
+	Componente para adição e remoção dinâmica de eventos ao elemento específicado.
+	Para mais detalhes veja o código fonte.
+</p>
 
-<!-- resultado -->
-<h2>Resultado</h2>
+<h2>Teste</h2>
 <p class="eventos">Clique aqui para testar os eventos.</p>
 
 <form method="post" action="" onsubmit="return false;">
@@ -48,10 +49,10 @@
 		</fieldset>
 		
 		<div class="botoes">
-			<button onclick="Index.addEventos(true)">Adicionar</button>
-			<button onclick="Index.addEventos(false)">Remover</button>
+			<button id="add">Adicionar</button>
+			<button id="remove">Remover</button>
+			<button id="reload">Recarregar</button>
 			<button type="reset">Limpar</button>
-			<button onclick="document.location.reload()">Recarregar</button>
 		</div>
 		
 		<!-- fim do fieldset -->
