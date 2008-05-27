@@ -1,0 +1,25 @@
+<?php
+// Variavel recebendo a string a ser tratada
+$var = "Já está na hora de comerçar a programação";
+
+// Variavel recebendo a string que não será tratada para futura comparação
+$ant = $var;
+
+// Variavel recebendo a string já fazendo as substituições
+$var = ereg_replace("[ÁÀÂÃ]","A",$var);
+$var = ereg_replace("[áàâãª]","a",$var);
+$var = ereg_replace("[ÉÈÊ]","E",$var);
+$var = ereg_replace("[éèê]","e",$var);
+$var = ereg_replace("[ÓÒÔÕ]","O",$var);
+$var = ereg_replace("[óòôõº]","o",$var);
+$var = ereg_replace("[ÚÙÛÜ]","U",$var);
+$var = ereg_replace("[úùûü]","u",$var);
+$var = str_replace("Ç","C",$var);
+$var = str_replace("ç","c",$var);
+
+// Listando o resultado anterior sem substituição
+echo "Resultado anterior: ".$ant."\n";
+
+// Listando o resultado com a subtituição
+echo "Resultado posterior: ".$var."\n";
+?>
