@@ -56,17 +56,22 @@ var Index = {
 			element.className = (rePattern.test(element.type)) ? "campo" : element.className;
 		}
 		
-		form.pessoas.options[0].text = "Carregando...";
-		
-		Ajax.request({
-			method   : "POST",
-			url      : "actions/action.php",
-			callback : Index.buildCombo,
-			callerro : Index.displayError,
-			params   : form,
-			loading  : true,
-			send     : Form.getFormUrlEncodedValues(form)
-		});
+		if(typeof Ajax != undefined && typeof Form != undefined) {
+			form.pessoas.options[0].text = "Carregando...";
+			
+			Ajax.request({
+				method   : "POST",
+				url      : "actions/action.php",
+				callback : Index.buildCombo,
+				callerro : Index.displayError,
+				params   : form,
+				loading  : true,
+				send     : Form.getFormUrlEncodedValues(form)
+			});
+		}
+		else {
+			divInfo.innerHTML = "Não foi possível carregar os componentes necessários, verefique sua conexeção com a Internet.";
+		}
 		
 		return false;
 	},
