@@ -1,4 +1,4 @@
-/**
+﻿/**
  *
  * Objeto para literal para manipulacao da pagina index.html
  * @author: Edy Segura - edy@segura.eti.br
@@ -10,89 +10,89 @@ var Index = {
 	init: function() {
 		Index.createDivInfo();
 		Index.setForm();
-	},//fim init
+	},
 
 
 	setForm: function() {
-		var oForm = document.forms[0];
-
-		oForm.onsubmit = function() {
+		var form = document.forms[0];
+		
+		form.onsubmit = function() {
 			return Index.checkToSubmit(this);
 		};
-
+		
 		Form.focusOnFirst();
-	},//fim setForm
+	},
 
 
 	createDivInfo: function() {
-		var oDivInfo  = document.createElement('div');
-		var oFieldset = document.getElementsByTagName('fieldset')[0];
-		var oLabel    = oFieldset.getElementsByTagName('label')[0];
-
-		oDivInfo.setAttribute('id', 'info');
-		oDivInfo.innerHTML = "&nbsp;";
-
-		oFieldset.insertBefore(oDivInfo, oLabel);
-	},//fim createDivInfo
+		var divInfo  = document.createElement('div');
+		var fieldset = document.getElementsByTagName('fieldset')[0];
+		var label    = fieldset.getElementsByTagName('label')[0];
+		
+		divInfo.setAttribute('id', 'info');
+		divInfo.innerHTML = "&nbsp;";
+		
+		fieldset.insertBefore(divInfo, label);
+	},
 	
 	
-	checkToSubmit: function(oForm) {
+	checkToSubmit: function(form) {
 		var rePattern = new RegExp("text|password|textarea", "i");
-		var oDivInfo  = document.getElementById('info');
-
-		oDivInfo.innerHTML = "&nbsp;";
-
+		var divInfo   = document.getElementById('info');
+		
+		divInfo.innerHTML = "&nbsp;";
+		
 		//percorrendo os elementos do formulário
-		for(var i=0; i<oForm.elements.length; i++) {
-			var oElement = oForm.elements[i];
-
-			if(rePattern.test(oElement.type) && Form.isEmpty(oElement.value)) {
-				oDivInfo.innerHTML = "\"" + oElement.title + "\" é um campo obrigatório.";
-				oElement.focus();
-				oElement.className = "cmperro";
+		for(var i=0; i<form.elements.length; i++) {
+			var element = form.elements[i];
+			
+			if(rePattern.test(element.type) && element.value != "") {
+				divInfo.innerHTML = "\"" + element.title + "\" é um campo obrigatório.";
+				element.focus();
+				element.className = "cmperro";
 				return false;
 			}
-
-			oElement.className = (rePattern.test(oElement.type)) ? "campo" : oElement.className;
+			
+			element.className = (rePattern.test(element.type)) ? "campo" : element.className;
 		}
-
-		oForm.pessoas.options[0].text = "Carregando...";
-
-		Ajax.run({
+		
+		form.pessoas.options[0].text = "Carregando...";
+		
+		Ajax.request({
 			method   : "POST",
 			url      : "actions/action.php",
 			callback : Index.buildCombo,
 			callerro : Index.displayError,
-			params   : oForm,
+			params   : form,
 			loading  : true,
-			send     : Form.getFormUrlEncodedValues(oForm)
+			send     : Form.getFormUrlEncodedValues(form)
 		});
-	
+		
 		return false;
-	},//fim checkToSubmit
+	},
 
 
-	buildCombo: function(sResponse, oForm) {
-		var oDados = eval('(' + sResponse + ')'); //parse json
+	buildCombo: function(response, form) {
+		var dados = eval('(' + response + ')'); //parse json
 		
-		oForm.pessoas.options[oForm.pessoas.options.length] = new Option(oDados.nome, oDados.email);
-		oForm.pessoas.options[0].text = "Pessoas";
+		form.pessoas.options[form.pessoas.options.length] = new Option(dados.nome, dados.email);
+		form.pessoas.options[0].text = "Pessoas";
 		
-		oForm.reset();
+		form.reset();
 		Form.focusOnFirst();
-	},//fim buildCombo
+	},
 
 
-	displayError: function(iHttpStatus, sMessage, oForm) {
-		var oDivInfo = document.getElementById('info');
+	displayError: function(httpStatus, message, form) {
+		var divInfo = document.getElementById('info');
 		
-		sMessage = (!sMessage) ? "Servidor web não inicializado!" : sMessage;
-		oDivInfo.innerHTML = ("HTTP Status: " + iHttpStatus + "<br />" + "Message: " + sMessage);
+		message = (!message) ? "Servidor web não inicializado!" : message;
+		divInfo.innerHTML = ("HTTP Status: " + httpStatus + "<br />" + "Message: " + message);
 		
-		oForm.pessoas.options[0].text = "Pessoas";
-	}//fim displayError
+		form.pessoas.options[0].text = "Pessoas";
+	}
 
-};//fim Index
+};
 
 //inicializacao
 window.onload = Index.init;

@@ -8,8 +8,8 @@
 
 if(!function_exists('json_encode')) {
 	require_once("lib/json.php");
-	$oJson = new Services_JSON();
-	echo $oJson->encode($_POST);
+	$json = new Services_JSON();
+	echo $json->encode($_POST);
 	exit;
 }
 else {
