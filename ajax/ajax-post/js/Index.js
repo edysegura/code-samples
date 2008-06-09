@@ -20,7 +20,9 @@ var Index = {
 			return Index.checkToSubmit(this);
 		};
 		
-		Form.focusOnFirst();
+		if(typeof(Form) != "undefined") {
+			Form.focusOnFirst();
+		}
 	},
 
 
@@ -56,7 +58,7 @@ var Index = {
 			element.className = (rePattern.test(element.type)) ? "campo" : element.className;
 		}
 		
-		if(typeof Ajax != undefined && typeof Form != undefined) {
+		if((typeof(Ajax) != "undefined") && (typeof(Form) != "undefined")) {
 			form.pessoas.options[0].text = "Carregando...";
 			
 			Ajax.request({
