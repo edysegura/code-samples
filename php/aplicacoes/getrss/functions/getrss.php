@@ -1,9 +1,11 @@
 <?php
-/* 
-* PHP Document
-* Autor: Edy Segura - infoedy@gmail.com
-* Descrição: Funções para o tratamento do RSS especificado.
-*/
+/**
+ * 
+ * Script para pegar o RSS
+ * @author Edy Segura, edy@segura.pro.br
+ * 
+ */
+
 
 require("rss/rss_fetch.inc");
 
