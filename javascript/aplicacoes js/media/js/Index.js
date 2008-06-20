@@ -1,7 +1,9 @@
-/* JavaScript Document
-Autor: Edy Segura - edy@segura.eti.br
-Descrição: JavaScripts para calcular média dos alunos
-*/
+/**
+ * 
+ * Script para calcular média dos alunos
+ * @author Edy Segura, edy@segura.pro.br
+ * 
+ */
 
 //ajustes iniciais ao carregar a página
 function fnInit() {
