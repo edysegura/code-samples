@@ -1,10 +1,20 @@
-﻿/* 
-* JavaScript Document
-* Autor: Edy Segura - edy@liveware.com.br, edy@segura.eti.br
-* Descrição: Descrição
-*/
+﻿/**
+ * 
+ * Evento window.onBeforeUnload
+ * @author: Edy Segura - edy@segura.pro.br
+ * 
+ */
 
-window.onbeforeunload = function() {
-	return "Deseja sair da aplicação? Todos os dados não salvo serão perdidos!";
+window.onbeforeunload = function(e) {
+	var e = e || window.event;
+	var message = "Todos os dados não salvos serão perdidos! Tem certeza que deseja continuar?";
+
+  //for IE and Firefox
+  if(e) {
+    e.returnValue = message;
+  }
+
+  //for Safari
+  return message;
 };
 
