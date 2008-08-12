@@ -10,7 +10,7 @@ var Index = {
 	
 	init: function() {
 		Index.showChart();
-	},//fim init
+	},
 	
 	
 	showChart: function() {
@@ -45,7 +45,7 @@ var Index = {
 		oChart1.render();
 		oChart2.render();
 		oChart3.render();
-	}//fim showChart
+	}
 	
 };
 

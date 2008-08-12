@@ -10,7 +10,7 @@ var Index = {
 		Nifty("div#box","big fixed-height");
 	}
 
-};//fim Index
+};
 
 //inicialização
 window.onload = Index.init;

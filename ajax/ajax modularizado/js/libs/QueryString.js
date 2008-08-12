@@ -51,10 +51,10 @@ var QueryString = function() {
 				alert([oErr.name, oErr.message].join("\n"));
 			}
 
-		}//fim for
+		}
 		
 		this.isOK = true;
 
-	}//fim if
-};//fim QueryString
+	}
+};
 

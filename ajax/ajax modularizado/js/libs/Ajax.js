@@ -43,7 +43,7 @@ var Ajax = {
 		}
 		
 		return oXmlHttp;
-	},//fim createXmlHttp
+	},
 	
 	
 	/*
@@ -58,7 +58,7 @@ var Ajax = {
 		document.body.appendChild(oLoading);
 		
 		return oLoading;
-	},//fim createDivLoading
+	},
 	
 	
 	/*
@@ -111,11 +111,11 @@ var Ajax = {
 							
 							alert(sMessage);
 							
-						}//fim else
+						}
 					}//fim else*/
 					
 					if(oLoading) oLoading.parentNode.removeChild(oLoading);
-				}//fim if
+				}
 			};
 			
 			oXmlHttp.send((oParams.send) ? oParams.send : null);
@@ -125,6 +125,6 @@ var Ajax = {
 			alert("Sem suporte ao objeto XMLHttpRequest");
 		}
 
-	}//fim run
+	}
 
-};//fim ajax
+};

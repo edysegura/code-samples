@@ -7,7 +7,7 @@ var Index = {
 
 	init: function() {
 		Index.setLink();
-	},//fim init
+	},
 
 
 	setLink: function() {
@@ -18,7 +18,7 @@ var Index = {
 			return false;
 		};
 		
-	},//fim fasd
+	},
 
 
 	getXML: function() {
@@ -35,7 +35,7 @@ var Index = {
 			loading  : true
 		});
 
-	},//fim getXML
+	},
 
 
 	showXML: function(oXMLDocument) {
@@ -50,14 +50,14 @@ var Index = {
 				oListItem.innerHTML = aRepublicanos[i].firstChild.nodeValue;
 				oList.appendChild(oListItem);
 
-			}//fim for
+			}
 			
 			document.body.appendChild(oList);
 		
-		}//fim if
-	}//fim showXML
+		}
+	}
 
-};//fim Index
+};
 
 //inicialização
 window.onload = Index.init;

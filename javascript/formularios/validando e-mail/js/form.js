@@ -12,7 +12,7 @@ var Form = {
 		var rePattern = /^[a-zA-Z0-9_\.-]{2,}@([A-Za-z0-9_-]{2,}\.)+[A-Za-z]{2,4}$/;
 		return rePattern.test(sEmail);
 		
-	}//fim isMail
+	}
 
-};//fim Form
+};
 

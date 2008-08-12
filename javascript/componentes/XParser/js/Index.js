@@ -7,7 +7,7 @@ var Index = {
 
 	init: function() {
 		Index.setLinks();
-	},//fim init
+	},
 	
 	
 	setLinks: function() {
@@ -24,7 +24,7 @@ var Index = {
 			return false;
 		};
 		
-	},//fim setLinks
+	},
 	
 	
 	loadFeed: function(sFileName) {
@@ -51,7 +51,7 @@ var Index = {
 		$("FeedTitle").innerHTML = oFeed.title.value;
 		$("FeedDesc").innerHTML  = oFeed.description.value;
 		$("FeedCopy").innerHTML  = oFeed.copyright.value;
-	},//fim loadFeed
+	},
 	
 	
 	getAuthor: function() {
@@ -61,9 +61,9 @@ var Index = {
 		catch(e) {
 			alert("Feed não carregado.");
 		}
-	}//fim getAuthor
+	}
 	
-};//fim Index
+};
 
 //inicialização
 window.onload = Index.init;

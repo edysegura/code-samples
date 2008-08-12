@@ -7,7 +7,7 @@ var Index = {
 
 	init: function() {
 		Index.getPropertys();
-	},//fim init
+	},
 
 
 	getPropertys: function() {
@@ -15,9 +15,9 @@ var Index = {
 		
 		oParagrafo.innerHTML = (Pessoa.nome + " / " + Pessoa.sexo + " / " + Pessoa['profissão']);
 		document.body.appendChild(oParagrafo);
-	}//fim getPropertys
+	}
 
-};//fim Index
+};
 
 //inicialização
 window.onload = Index.init;

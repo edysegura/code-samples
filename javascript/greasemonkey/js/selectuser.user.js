@@ -25,7 +25,7 @@
 					return;
 				}
 				
-			}//fim do for
+			}
 		}
 		catch(e){}
 		

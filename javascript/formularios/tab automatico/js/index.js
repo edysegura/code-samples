@@ -9,7 +9,7 @@ var Index = {
 		Form.focusOnFirst();
 		Index.setTabForward();
 		Index.setButton();
-	},//fim init
+	},
 	
 	
 	setTabForward: function() {
@@ -22,9 +22,9 @@ var Index = {
 					Form.tabForward(this);
 				}
 				
-			}//fim if
-		}//fim for
-	},//fim setTabForward
+			}
+		}
+	},
 	
 	
 	setButton: function() {
@@ -32,9 +32,9 @@ var Index = {
 		oButton.onclick = function() {
 			Form.focusOnFirst();
 		};
-	}//fim setButton
+	}
 	
-};//fim Index
+};
 
 //inicialização
 window.onload = Index.init;

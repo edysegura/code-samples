@@ -30,9 +30,9 @@ var Common = {
 					}
 				break;
 				
-			}//fim do switch
-		}//fim do for
-	},//fim noFocus
+			}
+		}
+	},
 
-};//fim Common
+};
 

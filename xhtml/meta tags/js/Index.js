@@ -9,7 +9,7 @@ var Index = {
 
 	init: function() {
 		Index.buildTable();
-	},//fim init
+	},
 
 
 	buildTable: function() {
@@ -25,12 +25,12 @@ var Index = {
 			oTH.appendChild(document.createTextNode(sType + ":"));
 			oRow.appendChild(oTH);
 			oRow.insertCell(1).innerHTML = oMetaTags[i].content;
-		}//fim for
+		}
 
 		oTbody.deleteRow(0);
 
-	}//fim buildTable
-};//fim Index
+	}
+};
 
 //inicializacao
 window.onload = Index.init;

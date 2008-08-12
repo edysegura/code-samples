@@ -9,7 +9,7 @@ var Index = {
 		Index.setForm();
 		Index.setBuscarEndereco();
 		Index.setFastCEP();
-	},//fim init
+	},
 
 	
 	setForm: function() {
@@ -19,7 +19,7 @@ var Index = {
 			return false;
 		};
 
-	},//fim setForm
+	},
 	
 	
 	setFastCEP: function() {
@@ -31,7 +31,7 @@ var Index = {
 			};
 		}
 		
-	},//fim setFastCep
+	},
 	
 	
 	setBuscarEndereco: function() {
@@ -45,7 +45,7 @@ var Index = {
 		oButton.onclick = fnBuscarEndereco;
 		oCEPInput.onblur = fnBuscarEndereco;
 		
-	},//fim setButton
+	},
 	
 	
 	buscarEndereco: function(oForm) {
@@ -66,7 +66,7 @@ var Index = {
 		
 		Index.disabledCampos(oForm, true);
 
-	},//fim fasda
+	},
 
 
 	preencherCampos: function(sResponse, oForm) {
@@ -79,13 +79,13 @@ var Index = {
 		oForm.estado.value = unescape(resultadoCEP.uf);
 		
 		Index.disabledCampos(oForm, false);
-	},//fim preencherCampos
+	},
 	
 	
 	limparCampo: function(iHttpStatus, sMessage, oForm) {
 		alert(["HTTP Status: " + iHttpStatus, "Message: " + sMessage].join("\n"))
 		Index.disabledCampos(oForm, false);
-	},//fim limparCampo
+	},
 	
 	
 	disabledCampos: function(oForm, bDisabled) {
@@ -103,8 +103,8 @@ var Index = {
 				estado.value = "Carregando...";
 			}
 			
-		}//fim with
-	},//fim disabledCampos
+		}
+	},
 	
 	
 	fastCEP: function(sCep) {
@@ -112,9 +112,9 @@ var Index = {
 		
 		oForm.reset();
 		oForm.cep.value = sCep;
-	}//fim fastSetCEP
+	}
 
-};//fim Index
+};
 
 //inicialização
 window.onload = Index.init;

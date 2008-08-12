@@ -47,7 +47,7 @@ function fnSetMaskInputs() {
 				};
 			break;
 			
-		}//fim do switch
-	}//fim do for
-}//fim fnSetMaskInput
+		}
+	}
+}
 

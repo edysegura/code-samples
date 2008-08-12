@@ -8,7 +8,7 @@ var Index = {
 	init: function() {
 		Index.setCheckToSubmit();
 		Index.createDivInfo();
-	},//fim init
+	},
 	
 	
 	setCheckToSubmit: function() {
@@ -18,7 +18,7 @@ var Index = {
 			return Index.checkToSubmit(this);
 		};
 
-	},//fim setCheckToSubmit
+	},
 	
 	
 	createDivInfo: function() {
@@ -29,7 +29,7 @@ var Index = {
 		oDivInfo.setAttribute("id", "info");
 		oParent.insertBefore(oDivInfo, oLabel);
 
-	},//fim fasdfasd
+	},
 	
 	
 	checkToSubmit: function(oForm) {
@@ -41,9 +41,9 @@ var Index = {
 		oDivInfo.style.display = "block";
 		
 		return false;
-	}//fim checkToSubmit
+	}
 	
-};//fim Index
+};
 
 //inicialização
 window.onload = Index.init;

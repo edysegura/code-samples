@@ -10,7 +10,7 @@ var Index = {
 	init: function() {
 		Index.setLinksAjax();
 		Index.setLinkClear();
-	},//fim init
+	},
 	
 	
 	setLinksAjax: function() {
@@ -27,10 +27,10 @@ var Index = {
 				});
 				
 				return false;
-			};//fim function aLinks
-		}//fim for
+			};
+		}
 
-	},//fim setLinksAjax
+	},
 	
 
 	setLinkClear: function() {
@@ -42,27 +42,27 @@ var Index = {
 			return false;
 		};
 
-	},//fim setLinkClear
+	},
 	
 	
 	showContent: function(sResponse, oTarget) {
 		oTarget.innerHTML = sResponse;
-	},//fim showContent
+	},
 	
 	
 	showContent1: function(sResponse) {
 		var oTarget = $('content-1');
 		Common.includeJS("js/script.js");
 		Index.showContent(sResponse, oTarget);
-	},//fim showContent1
+	},
 	
 	
 	showContent2: function(sResponse) {
 		var oTarget = $('content-2');
 		Index.showContent(sResponse, oTarget);
-	}//fim showContent2
+	}
 	
-};//fim Index
+};
 
 //inicialização
 window.onload = Index.init;

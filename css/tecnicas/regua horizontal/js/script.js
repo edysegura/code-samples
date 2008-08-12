@@ -15,7 +15,7 @@ var oRegua = {
 			oHR.parentNode.replaceChild(oDiv, oHR);
 			oDiv.appendChild(oHR);
 		
-		}//fim do for
+		}
 	}//fim do método
 }
 

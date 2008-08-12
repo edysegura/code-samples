@@ -47,5 +47,5 @@ function $remove() {
 			oElement.parentNode.removeChild(oElement);
 		}
 	
-	}//fim for
+	}
 }//fim $remove

@@ -9,7 +9,7 @@ var Index = {
 	
 	init: function() {
 		Index.buildTable();
-	},//fim init
+	},
 	
 	
 	buildTable: function() {
@@ -28,11 +28,11 @@ var Index = {
 				oRow.insertCell(oRow.cells.length).innerHTML = oLinks[i].rel;
 				oRow.insertCell(oRow.cells.length).innerHTML = unescape(oLinks[i].href);
 				
-			}//fim for
-		}//fim if
-	}//fim buildTable
+			}
+		}
+	}
 	
-};//fim Index
+};
 
 //inicializacao
 window.onload = Index.init;

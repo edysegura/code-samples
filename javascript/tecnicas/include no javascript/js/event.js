@@ -22,5 +22,5 @@ var Event = {
 		else return false;
 	}
 
-};//fim Event
+};
 

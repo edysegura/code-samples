@@ -8,7 +8,7 @@ var Index = {
 	init: function() {
 		Index.setMasks();
 		Index.setMaskOnInput();
-	},//fim init
+	},
 
 
 	setMasks: function() {
@@ -32,7 +32,7 @@ var Index = {
 		oMaskDate.attach(oData);
 		oMaskCEP.attach(oCEP);
 		oMaskTeste.attach(oTeste);
-	},//fim setMasks
+	},
 	
 	
 	setMaskOnInput: function() {
@@ -43,7 +43,7 @@ var Index = {
 			Index.setMask(oInput);
 		};
 		
-	},//fim setBlurOnInput
+	},
 	
 	
 	setMask: function(oInput) {
@@ -54,7 +54,7 @@ var Index = {
 			var oMask = new Mask(sPattern, sType);
 			oMask.attach(oInput);
 		}
-	},//fim setMask
+	},
 	
 	
 	choice: function() {
@@ -64,12 +64,12 @@ var Index = {
 			if(aInputs[i].checked) {
 				return aInputs[i].value;
 			}
-		}//fim for
+		}
 		
 		return false;
-	}//fim choice
+	}
 
-};//fim Index
+};
 
 //inicialização
 window.onload = Index.init;

@@ -12,7 +12,7 @@ var Index = {
 			oParagrafo.innerHTML = sMessage;
 			document.body.appendChild(oParagrafo);
 		
-		}//fim if
-	}//fim showContent
+		}
+	}
 	
-};//fim Index
+};

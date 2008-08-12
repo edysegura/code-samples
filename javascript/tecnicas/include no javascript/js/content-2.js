@@ -9,7 +9,7 @@ var Content2 = {
 		Index.showContent('Script "content-2.js" incluído.');
 	}
 	
-};//fim Content1
+};
 
 //inicialização
 Event.addHandle(window, 'load', Content2.showContent);

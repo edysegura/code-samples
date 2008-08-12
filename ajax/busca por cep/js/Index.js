@@ -9,7 +9,7 @@ var Index = {
 		Index.setForm();
 		Index.setButton();
 		Index.setFastCEP();
-	},//fim init
+	},
 
 	
 	setForm: function() {
@@ -19,7 +19,7 @@ var Index = {
 			return false;
 		};
 
-	},//fim setForm
+	},
 	
 	
 	buscarEndereco: function(oForm) {
@@ -39,7 +39,7 @@ var Index = {
 			callback : Index.preencherCampos
 		});
 
-	},//fim fasda
+	},
 
 
 	preencherCampos: function(sResponse, oForm) {
@@ -51,7 +51,7 @@ var Index = {
 		oForm.estado.value = oEndereco.estado;
 		oForm.numero.focus();
 
-	},//fim preencherCampos
+	},
 	
 	
 	setFastCEP: function() {
@@ -63,7 +63,7 @@ var Index = {
 			};
 		}
 		
-	},//fim setFastCep
+	},
 	
 	
 	setButton: function() {
@@ -73,7 +73,7 @@ var Index = {
 			Index.buscarEndereco(this.form);
 		};
 		
-	},//fim setButton
+	},
 	
 	
 	fastCEP: function(sCep) {
@@ -81,9 +81,9 @@ var Index = {
 		
 		oForm.reset();
 		oForm.cep.value = sCep;
-	}//fim fastSetCEP
+	}
 
-};//fim Index
+};
 
 //inicialização
 window.onload = Index.init;

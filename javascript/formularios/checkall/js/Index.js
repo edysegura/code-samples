@@ -9,7 +9,7 @@ var Index = {
 	
 	init: function() {
 		Index.setCheckAll();
-	},//fim init
+	},
 	
 	
 	setCheckAll: function() {
@@ -19,9 +19,9 @@ var Index = {
 			aInputs[i].onclick = function() {
 				Form.checkAll(this);
 			};
-		}//fim for
+		}
 
-	}//fim setCheckAll
+	}
 	
 };//fim Index.js
 

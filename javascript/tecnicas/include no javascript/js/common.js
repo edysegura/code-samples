@@ -13,9 +13,9 @@ var Common = {
 			oScript.type = "text/javascript";
 			oScript.src  = sSource; //+ "?" + (new Date()).getTime();
 			document.getElementsByTagName('head')[0].appendChild(oScript);
-		}//fim if
+		}
 
-	},//fim includeJs
+	},
 	
 	
 	checkExistScript: function(sSource) {
@@ -26,10 +26,10 @@ var Common = {
 			if(rePattern.test(oScripts[i].src)) {
 				return true;
 			}
-		}//fim for
+		}
 	
 		return false;
-	}//fim checkExistScript
+	}
 
-};//fim Common
+};
 

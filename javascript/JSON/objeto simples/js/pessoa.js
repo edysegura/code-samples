@@ -9,4 +9,4 @@ var Pessoa = {
 	sexo      : "Masculino",
 	profissão : "Engenheiro Web"
 	
-};//fim Pessoa
+};

@@ -19,9 +19,9 @@ var Form = {
 					return;
 				}
 				
-			}//fim for
-		}//fim if
-	},//fim focusOnFirst
+			}
+		}
+	},
 	
 
 	tabForward: function(oField) {
@@ -40,11 +40,11 @@ var Form = {
 							return;
 						}
 						
-					}//fim do for
-				}//fim do if
-			}//fim do for
-		}//fim do if
-	}//fim tabForward
+					}
+				}
+			}
+		}
+	}
 	
-};//fim Form
+};
 

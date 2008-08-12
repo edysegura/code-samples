@@ -11,13 +11,13 @@ var Index = {
 	
 	init: function() {
 		Index.botoes = document.getElementById('botoes').getElementsByTagName('button');
-	},//fim init
+	},
 	
 	
 	noFocus: function(bNoFocus, sParent) {
 		Common.noFocus(bNoFocus, sParent);
 		Index.setButton();
-	},//fim noFocus
+	},
 	
 	
 	setButton: function() {
@@ -26,9 +26,9 @@ var Index = {
 		for(var i=0; i<oBotoes.length; i++) {
 			oBotoes[i].disabled = (oBotoes[i].disabled) ? false : true;
 		}
-	}//fim setButton
+	}
 	
-};//fim Index
+};
 
 //inicialização
 window.onload = Index.init;

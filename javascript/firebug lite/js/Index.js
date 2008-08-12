@@ -18,15 +18,15 @@ var Index = {
 		Index.setValues("Edy Segura", "Masculino", "23");
 		
 		console.timeEnd("Tempo");
-	},//fim init
+	},
 	
 	
 	setValues: function(sName, sSexo, iIdade) {
 		var oPessoa = {nome:sName, sexo:sSexo, idade:iIdade};
 		console.dir(oPessoa);
-	}//fim setValues
+	}
 	
-};//fim Index
+};
 
 //inicializacao
 window.onload = Index.init;

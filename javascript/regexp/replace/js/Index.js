@@ -11,7 +11,7 @@ var Index = {
 	init: function() {
 		Index.setButton();
 		Index.setField();
-	},//fim init
+	},
 	
 	
 	setField: function() {
@@ -21,7 +21,7 @@ var Index = {
 			this.select();
 		};
 		
-	},//fim setField
+	},
 	
 	
 	setButton: function() {
@@ -32,7 +32,7 @@ var Index = {
 			oField.value = oField.value.replace(/\\/g, "/");
 		};
 		
-	}//fim setButton
+	}
 	
 };
 
