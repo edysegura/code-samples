@@ -2,7 +2,7 @@
  * QueryString.js
  *
  * Script para pegar parametros/get da url
- * @author: Edy Segura - edy@liveware.com.br, edy@segura.eti.br
+ * @author: Edy Segura - edy@segura.pro.br, edy@segura.pro.br
  * 
  *            Instruções para uso do objeto
  * ------------------------------------------------------------

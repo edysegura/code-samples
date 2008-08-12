@@ -4,7 +4,7 @@
  * DOM-Kit é um conjunto de funções para simplificação
  * do uso da API do DOM - Document Object Model
  *
- * @author: Edy Segura - edy@segura.eti.br
+ * @author: Edy Segura - edy@segura.pro.br
  * Referência: Prototype - http://www.prototypejs.org/
  * Referência: freeDOM   - http://www.metzen.com.br/freedom/
  *

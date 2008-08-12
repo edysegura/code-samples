@@ -1,7 +1,7 @@
 ﻿/**
  *
  * Objeto para literal para manipulacao da pagina index.html
- * @author: Edy Segura - edy@segura.eti.br
+ * @author: Edy Segura - edy@segura.pro.br
  *
  */
 

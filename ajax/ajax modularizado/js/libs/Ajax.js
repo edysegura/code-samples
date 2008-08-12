@@ -2,7 +2,7 @@
  * Ajax.js
  *
  * Objeto literal AJAX, para o uso da metodologia AJAX
- * @author: Edy Segura - edy@segura.eti.br
+ * @author: Edy Segura - edy@segura.pro.br
  *
  *           Instrucoes para uso do objeto
  * ------------------------------------------------------------

@@ -1,7 +1,7 @@
 /**
  *
  * Funcao para teste
- * @author: Edy Segura - edy@segura.eti.br
+ * @author: Edy Segura - edy@segura.pro.br
  *
  */
 

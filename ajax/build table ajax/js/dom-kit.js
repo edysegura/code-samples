@@ -1,5 +1,5 @@
 /* JavaScript Document
-Autor: Edy Segura - edy@segura.eti.br
+Autor: Edy Segura - edy@segura.pro.br
 Descrição: DOM-Kit
 Referência: Prototype - http://prototype.conio.net/
 Referência: freeDOM   - http://www.metzen.com.br/freedom/
