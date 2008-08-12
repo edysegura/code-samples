@@ -1,7 +1,7 @@
 ﻿/**
  *
  * Exemplo de variaveis em javascript
- * @author: Edy Segura - edy@segura.eti.br
+ * @author: Edy Segura - edy@segura.pro.br
  *
  */
 

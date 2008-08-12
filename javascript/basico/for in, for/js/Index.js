@@ -1,7 +1,7 @@
 ﻿/**
  *
  * Exemplo do uso do for in
- * @author: Edy Segura - edy@segura.eti.br
+ * @author: Edy Segura - edy@segura.pro.br
  *
  */
 
