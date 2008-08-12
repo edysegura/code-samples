@@ -1,5 +1,5 @@
 /* JavaScript Document
-Autor: Edy Segura - edy@segura.eti.br
+Autor: Edy Segura - edy@segura.pro.br
 Descrição: JavaScript para exemplificar o uso dos métodos charAt, charCodeAt e fromCharCode
 */
 
