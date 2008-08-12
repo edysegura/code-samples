@@ -1,7 +1,7 @@
 /**
  *
  * Teste do charset ISO-8859-1
- * @author: Edy Segura - edy@segura.eti.br
+ * @author: Edy Segura - edy@segura.pro.br
  *
  */
 

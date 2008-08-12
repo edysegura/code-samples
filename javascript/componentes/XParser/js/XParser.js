@@ -1,6 +1,6 @@
 /* JavaScript Document
 Autor: Jeremy McPeak  jwmcpeak@gmail.com
-Editado por: Edy Segura  edy@segura.eti.br
+Editado por: Edy Segura  edy@segura.pro.br
 Descrição: Componente para parsear feeds XML
 Documentação: http://www.wdonline.com/javascript/xparser/
 */

@@ -1,5 +1,5 @@
 /* JavaScript Document
-Autor: Edy Segura - edy@segura.eti.br
+Autor: Edy Segura - edy@segura.pro.br
 Descrição: Objeto Form
 Referência: Livro JavaScript for Web Developer, página do livro 339, página do PDF 367.
 */

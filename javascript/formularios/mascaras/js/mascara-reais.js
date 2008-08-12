@@ -1,5 +1,5 @@
 /* JavaScript Document
-Autor: Edy Segura - edy@liveware.com.br, edy@segura.eti.br
+Autor: Edy Segura - edy@segura.pro.br, edy@segura.pro.br
 Descrição: Mascara para formatar em Reais
 Referência: http://jonasgalvez.com/br/blog/2003-08/egocentrismo
 */

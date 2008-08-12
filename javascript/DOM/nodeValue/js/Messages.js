@@ -1,7 +1,7 @@
 ﻿/** 
  *
  * Messages for property nodeValue
- * @author: Edy Segura - edy@segura.eti.br
+ * @author: Edy Segura - edy@segura.pro.br
  *
  */
 

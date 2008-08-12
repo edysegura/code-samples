@@ -1,7 +1,7 @@
 /**
  *
  * Objeto Literal Index para uso do metodo element.removeChild(child)
- * @author: Edy Segura - edy@segura.eti.br
+ * @author: Edy Segura - edy@segura.pro.br
  *
  */
 

@@ -2,7 +2,7 @@
  * Index.js
  *
  * Objeto Literal Index.js
- * @author: Edy Segura - edy@liveware.com.br
+ * @author: Edy Segura - edy@segura.pro.br
  *
  */
 

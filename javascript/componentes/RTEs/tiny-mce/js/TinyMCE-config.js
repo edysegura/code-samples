@@ -2,7 +2,7 @@
  * TinyMCE-config.js
  *
  * Configuracoes de inicializacao do editor TinyMCE
- * @author: Edy Segura - edy@segura.eti.br
+ * @author: Edy Segura - edy@segura.pro.br
  * 
  */
 
