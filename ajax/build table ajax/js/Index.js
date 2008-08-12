@@ -7,7 +7,7 @@ var Index = {
 	
 	init: function() {
 		Index.setLink();
-	},//fim init
+	},
 	
 	
 	setLink: function() {
@@ -19,7 +19,7 @@ var Index = {
 			return false;
 		};
 		
-	},//fim setLink
+	},
 	
 	
 	getCustomer: function() {
@@ -31,7 +31,7 @@ var Index = {
 			loading  : true
 		});
 		
-	},//fim getCustomer
+	},
 	
 	
 	buildTable: function(sResponse) {
@@ -107,9 +107,9 @@ var Index = {
 		oTable.id = "filtro-resultado";
 		document.body.appendChild(oTable);
 		
-	}//fim buildTable
+	}
 	
-};//fim Index
+};
 
 //inicialização
 window.onload = Index.init;
