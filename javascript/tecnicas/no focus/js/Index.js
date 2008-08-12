@@ -1,7 +1,7 @@
 ﻿/**
  * 
  * Objeto Literal Index
- * @autor: Edy Segura - edy@segura.eti.br
+ * @autor: Edy Segura - edy@segura.pro.br
  *
  */
 

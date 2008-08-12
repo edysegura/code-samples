@@ -1,7 +1,7 @@
 ﻿/**
  *
  * Object Literal for page Index
- * @author Edy Segura, edy@liveware.com.br
+ * @author Edy Segura, edy@segura.pro.br
  * 
  */
  

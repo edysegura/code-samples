@@ -1,7 +1,7 @@
 /**
  * 
  * Objeto Common com o método noFocus para tirar o outline dos elementos
- * @autor: Edy Segura - edy@segura.eti.br
+ * @autor: Edy Segura - edy@segura.pro.br
  *
  */
 

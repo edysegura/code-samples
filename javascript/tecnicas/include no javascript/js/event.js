@@ -1,5 +1,5 @@
 /* JavaScript Document
-Autor: Edy Segura - edy@segura.eti.br
+Autor: Edy Segura - edy@segura.pro.br
 Descrição: Objeto para manipulação de eventos
 Referência: 1 - http://ejohn.org/projects/flexible-javascript-events/
 Referência: 2 - http://www.quirksmode.org/blog/archives/2005/10/_and_the_winner_1.html

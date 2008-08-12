@@ -1,7 +1,7 @@
 ﻿/**
  *
  * Script para aplicar a tecnica veja +
- * @author: Edy Segura - edy@segura.eti.br
+ * @author: Edy Segura - edy@segura.pro.br
  *
  */
 

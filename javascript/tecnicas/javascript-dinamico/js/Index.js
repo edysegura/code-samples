@@ -3,7 +3,7 @@
  * Exemplo de como executar instrucoes php
  * dentro de arquivos javascript
  *
- * @author: Edy Segura, edy@segura.eti.br
+ * @author: Edy Segura, edy@segura.pro.br
  *
  */
 

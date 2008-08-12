@@ -39,7 +39,7 @@ function removeClassOver() {
 //-------------------------------------------------------------------------------------------------
 
 /*
-Autor: Edy Segura (edy@segura.eti.br)
+Autor: Edy Segura (edy@segura.pro.br)
 Descr: stripedTable ou zebra table
 */
 function stripedTable(vo_table) {
@@ -58,7 +58,7 @@ function stripedTable(vo_table) {
 //-------------------------------------------------------------------------------------------------
 
 /*
-Autor: Edy Segura (edy@segura.eti.br)
+Autor: Edy Segura (edy@segura.pro.br)
 Descr: retorna o elemento em que está ocorrendo o evento.
 */
 function getSource(e) {

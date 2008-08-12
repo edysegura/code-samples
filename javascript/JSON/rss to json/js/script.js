@@ -1,5 +1,5 @@
 /* JavaScript Document
-Autor: Edy Segura - edy@segura.eti.br
+Autor: Edy Segura - edy@segura.pro.br
 Descrição: RSS to JSON
 Referência: http://ejohn.org/projects/rss2json/
 */

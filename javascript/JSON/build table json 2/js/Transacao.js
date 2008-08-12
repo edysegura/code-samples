@@ -1,7 +1,7 @@
 /**
  *
  * JSON for page upload Comerciante
- * @author Edy Segura, edy@liveware.com.br
+ * @author Edy Segura, edy@segura.pro.br
  * 
  */
  

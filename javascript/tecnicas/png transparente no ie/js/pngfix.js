@@ -1,5 +1,5 @@
 /* JavaScript Document
-Autor: Edy Segura - edy@segura.eti.br
+Autor: Edy Segura - edy@segura.pro.br
 Descrição: Transparência correta do PNG no IE 5.5 e 6
 Referência: http://homepage.ntlworld.com/bobosola
 */
