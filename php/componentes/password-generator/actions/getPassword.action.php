@@ -2,7 +2,7 @@
 /**
  * 
  * Action para gerar senha
- * @author Edy Segura, edy@segura.eti.br
+ * @author Edy Segura, edy@segura.pro.br
  * 
  */
 function getPassword($lenght = 8) {

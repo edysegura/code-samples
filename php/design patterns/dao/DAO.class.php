@@ -3,7 +3,7 @@
  * DAO.class.php
  *
  * Data Access Object 
- * @author: Edy Segura - infoedy@gmail.com
+ * @author: Edy Segura - edy@segura.pro.br
  * 
  */
 

@@ -3,7 +3,7 @@
  * DB.class.php
  *
  * Pattern para acesso ao banco de dados
- * @author: Edy Segura - infoedy@gmail.com
+ * @author: Edy Segura - edy@segura.pro.br
  *
  */
 

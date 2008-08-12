@@ -4,7 +4,7 @@
  *
  * função magica __autoload que adiciona automaticamente o
  * arquivo com a definicao da classe instanciada  
- * @author: Edy Segura - infoedy@gmail.com
+ * @author: Edy Segura - edy@segura.pro.br
  * 
  */
 

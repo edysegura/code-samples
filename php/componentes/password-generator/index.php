@@ -5,7 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="author" content="Edy Segura" />
-<meta name="reply-to" content="edy@segura.eti.br" />
+<meta name="reply-to" content="edy@segura.pro.br" />
 <meta name="description" content="Gerador automático de senha" />
 <title>Password Generator</title>
 

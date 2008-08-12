@@ -7,7 +7,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="author" content="Edy Segura" />
-<meta name="reply-to" content="infoedy@gmail.com" />
+<meta name="reply-to" content="edy@segura.pro.br" />
 <meta name="description" content="Formulário para batepapo" />
 <title>Batepapo</title>
 

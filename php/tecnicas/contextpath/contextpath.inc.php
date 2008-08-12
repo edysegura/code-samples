@@ -2,7 +2,7 @@
 /**
  * 
  * Definicao do contextpath da aplicacao e da url base
- * @author: Edy Segura, edy@liveware.com.br
+ * @author: Edy Segura, edy@segura.pro.br
  *
  */
 

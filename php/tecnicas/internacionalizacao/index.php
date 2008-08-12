@@ -4,7 +4,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="author" content="Edy Segura" />
-<meta name="Reply-to" content="infoedy@gmail.com" />
+<meta name="Reply-to" content="edy@segura.pro.br" />
 <meta name="Description" content="Descrição" />
 <title><?php echo $s['internacionation']; ?></title>
 

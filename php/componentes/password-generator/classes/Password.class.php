@@ -2,7 +2,7 @@
 /**
  *
  * Componente para gerar senha
- * @author Edy Segura, edy@segura.eti.br
+ * @author Edy Segura, edy@segura.pro.br
  *
  */
 class PasswordComponent {

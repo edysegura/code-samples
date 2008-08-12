@@ -2,7 +2,7 @@
 /* 
  * include-class.php
  *
- * @author: Edy Segura - infoedy@gmail.com
+ * @author: Edy Segura - edy@segura.pro.br
  * @description: função mágica __autoload que
  * adiciona automaticamente uma classe ao arquivo
  */

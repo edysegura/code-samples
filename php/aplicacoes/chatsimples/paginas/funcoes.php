@@ -1,6 +1,6 @@
 <?php
 /* PHP Document
-Autor: Edy Segura - infoedy@gmail.com
+Autor: Edy Segura - edy@segura.pro.br
 Descrição: Arquivo de funções para o chat simples
 */
 

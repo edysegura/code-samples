@@ -3,7 +3,7 @@ require("../libs/phpmailer/class.phpmailer.php");
 $mail = new PHPMailer();
 $mail->IsSMTP(); // telling the class to use SMTP
 $mail->Host = "smtp.example.com"; // SMTP server
-$mail->From = "edy@segura.eti.br";
+$mail->From = "edy@segura.pro.br";
 $mail->AddAddress("myfriend@example.net");
 
 $mail->Subject = "First PHPMailer Message";

@@ -2,7 +2,7 @@
 /*
  * UpImage
  *
- * @author: Edy Segura - infoedy@gmail.com
+ * @author: Edy Segura - edy@segura.pro.br
  * @description: Classe para o upload das fotos do produto
  */
 

@@ -1,6 +1,6 @@
 <?php
 /*
-Autor: Edy Segura - infoedy@gmail.com
+Autor: Edy Segura - edy@segura.pro.br
 Descrição: Mostra tudo que foi enviado via GET e POST
 */
 header("Content-Type: text/plain");
