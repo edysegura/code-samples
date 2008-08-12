@@ -1,22 +1,35 @@
-// JavaScript Document
+﻿/**
+ *
+ * Collection element.attributes
+ * @author: Edy Segura, edy@segura.pro.br
+ *
+ */
 
-//função para inicialização
-function init() {
-	var vo_pa = document.getElementsByTagName('p')[0];
-	var vo_ol = document.getElementsByTagName('ol')[0];
-	//listagem dos atributos
-	listAttributes(vo_pa,vo_ol);
-}
-window.onload=init;
+var Index = {
 
-//função para listar os atributos
-function listAttributes(vo_pa,vo_ol) {
-	vo_ol.innerHTML = ""; //limpa o contedo do elemento ol.
-	for(var i=0; i<vo_pa.attributes.length; i++) {
-		if(vo_pa.attributes[i].value!="null" && vo_pa.attributes[i].value!="") {
-			var vo_li = document.createElement('li');
-			vo_li.innerHTML = vo_pa.attributes[i].name.toLowerCase()+" = "+vo_pa.attributes[i].value;
-			vo_ol.appendChild(vo_li);
+	init: function() {
+		Index.listAttributes();
+	},
+	
+	
+	listAttributes: function() {
+		var element = document.body.getElementsByTagName("p")[0];
+		var list = document.body.getElementsByTagName("ol")[0];
+		
+		list.innerHTML = "";
+		
+		for(var i=0; i<element.attributes.length; i++) {
+			var attribute = element.attributes[i];
+			
+			if(attribute.value) {
+				var item = document.createElement("li");
+				item.innerHTML = attribute.name.toLowerCase() + " / " + attribute.value;
+				list.appendChild(item);
+			}
 		}
 	}
-}
+	
+};
+
+//inicializacao
+window.onload = Index.init;
