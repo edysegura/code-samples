@@ -13,21 +13,26 @@ var Index = {
 	
 	
 	setHandles: function() {
-		var tableKeyPress = document.getElementById('keypress');
-		var tableKeyDown  = document.getElementById('keydown');
-		var tableKeyUp    = document.getElementById('keyup');
-		
-		document.onkeypress = function () {
-			Index.buildTable(Event.getEvent(), tableKeyPress);
-		};
-		
-		document.onkeydown = function () {
-			Index.buildTable(Event.getEvent(), tableKeyDown);
-		};
-		
-		document.onkeyup = function () {
-			Index.buildTable(Event.getEvent(), tableKeyUp);
-		};
+		if(Event && Event.getEvent) {
+			var tableKeyPress = document.getElementById('keypress');
+			var tableKeyDown  = document.getElementById('keydown');
+			var tableKeyUp    = document.getElementById('keyup');
+			
+			document.onkeypress = function () {
+				Index.buildTable(Event.getEvent(), tableKeyPress);
+			};
+			
+			document.onkeydown = function () {
+				Index.buildTable(Event.getEvent(), tableKeyDown);
+			};
+			
+			document.onkeyup = function () {
+				Index.buildTable(Event.getEvent(), tableKeyUp);
+			};
+		}
+		else {
+			alert("O componente Event.js é necessário. Verifique sua conexão com a internet.");
+		}
 	},
 	
 	
