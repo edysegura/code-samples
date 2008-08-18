@@ -41,22 +41,26 @@ var Index = {
 	
 	
 	setButtons: function() {
-		var buttonAdd = document.getElementById("add");
-		var buttonRemove = document.getElementById("remove");
-		var buttonReload = document.getElementById("reload");
-		
-		buttonAdd.onclick = function() {
-			Index.addOrRemoveEvent("add");
-		};
-		
-		buttonRemove.onclick = function() {
-			Index.addOrRemoveEvent("remove");
-		};
-		
-		buttonReload.onclick = function() {
-			document.location.reload();
-		};
-		
+		if(Event && Event.getEvent) {
+			var buttonAdd = document.getElementById("add");
+			var buttonRemove = document.getElementById("remove");
+			var buttonReload = document.getElementById("reload");
+			
+			buttonAdd.onclick = function() {
+				Index.addOrRemoveEvent("add");
+			};
+			
+			buttonRemove.onclick = function() {
+				Index.addOrRemoveEvent("remove");
+			};
+			
+			buttonReload.onclick = function() {
+				document.location.reload();
+			};
+		}
+		else {
+			alert("O componente Event.js é necessário. \nVerifique se o componente está sendo carregado corretamente.");
+		}
 	},
 	
 	

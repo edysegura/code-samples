@@ -31,7 +31,7 @@ var Index = {
 			};
 		}
 		else {
-			alert("O componente Event.js é necessário. Verifique sua conexão com a internet.");
+			alert("O componente Event.js é necessário. \nVerifique se o componente está sendo carregado corretamente.");
 		}
 	},
 	

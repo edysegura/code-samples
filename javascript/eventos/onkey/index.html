@@ -4,8 +4,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="author" content="Edy Segura" />
 <meta name="reply-to" content="edy@segura.pro.br" />
-<meta name="description" content="Estudo dos eventos keyPress, keyDown e KeyUp" />
-<title>Eventos keypress, keydown e Keyup</title>
+<meta name="description" content="Eventos element.onkeypress, element.keydown e element.keyup" />
+<title>Eventos element.onkeypress, element.keydown e element.keyup</title>
 
 <!-- stylesheet -->
 <link rel="stylesheet" href="css/style.css" type="text/css" title="Padrão" />
@@ -17,26 +17,32 @@
 </head>
 <body>
 
-<h1>Eventos keypress, keydown e Keyup</h1>
+<h1>
+	Eventos 
+	<code>element.onkeypress</code>, 
+	<code>element.onkeydown</code> e 
+	<code>element.onkeyup</code>
+</h1>
 <p>
-	Uso dos eventos keypress, keydown e keyup. Para mais detalhes veja o código fonte.<br />
-	Se preferir, pode fazer o <a href="http://files.edysegura.com/labs/eventkey.zip">download</a> 
+	Exemplo do uso dos eventos <code><a href="http://developer.mozilla.org/en/docs/onkeypress">element.onkeypress</a></code>, 
+	<code><a href="http://developer.mozilla.org/en/docs/onkeydown">element.onkeydown</a></code> e 
+	<code><a href="http://developer.mozilla.org/en/docs/onkeyup">element.onkeyup</a></code>.<br />
+	Para mais detalhes veja o código fonte.
+	Se preferir, você pode fazer o <a href="http://files.edysegura.com/labs/eventkey.zip">download</a> 
 	deste <a href="http://files.edysegura.com/labs/eventkey.zip">exemplo</a>.
 </p>
 
 <h2>Pressione qualquer tecla para ver o resultado.</h2>
-<p>Obs.: Não está funcionando no opera corretamente.</p>
-
 <noscript>
 	<p class="noscript">Habilite seu javascript para visualizar este exemplo.</p>
 </noscript>
 
 <!-- tabela para mostrar o evento keypress -->
 <table id="keypress">
-	<caption>Evento KeyPress</caption>
+	<caption>Evento element.onkeypress</caption>
 	<thead>
 		<tr>
-			<th>Código</th>
+			<th>Código (char)</th>
 			<th>Caractere</th>
 			<th>ctrlKey</th>
 			<th>altKey</th>
@@ -52,10 +58,10 @@
 
 <!-- tabela para mostrar o evento keydown -->
 <table id="keydown">
-	<caption>Evento KeyDown</caption>
+	<caption>Evento element.onkeydown</caption>
 	<thead>
 		<tr>
-			<th>Código</th>
+			<th>Código (key)</th>
 			<th>ctrlKey</th>
 			<th>altKey</th>
 			<th>shiftKey</th>
@@ -70,10 +76,10 @@
 
 <!-- tabela para mostrar o evento keyup -->
 <table id="keyup">
-	<caption>Evento KeyUp</caption>
+	<caption>Evento element.onkeyup</caption>
 	<thead>
 		<tr>
-			<th>Código</th>
+			<th>Código (key)</th>
 			<th>ctrlKey</th>
 			<th>altKey</th>
 			<th>shiftKey</th>
