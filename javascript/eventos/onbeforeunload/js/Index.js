@@ -6,7 +6,7 @@
  */
 
 window.onbeforeunload = function(e) {
-	var e = e || window.event;
+	e = e || window.event;
 	var message = "Todos os dados não salvos serão perdidos! Tem certeza que deseja continuar?";
 
   //for IE and Firefox
