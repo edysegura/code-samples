@@ -1,0 +1,30 @@
+/**
+ *
+ * Documento CSS
+ * @author Edy Segura
+ *
+ */
+
+input[type='text'],
+textarea {
+	border: 1px solid #000;
+	background: #D8BFD8;
+}
+
+input[type='text']:hover,
+textarea:hover {
+	border: 1px solid #000;
+	background: #6A5ACD;
+	color: #FFF;
+}
+
+input[type='text']:focus,
+textarea:focus {
+	border: 1px solid #F00;
+	background: #FFF;
+	color: #000;
+}
+
+img {
+	border: none;
+}
