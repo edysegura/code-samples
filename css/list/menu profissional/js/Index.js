@@ -31,11 +31,17 @@ var Index = {
 		
 		if(theme == "t1") {
 			links[0].disabled = false;
+			links[0].rel = "stylesheet";
+			
 			links[1].disabled = true;
+			links[1].rel = "alternate stylesheet";
 		}
 		else if(theme == "t2") {
 			links[0].disabled = true;
+			links[0].rel = "alternate stylesheet"
+			
 			links[1].disabled = false;
+			links[1].rel = "stylesheet"
 		}
 		else {
 			links[0].disabled = links[1].disabled = true;
