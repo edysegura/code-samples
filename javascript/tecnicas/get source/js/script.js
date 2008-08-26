@@ -1,18 +1,37 @@
-// JavaScript Document
+/**
+ * 
+ * Mouse.getSource() and Mouse.getPosition()
+ * @author: Edy Segura - edy@segura.pro.br
+ * 
+ */
 
-function init() {
-	var vo_span=document.getElementsByTagName('fieldset')[0].getElementsByTagName('span')[0];
-	//sem o parametro (e) na function não funciona no firefox.
-	document.onmousemove=function(e){vo_span.innerHTML=getSource(e).nodeName;}
-}
-window.onload=init;
+var Index = {
 
-//retornar o elemento em que está ocorrendo o evento
-function getSource(e) {
-	if(typeof(e)=='undefined') var e=window.event;
-	var vo_source=(typeof e.target!='undefined')?e.target:
-	              (typeof e.srcElement!='undefined')?e.srcElement:false;
-	//necessário para os navegadores safari e konqueror
-	if(vo_source.nodeType==3) vo_source=vo_source.parentNode;
-	return vo_source;
-}
+	init: function() {
+		Index.showTarget();
+	},
+	
+	
+	showTarget: function() {
+		var span = document.getElementById("element");
+		document.onmousemove = function(e) {
+			span.innerHTML = Index.getSource(e).nodeName;
+		}
+	},
+	
+	
+	getSource: function(e) {
+		e = e || window.event;
+		
+		var target = (e.target) ? e.target : 
+		             (e.srcElement) ? e.srcElement : null;
+		
+		//necessario para safari e konqueror
+		if(target && target.nodeType == 3) target = target.parentNode;
+		return target;
+	}
+	
+};
+
+//inicializacao
+window.onload = Index.init;
