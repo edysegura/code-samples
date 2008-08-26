@@ -1,6 +1,6 @@
 /**
  * 
- * Mouse.getSource() and Mouse.getPosition()
+ * Event.target
  * @author: Edy Segura - edy@segura.pro.br
  * 
  */
