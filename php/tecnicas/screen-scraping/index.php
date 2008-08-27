@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<h1>Cotação do Dollar <?php echo $dataDaCotacao->textContent, " ", $horaDaCotacao->textContent; ?></h1>
+<h1>Cotação do Dollar</h1>
 <p>Compra: R$ <?php echo $dolarCompra->textContent; ?></p>
 <p>Paralelo: R$ <?php echo $dolarParalelo->textContent; ?></p>
 

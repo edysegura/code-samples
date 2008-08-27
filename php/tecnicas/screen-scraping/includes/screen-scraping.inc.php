@@ -21,7 +21,7 @@ $h1 = new http();
 Screen-scrape the Google home page without caching.
 */
 //"http://estadao.com.br/ext/economia/financas/historico/dolarfp.htm"
-if (!$h1->fetch("http://www.cooperrita.com.br/cma/cotacaocafe.asp")) {
+if (!$h1->fetch("http://economia.uol.com.br/cotacoes/")) {
   /*
   The class has a 'log' property that contains a log of events. This log is
   useful for testing and debugging.
@@ -35,10 +35,8 @@ $dom = new DOMDocument();
 @$dom->loadHTML($h1->body);
 
 $xpath = new DOMXPath($dom);
-$fonts = $xpath->evaluate('//font');
+$fonts = $xpath->evaluate('//td');
 
-$dolarCompra   = $fonts->item(7);
-$dolarParalelo = $fonts->item(13); //old 8
-$dataDaCotacao = $fonts->item(11);
-$horaDaCotacao = $fonts->item(10);
+$dolarCompra   = $fonts->item(1);
+$dolarParalelo = $fonts->item(2); //old 8
 ?>
