@@ -24,7 +24,7 @@ class PDOConnectionFactory {
 	 * $pdo = new PDOConnectionFactory(); //conexao nao persistente
 	 *
 	 */
-	public function PDOConnectionFactory($persistent = false) {
+	public function __construct($persistent = false) {
 		if($persistent != false) { $this->persistent = true; }
 	}
 
@@ -40,7 +40,7 @@ class PDOConnectionFactory {
 			
 			return $this->connection;
 		}
-		catch ( PDOException $e ) { 
+		catch (PDOException $e) { 
 			echo "Erro: " . $e->getMessage();
 		}
 	}
