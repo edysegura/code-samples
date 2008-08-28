@@ -1,0 +1,25 @@
+//regexp: n[a‚„]o
+nao
+n„o
+n‚o
+
+
+//regexp: e[sx]tendido
+estendido
+extendido
+eztendido
+
+
+//regexp: 12[ :h]45
+12:45
+12 45
+12h45
+
+
+//regexp: <[pbiPBI]>
+<p>
+<b>
+<i>
+<P>
+<B>
+<I>
