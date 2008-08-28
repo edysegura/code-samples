@@ -1,0 +1,22 @@
+//regexp: n.o
+nao
+n„o
+n√o
+
+
+//regexp: e.tendido
+estendido
+extendido
+eztendido
+
+
+//regexp: 12.45
+12:45
+12 45
+12h45
+
+
+//regexp: <.>
+<p>
+<b>
+<i>
