@@ -1,0 +1,6 @@
+//regexp: [:;,.!?][^ ]
+//procura qualquer coisa que não seja um espaço no final da pontuação
+
+Desenvolver sites e aplicações para web usando os padrões web significa,basicamente,usar 
+cada tecnologia para o propósito único para o qual ela foi desenvolvida.Com isso,acabamos 
+por organizar nosso código em "camadas".São elas:conteúdo,apresentação e comportamento.
