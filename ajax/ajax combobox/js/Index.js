@@ -47,7 +47,8 @@ var Index = {
 				url      : estadoUrl,
 				callback : Index.mostrarCidades,
 				loading  : true,
-				params   : comboCidade
+				params   : comboCidade,
+				update   : true
 			});
 		}
 		else {
