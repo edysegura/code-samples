@@ -1,0 +1,17 @@
+//regexp: ondas?
+onda
+ondas
+
+
+//regexp: fala[r!]?
+fala
+falar
+fala!
+falar!
+
+
+//regexp: </?\w+>
+<strong>Expressões Regulares</strong>
+<em>Expressões Regulares</em>
+
+
