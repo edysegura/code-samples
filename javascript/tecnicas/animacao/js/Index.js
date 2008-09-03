@@ -1,4 +1,4 @@
-/**
+﻿/**
  *
  * Script para pagina index.html
  * @author Edy Segura, edy@segura.pro.br
