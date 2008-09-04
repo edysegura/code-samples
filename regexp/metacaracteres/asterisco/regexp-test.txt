@@ -9,3 +9,9 @@
 bip
 biiiip
 biipppp
+
+
+//regexp: relatório.*amanhã
+Faça um relatório para amanhã.
+Eu quero esse relatório até amanhã.
+Entregar esse relatório sobre os gastos é até amanhã!
