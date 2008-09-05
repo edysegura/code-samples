@@ -1,0 +1,16 @@
+//regexp: ^0[1-9]
+12:50 Edy Segura
+11:50 Edy Segura
+10:50 Lidy Bernardes
+09:50 Lidy Bernardes
+08:50 Lidy Bernardes
+07:50 Edy Segura
+
+
+//regexp: Segura$
+12:50 Edy Segura
+11:50 Edy Segura
+10:50 Lidy Bernardes
+09:50 Lidy Bernardes
+08:50 Lidy Bernardes
+07:50 Edy Segura
