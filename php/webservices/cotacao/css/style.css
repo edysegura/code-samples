@@ -1,0 +1,30 @@
+/**
+ *
+ * Formatação da página
+ * @author Edy Segura, edy@segura.pro.br
+ *
+ */
+
+table {
+	border: 1px solid #000;
+	border-collapse: collapse;
+}
+
+thead {
+	background: #eee;
+}
+
+td, th {
+	border: 1px solid #000;
+	padding: 2px;
+}
+
+tbody th {
+	text-align: right;
+	font-weight: normal;
+	color: green;
+}
+
+tbody td {
+	text-align: right;
+}
