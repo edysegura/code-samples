@@ -14,3 +14,8 @@
 09:50 Lidy Bernardes
 08:50 Lidy Bernardes
 07:50 Edy Segura
+
+
+//regexp: ^$ //porcura por linha em branco!
+
+
