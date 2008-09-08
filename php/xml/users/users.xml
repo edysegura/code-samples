@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usuarios>
+	<usuario>
+		<login>edysegura</login>
+		<nome>Edy Segura</nome>
+		<senha>e1bfd762321e409cee4ac0b6e841963c</senha>
+		<perfil>Administrador</perfil>
+	</usuario>
+	
+	<usuario>
+		<login>anne</login>
+		<nome>Anne Caroline</nome>
+		<senha>e1bfd762321e409cee4ac0b6e841963c</senha>
+		<perfil>Usuário Financeiro</perfil>
+	</usuario>
+	
+	<usuario>
+		<login>leandro</login>
+		<nome>Leandro Carvalho</nome>
+		<senha>e1bfd762321e409cee4ac0b6e841963c</senha>
+		<perfil>Usuário Administrativo</perfil>
+	</usuario>
+	
+	<usuario>
+		<login>dito</login>
+		<nome>Benedito Viera</nome>
+		<senha>e1bfd762321e409cee4ac0b6e841963c</senha>
+		<perfil>Professor</perfil>
+	</usuario>
+	
+	<usuario>
+		<login>lidiane</login>
+		<nome>Lidiane Segura</nome>
+		<senha>e1bfd762321e409cee4ac0b6e841963c</senha>
+		<perfil>Developer</perfil>
+	</usuario>
+	
+	<usuario>
+		<login>Samuel</login>
+		<nome>Samuel Carvalho</nome>
+		<senha>e1bfd762321e409cee4ac0b6e841963c</senha>
+		<perfil>Filho</perfil>
+	</usuario>
+<usuario><login>jeferson</login><nome>Jeferson Zanim</nome><perfil>Engenheiro de Software</perfil><senha>202cb962ac59075b964b07152d234b70</senha></usuario><usuario><login>edna</login><nome>Edna Segura de Lima</nome><perfil>Do Lar</perfil><senha>202cb962ac59075b964b07152d234b70</senha></usuario><usuario><login>silvana</login><nome>Silvana Lima</nome><perfil>Professora</perfil><senha>202cb962ac59075b964b07152d234b70</senha></usuario><usuario><login>paula</login><nome>Paula</nome><perfil>Estudante</perfil><senha>202cb962ac59075b964b07152d234b70</senha></usuario></usuarios>
