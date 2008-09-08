@@ -1,0 +1,24 @@
+//regexp: \bdia
+dia
+diafragma
+melodia
+radial
+bom-dia!
+
+
+//regexp: dia\b
+dia
+diafragma
+melodia
+radial
+bom-dia!
+
+
+//regexp: \bdia\b
+dia
+diafragma
+melodia
+radial
+bom-dia!
+
+
