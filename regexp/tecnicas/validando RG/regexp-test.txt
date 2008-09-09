@@ -1,0 +1,6 @@
+//regexp: [\d]+\.[\d]{3}\.[\d]{3}
+MG 2.882.069 SSP/MG
+MG 5.882.068 SSP/MG
+MG 1.888.156 SSP/MG
+MG 12.882.380 SSP/MG
+MG 18.882.490 SSP/MG
