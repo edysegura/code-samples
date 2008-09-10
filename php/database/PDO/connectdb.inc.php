@@ -7,13 +7,12 @@
  */
 
 try { 
-	//$pdo = new PDO('pgsql:dbname=conta;user=user;password=senha;host=localhost');
-	//$pdo = new PDO('firebird:dbname=localhost:d:\\www\usersdb\\usuarios.gdb', 'SYSDBA', 'masterkey');
-	//$pdo = new PDO('mysql:host=localhost;dbname=conta', 'root', 'root');
-	$pdo = new PDO('sqlite:usuarios.sqlite');
+	//$pdo = new PDO("pgsql:host=localhost;dbname=users", "root", "root");
+	//$pdo = new PDO("firebird:dbname=localhost:d:\\www\usersdb\\usuarios.gdb", "SYSDBA", "masterkey");
+	//$pdo = new PDO("mysql:host=localhost;dbname=users", "root", "root");
+	$pdo = new PDO("sqlite:usuarios.sqlite");
 }
 catch (PDOException $e) {
-   print "Error!: " . $e->getMessage();
-   die();
+	die("Failed to connect: " . $e->getMessage());
 }
 ?>
