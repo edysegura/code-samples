@@ -15,16 +15,17 @@
 	<?php
 		require "connectdb.inc.php";
 		
-		$query = "SELECT * FROM usuarios";
+		$query = "SELECT id, nome, login, email, telefone FROM usuarios ORDER BY id";
 		
 		foreach ($pdo->query($query) as $row) {
+			if(empty($row[0])) continue; //validando bug do interbase/firebird
 			$li  = "<li>";
-				$li .= "<a href='deleteUser.action.php?id={$row['id']}'><img src='delete.png' alt='deletar' /></a>";
-				$li .= "<a href='frmUser.php?id={$row['id']}&amp;edit=true'>{$row['nome']}</a>";
+				$li .= "<a href='deleteUser.action.php?id={$row[0]}'><img src='delete.png' alt='deletar' /></a>";
+				$li .= "<a href='frmUser.php?id={$row[0]}&amp;edit=true'>{$row[1]}</a>";
 				$li .= "<ul>";
-					$li .= "<li><strong>Login</strong>: {$row['login']}</li>";
-					$li .= "<li><strong>Email</strong>: {$row['email']}</li>";
-					$li .= "<li><strong>Telefone</strong>: {$row['telefone']}</li>";
+					$li .= "<li><strong>Login</strong>: {$row[2]}</li>";
+					$li .= "<li><strong>Email</strong>: {$row[3]}</li>";
+					$li .= "<li><strong>Telefone</strong>: {$row[4]}</li>";
 				$li .= "</ul>";
 			$li .= "</li>";
 			echo $li;
