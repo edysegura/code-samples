@@ -9,7 +9,7 @@
 require "connectdb.inc.php";
 
 if(!empty($_GET['id']) && $_GET['edit'] == "true") {
-	$stmt = $pdo->prepare("SELECT id, login, nome, email, telefone FROM usuarios WHERE id = 0 OR id = ?");
+	$stmt = $pdo->prepare("SELECT id, login, nome, email, telefone FROM usuarios WHERE id = 0 OR id = ? ORDER BY id");
 	
 	if($stmt->execute(array($_GET['id']))) {
 	  $rows = $stmt->fetchAll();
