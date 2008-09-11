@@ -4,13 +4,12 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="author" content="Edy Segura" />
 <meta name="reply-to" content="edy@segura.pro.br" />
-<meta name="description" content="Exemplo de formulário para upload" />
 <title>Formulário para upload</title>
 
 </head>
 <body>
 
-<h1>Formulário para upload</h1>
+<h1>Formulário para upload de arquivo</h1>
 
 <form id="frm-upload" action="" method="post" enctype="multipart/form-data">
 	<fieldset>
@@ -19,6 +18,7 @@
 		<label for="filexml">
 			Arquivo:<br />
 			<input type="file" name="filexml" id="filexml" />
+			<input type="hidden" name="MAX_FILE_SIZE" value="2000000" />
 		</label>
 		
 		<input type="submit" value="Fazer upload" />
