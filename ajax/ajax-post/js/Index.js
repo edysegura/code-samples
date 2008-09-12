@@ -48,7 +48,7 @@ var Index = {
 		for(var i=0; i<form.elements.length; i++) {
 			var element = form.elements[i];
 			
-			if(rePattern.test(element.type) && element.value != "") {
+			if(rePattern.test(element.type) && element.value == "") {
 				divInfo.innerHTML = "\"" + element.title + "\" é um campo obrigatório.";
 				element.focus();
 				element.className = "cmperro";
