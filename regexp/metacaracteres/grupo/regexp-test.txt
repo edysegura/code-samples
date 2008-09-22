@@ -1,0 +1,17 @@
+//regexp: boa-(tarde|noite)
+boa-tarde
+boa-noite
+
+
+//regexp: (mini|super|hiper)?mercado
+minimercado
+mercado
+supermercado
+hipermercado
+
+
+//regexp: (mini|(su|hi)per)?mercado
+minimercado
+mercado
+supermercado
+hipermercado
