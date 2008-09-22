@@ -1,0 +1,8 @@
+//regexp: boa-tarde|boa-noite
+boa-tarde
+boa-noite
+
+
+//regexp: http://|ftp://
+http://edysegura.com
+ftp://edysegura.com
