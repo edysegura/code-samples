@@ -1,3 +1,7 @@
-//regexp: (quero)-\1
+//regexp: ([A-Za-z]+)-\1
 quero-quero
+bate-bate
+come-come
 
+//regexp: (lenta)(mente) é \2 \1
+lentamente é mente lenda
