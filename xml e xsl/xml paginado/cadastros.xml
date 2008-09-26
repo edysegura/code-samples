@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadastros>
+<membro>
+  <id>1</id>
+  <apelido>GuTo</apelido>
+  <sexo>M</sexo>
+  <nasc>25/05/1985</nasc>
+</membro>
+<membro>
+  <id>2</id>
+  <apelido>Fulana</apelido>
+  <sexo>F</sexo>
+  <nasc>24/04/1984</nasc>
+</membro>
+<membro>
+  <id>3</id>
+  <apelido>Ciclano</apelido>
+  <sexo>M</sexo>
+  <nasc>23/03/1983</nasc>
+</membro>
+<membro>
+  <id>4</id>
+  <apelido>Beltrana</apelido>
+  <sexo>F</sexo>
+  <nasc>22/02/1982</nasc>
+</membro>
+</cadastros>

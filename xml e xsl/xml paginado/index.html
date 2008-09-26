@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<html>
+<head>
+<script type="text/javascript">
+<!--
+function anterior() {
+x = guto.recordset;
+  if (x.absoluteposition > 1) {
+    x.moveprevious();
+  }
+}
+function proximo() {
+x = guto.recordset;
+  if (x.absoluteposition < x.recordcount) {
+    x.movenext();
+  }
+}
+//-->
+</script>
+</head>
+
+<body>
+
+<xml id="guto" src="cadastros.xml"></xml>
+
+<table border="1">
+  <tr>
+    <td>ID:</td>
+    <td><span datasrc="#guto" datafld="id"></span></td>
+  </tr>
+  <tr>
+    <td>Apelido:</td>
+    <td><span datasrc="#guto" datafld="apelido"></span></td>
+  </tr>
+  <tr>
+    <td>Sexo:</td>
+    <td><span datasrc="#guto" datafld="sexo"></span></td>
+  </tr>
+  <tr>
+    <td>Nascimento:</td>
+    <td><span datasrc="#guto" datafld="nasc"></span></td>
+  </tr>
+</table>
+
+<table border="1">
+  <tr>
+    <td width="50%"><input type="button" value="Anterior" onclick="anterior()"></td>
+    <td width="50%" align="right"><input type="button" value="Próximo" onclick="proximo();"></td>
+  </tr>
+</table>
+
+</body>
+</html>

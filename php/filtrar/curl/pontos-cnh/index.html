@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="author" content="Edy Segura" />
+<meta name="reply-to" content="edy@segura.eti.br" />
+<meta name="description" content="Exemplo do uso da biblioteca curl" />
+<title>Pontos na carteira</title>
+
+<!-- javascript -->
+<script type="text/javascript" src="js/libs/jquery.js"></script>
+<script type="text/javascript" src="js/Index.js"></script>
+
+</head>
+<body>
+
+<h1>Pontos na carteira</h1>
+<p>Exemplo do uso da biblioteca curl. Para mais detalhes veja o código fonte.</p>
+
+<h2>Resultado</h2>
+<form action="" method="post">
+	<fieldset>
+		<legend>Dados Pessoais:</legend>
+		
+		<p>
+			<label for="cnh" title="Carteira Nacional de Habilitação">CNH:</label>
+			<input type="text" name="cnh" id="cnh" maxlength="11" value="02606910063" />
+			<input type="button" value="OK" />
+		</p>
+		
+		<table>
+			<tr>
+				<th>Nome:</th>
+				<td><span id="nome">&nbsp;</span></td>
+			</tr>
+			<tr>
+				<th>UF:</th>
+				<td><span id="uf">&nbsp;</span></td>
+			</tr>
+			<tr>
+				<th>Pontos:</th>
+				<td><span id="pontos">&nbsp;</span></td>
+			</tr>
+		</table>
+		
+		<p id="msg">&nbsp;</p>
+	</fieldset>
+</form>
+
+</body>
+</html>
