@@ -26,7 +26,7 @@ class LibCurl {
 		curl_setopt( $this->channel, CURLOPT_COOKIEFILE, 'cookie.txt');    
 	}
 	
-	function makeRequest( $method, $url, $vars ) {
+	function makeRequest( $method, $url, $vars = "" ) {
 		// if the $vars are in an array then turn them into a usable string
 		if( is_array( $vars ) ):
 				$vars = implode( '&', $vars );
