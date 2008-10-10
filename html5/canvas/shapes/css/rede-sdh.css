@@ -1,0 +1,44 @@
+﻿/**
+ *
+ * Formatacao para pagina index.html
+ * @author Edy Segura, edy@segura.pro.br
+ *
+ */
+
+div#rede-sdh-content {
+	position: relative;
+	width: 600px;
+	height: 400px;
+}
+
+div.rede-sdh {
+	position: absolute;
+	width: 75px;
+	height: 60px;
+	background: url(../images/bolinha.gif) no-repeat center 5px;
+	text-align: center;
+	font-size: 10px;
+	font-weight: bold;
+	line-height: 90px;
+	cursor: pointer;
+}
+
+#regional-4 {
+	top: 40px;
+	left: 100px;
+}
+
+#regional-3 {
+	top: 135px;
+	left: 170px;
+}
+
+#regional-2 {
+	top: 60px;
+	left: 250px;
+}
+
+#regional-1 {
+	top: 160px;
+	left: 250px;
+}
