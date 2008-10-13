@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="xml-2-json.xsl"?>
+
 <java version="1.5.0" class="java.beans.XMLDecoder"> 
  <object class="transferEncodedObject.Test"> 
   <void property="array"> 
