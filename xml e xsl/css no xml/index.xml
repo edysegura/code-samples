@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+ï»¿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="css/catalogo.css"?>
 
 <catalog>
 	<cd>
-		<title>Axé Brasil</title>
-		<artist>Jacaré</artist>
+		<title>AxÃ© Brasil</title>
+		<artist>JacarÃ©</artist>
 		<country>Brasil</country>
 		<company>Columbia</company>
 		<price>10.00</price>
