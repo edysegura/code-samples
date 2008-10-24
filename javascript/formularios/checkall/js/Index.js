@@ -13,30 +13,21 @@ var Index = {
 	
 	
 	setCheckAll: function() {
-		var aInputs = $('area', 'location', 'host', 'areaLocation');
+		var inputs = [
+			document.getElementById('area'),
+			document.getElementById('location'),
+			document.getElementById('host'),
+			document.getElementById('areaLocation')
+		];
 		
-		for(var i=0; i<aInputs.length; i++) {
-			aInputs[i].onclick = function() {
+		for(var i=0; i<inputs.length; i++) {
+			inputs[i].onclick = function() {
 				Form.checkAll(this);
 			};
 		}
-
 	}
 	
-};//fim Index.js
-
-
-function $() {
- 	var elements = new Array;
-	var element;
-
-	for(var i=0; i<arguments.length; i++) {
-		element = document.getElementById(arguments[i])
-		elements.push(element);
-	}
-	
-	return elements;
-}//fim $
+};
 
 //inicialização
 window.onload = Index.init;
