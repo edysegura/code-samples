@@ -12,6 +12,7 @@ var Index = {
 		Index.setShowDate();
 	},
 	
+	
 	setShowDate: function() {
 		Index.showDate();
 		window.setInterval(Index.showDate, 1000);
@@ -25,48 +26,7 @@ var Index = {
 	
 	
 	getDates: function() {
-		return [Index.getFormatDate(), (new Date()).toLocaleString()].join("<br />");
-	},
-	
-	
-	getFormatDate: function() {
-		var result;
-		
-		var date  = new Date();         //Data completa.
-		var day   = date.getDate();     //Dia do mês.
-		var week  = date.getDay();      //Dia da semana.
-		var month = date.getMonth();    //Mês representado em números.
-		var year  = date.getFullYear(); //Ano representado em números.
-		
-		var weekLabel = [
-			"Domingo", 
-			"Segunda", 
-			"Terça", 
-			"Quarta", 
-			"Quinta", 
-			"Sexta", 
-			"Sábado"
-		];
-		
-		var monthLabel = [
-			"Janeiro", 
-			"Fevereiro", 
-			"Março", 
-			"Abril", 
-			"Maio", 
-			"Junho", 
-			"Julho", 
-			"Agosto", 
-			"Setembro", 
-			"Outubro", 
-			"Novembro", 
-			"Dezembro"
-		];
-		
-		day    = (day < 10) ? "0" + day : day;
-		result = weekLabel[week] + ", " + day + " de " + monthLabel[month] + " de " + year + ".";
-		
-		return result;
+		return [DateUtil.getFormatDate(), (new Date()).toLocaleString()].join("<br />");
 	}
 	
 };
