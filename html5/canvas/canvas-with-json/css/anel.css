@@ -1,0 +1,90 @@
+﻿/**
+ *
+ * Formatacao para pagina index.html
+ * @author Edy Segura, edy@segura.pro.br
+ *
+ */
+
+div#ringviewer-content {
+	position: relative;
+	width: 600px;
+	height: 400px;
+}
+
+div.equipment {
+	position: absolute;
+	width: 100px;
+	height: 91px;
+}
+
+div.equipment .linktop,
+div.equipment .linkbottom {
+	color: red;
+	font-size: 11px;
+}
+
+div.equipment .linktop a,
+div.equipment .linkbottom a {
+	position: relative;
+	padding: 2px;
+	margin: 1px;
+	display:block;
+	color: red;
+	text-decoration: none;
+	height: 14px;
+}
+
+div.equipment .linktop a:hover,
+div.equipment .linkbottom a:hover {
+	margin: 0;
+	border: 1px solid #2F38A8;
+	background: #E7EAFB;
+}
+
+div.equipment .linktop a span,
+div.equipment .linkbottom a span {
+	position: absolute;
+	top: 18px;
+	right: -1px;
+	width: 66px;
+	height: 80px;
+	background: #E7EAFB;
+	display: none;
+	text-align: left;
+	color: #000;
+	padding: 2px;
+	border: 1px solid #2F38A8;
+	border-top: none;
+	z-index: 0;
+}
+
+div.equipment .linktop a:hover span,
+div.equipment .linkbottom a:hover span {
+	display: block;
+	z-index: 10;
+}
+
+div.equipment .linkbottom a:hover span {
+	left: -1px;
+}
+
+div.equipment  .ring-content {
+	padding: 5px;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+}
+
+div.equipment .ok {
+	background: #FFE4CA;
+	border: 3px solid #F77921;
+}
+
+div.equipment .not-ok {
+	background: #FFC;
+	border: 3px solid #2853FF;
+}
+
+div.equipment .linkbottom {
+	text-align: right;
+}

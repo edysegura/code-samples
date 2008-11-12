@@ -1,0 +1,48 @@
+﻿/**
+ *
+ * Formatacao para pagina index.html
+ * @author Edy Segura, edy@segura.pro.br
+ *
+ */
+
+div#redesdhviewer-content {
+	position: relative;
+	width: 600px;
+	height: 400px;
+}
+
+#redesdhviewer-content
+div.regional {
+	position: absolute;
+	width: 75px;
+	height: 60px;
+	text-align: center;
+	font-size: 10px;
+	font-weight: bold;
+	cursor: pointer;
+	border: 1px solid transparent;
+	padding-top: 6px;
+}
+
+#redesdhviewer-content
+div.regional:hover {
+	background: url(images/bg-alpha.png);
+	border-color: #000;
+}
+
+#redesdhviewer-content
+div.regional img {
+	display: block;
+	width: 32px;
+	height: 32px;
+	margin: 2px auto;
+}
+
+#redesdhviewer-content
+div.link {
+	background:transparent url(images/ring-to-ring.gif) no-repeat scroll center center;
+	cursor:pointer;
+	height:14px;
+	position:absolute;
+	width:14px;
+}

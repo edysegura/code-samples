@@ -1,0 +1,22 @@
+﻿/**
+ *
+ * Formatacao para pagina index.html
+ * @author Edy Segura, edy@segura.pro.br
+ *
+ */
+
+@import url(regional.css);
+@import url(aneis.css);
+@import url(anel.css);
+
+* {
+ font-family: Verdana,Helvetica,sans-serif;
+}
+
+body > div {
+	margin-bottom: 40px;
+}
+
+canvas {
+	border: 1px solid #000;
+}
