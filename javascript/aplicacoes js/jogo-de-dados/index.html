@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Jogo de Dados</title>
+
+<!-- javascript -->
+<script type="text/javascript" src="js/Index.js"></script>
+
+</head>
+<body>
+
+<h1>Jogo de dados</h1>
+<p>
+	Esta aplicação simula um jogo de dados! <br />
+	Clique no botão lançar dados para iniciar.
+</p>
+
+<form action="" method="post">
+	<fieldset>
+		<legend>Dados:</legend>
+		
+		<label for="d1">
+			Valor do dado 1:<br />
+			<input type="text" name="d1" id="d1" value="0" readonly="readonly" />
+		</label>
+		
+		<br />
+		
+		<label for="d2">
+			Valor do dado 2:<br />
+			<input type="text" name="d2" id="d2" value="0" readonly="readonly" />
+		</label>
+		
+		<br />
+		<br />
+		
+		<input type="submit" value="Lançar Dados!" />
+	</fieldset>
+</form>
+
+<p>&nbsp;</p>
+
+<div id="dados">
+	<img src="images/dado00.gif" alt="dado 1" id="imgD1" />
+	<img src="images/dado00.gif" alt="dado 2" id="imgD2" />
+</div>
+
+</body>
+</html>
