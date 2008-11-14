@@ -1,5 +1,4 @@
-/* 
- * Index.js
+/** 
  *
  * Objeto Literal Index
  * @author: Edy Segura - edy@segura.pro.br
@@ -10,14 +9,14 @@ var Index = {
 	
 	init: function() {
 		Index.setButton();
-		Index.setField();
+		Index.setInput();
 	},
 	
 	
-	setField: function() {
-		var oField = document.getElementById('location');
+	setInput: function() {
+		var input = document.getElementById('location');
 		
-		oField.onfocus = function() {
+		input.onfocus = function() {
 			this.select();
 		};
 		
@@ -25,11 +24,12 @@ var Index = {
 	
 	
 	setButton: function() {
-		var oButton = document.getElementById('botao');
+		var button = document.getElementById('botao');
 		
-		oButton.onclick = function() {
-			var oField   = document.getElementById('location');
-			oField.value = oField.value.replace(/\\/g, "/");
+		button.onclick = function() {
+			var input   = document.getElementById('location');
+			var result  = document.getElementById('result');
+			result.innerHTML = input.value.replace(/\\/g, "/");
 		};
 		
 	}

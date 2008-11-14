@@ -4,8 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="author" content="Edy Segura" />
 <meta name="reply-to" content="edy@segura.pro.br" />
-<meta name="description" content="Uso de expressão regular no método replace" />
-<title>Expressão regular com método replace</title>
+<title>Método String.replace</title>
 
 <!-- javascript -->
 <script type="text/javascript" src="js/Index.js"></script>
@@ -13,13 +12,18 @@
 </head>
 <body>
 
-<h1>Expressão regular com método replace</h1>
-<p>Uso da expressão regular como parâmetro do método replace.</p>
-
+<h1>Método String.replace</h1>
 <p>
-	<input type="text" id="location" size="50" />
-	<input type="button" id="botao" value="substituir" />
+	Uso do método <a href="https://developer.mozilla.org/En/Core_JavaScript_1.5_Reference/Global_Objects/String/Replace"><code>String.replace</code></a> 
+	para encontar um padrão de substring e substituir por uma nova substring.<br />
+	Para mais detalhes veja o código fonte.	
 </p>
+
+<div>
+	<input type="text" id="location" size="50" value="C:\wamp\www\bdcodigos\javascript\regexp\replace" />
+	<input type="button" id="botao" value="substituir" />
+	<p id="result">&nbsp;</p>
+</div>
 
 </body>
 </html>
