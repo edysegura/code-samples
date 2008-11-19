@@ -5,6 +5,8 @@
  *
  */
 
+package airplane;
+
 public class Airplane {
 	private int speed;
 	
