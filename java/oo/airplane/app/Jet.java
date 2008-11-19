@@ -1,1 +1,1 @@
-/** * * Airplane Class * @author Edy Segura, edy@segura.pro.br * */import Airplane;public class Jet extends Airplane {		public void setSpeed(int speed) {		super.setSpeed(speed * 2);	}		public void accelarette() {	}}
+/** * * Airplane Class * @author Edy Segura, edy@segura.pro.br * */import Airplane;public class Jet extends Airplane {		public void setSpeed(int speed) {		super.setSpeed(speed * 2);	}		public void accelerate() {		super.setSpeed(getSpeed() * 2);	}	}
