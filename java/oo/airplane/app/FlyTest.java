@@ -4,7 +4,6 @@
  * @author Edy Segura, edy@segura.pro.br
  *
  */
- 
 public class FlyTest {
 	public static void main (String[] args) {
 		Airplane boing = new Airplane();
