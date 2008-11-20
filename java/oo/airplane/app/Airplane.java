@@ -5,8 +5,6 @@
  *
  */
 
-package airplane;
-
 public class Airplane {
 	private int speed;
 	
@@ -17,4 +15,5 @@ public class Airplane {
 	public int getSpeed() {
 		return this.speed;
 	}
+	
 }

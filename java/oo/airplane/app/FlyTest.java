@@ -13,9 +13,9 @@ public class FlyTest {
 		boing.setSpeed(422);
 		biplane.setSpeed(422);
 		
-		System.out.println("Velocidade do boing: " + boing.getSpeed());
+		System.out.println("\nVelocidade do boing: " + boing.getSpeed());
 		System.out.println("Velocidade do biplane: " + biplane.getSpeed());
-		System.out.println("Aumentando a velocidade do biplane");
+		System.out.println("\nAumentando a velocidade do biplane");
 		
 		biplane.accelerate();
 		
