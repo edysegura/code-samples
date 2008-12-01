@@ -10,7 +10,7 @@ var DateUtil = {
 	getFormatDate: function() {
 		var result;
 		
-		var date  = new Date();         // data completa timestamp.
+		var date  = new Date();         // objeto do tipo date.
 		var day   = date.getDate();     // dia do mês.
 		var week  = date.getDay();      // dia da semana.
 		var month = date.getMonth();    // mês representado em números.
