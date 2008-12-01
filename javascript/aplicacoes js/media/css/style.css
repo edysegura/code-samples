@@ -17,3 +17,11 @@ tbody th { text-align:right; }
 
 form#frmaluno { display:none; }
 
+img {
+	border: none;
+}
+
+.media {
+	width: 16px;
+}
+

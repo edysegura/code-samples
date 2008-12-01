@@ -63,7 +63,7 @@ function insertTable() {
 	oNewRow.insertCell(oNewRow.cells.length).innerHTML = fNotaAvRegimental;
 	oNewRow.insertCell(oNewRow.cells.length).innerHTML = fMedia;
 	oNewRow.insertCell(oNewRow.cells.length).innerHTML = 
-	'<a href="javascript:void(0);" onclick="return fnExcluir(this)">Excluir</a>';
+	'<a href="javascript:void(0);" onclick="return fnExcluir(this)"><img src="images/delete.png" alt="deletar" /></a>';
 	
 	return true;
 }
