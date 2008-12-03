@@ -9,7 +9,8 @@ import java.text.NumberFormat;
 
 public class Percent {
 	public static void main (String[] args) {
+		float percent = 0.47f;
 		NumberFormat f = NumberFormat.getPercentInstance();
-		System.out.println(f.format(0.47));
+		System.out.println(f.format(percent));
 	}
 }
