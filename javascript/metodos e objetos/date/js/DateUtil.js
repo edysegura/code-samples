@@ -10,11 +10,11 @@ var DateUtil = {
 	getFormatDate: function() {
 		var result;
 		
-		var date  = new Date();         // objeto do tipo date.
-		var day   = date.getDate();     // dia do mês.
-		var week  = date.getDay();      // dia da semana.
-		var month = date.getMonth();    // mês representado em números.
-		var year  = date.getFullYear(); // ano representado em números.
+		var date     = new Date();         // objeto do tipo date.
+		var dayMonth = date.getDate();     // dia do mês.
+		var dayWeek  = date.getDay();      // dia da semana.
+		var month    = date.getMonth();    // mês representado em números.
+		var year     = date.getFullYear(); // ano representado em números.
 		
 		var weekLabel = [
 			"Domingo", 
@@ -41,8 +41,8 @@ var DateUtil = {
 			"Dezembro"
 		];
 		
-		day    = (day < 10) ? "0" + day : day;
-		result = weekLabel[week] + ", " + day + " de " + monthLabel[month] + " de " + year + ".";
+		dayMonth = (dayMonth < 10) ? "0" + dayMonth : dayMonth;
+		result   = weekLabel[dayWeek] + ", " + dayMonth + " de " + monthLabel[month] + " de " + year + ".";
 		
 		return result;
 	}

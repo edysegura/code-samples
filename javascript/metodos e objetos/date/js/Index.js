@@ -26,7 +26,11 @@ var Index = {
 	
 	
 	getDates: function() {
-		return [DateUtil.getFormatDate(), (new Date()).toLocaleString()].join("<br />");
+		return [
+			DateUtil.getFormatDate(), 
+			(new Date()).toLocaleString()
+		]
+		.join("<br />");
 	}
 	
 };
