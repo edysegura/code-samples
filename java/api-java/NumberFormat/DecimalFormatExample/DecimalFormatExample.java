@@ -5,7 +5,7 @@
  *
  */
 
-import java.text.NumberFormat; 
+import java.text.NumberFormat;
 import java.text.DecimalFormat;
 
 public class DecimalFormatExample {
