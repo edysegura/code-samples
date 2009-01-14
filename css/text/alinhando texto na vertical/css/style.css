@@ -5,23 +5,23 @@
  *
  */
 
-div#sucesso {
-	font:bold 12px Arial, Sans-serif;
-	width:200px;
-	height:150px;
-	border:1px solid #c30;
-	background:#ffe;
-	line-height:150px;
-	text-align:center;
+p.exemplo-1 {
+	font: bold 12px Arial, Sans-serif;
+	width: 200px;
+	height: 150px;
+	border: 1px solid #c30;
+	background: #ffe;
+	line-height: 150px;
+	text-align: center;
 }
 
-p.exemplo {
-	font:bold 20px Verdana, Arial, Helvetica, sans-serif;
-	color:#C30;
+p.exemplo-2 {
+	font: bold 20px Verdana, Arial, Helvetica, sans-serif;
+	color: #C30;
 }
 
-p.exemplo span {
-	color:#369;
-	vertical-align:16px;
-	font-size:16px;
+p.exemplo-2 span {
+	color: #369;
+	vertical-align: 16px;
+	font-size: 16px;
 }
