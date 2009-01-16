@@ -5,7 +5,6 @@
  * @author Edy Segura, edy@segura.pro.br
  * 
  */
-
 class PDOConnectionFactory {
 
 	public $connection = null;
