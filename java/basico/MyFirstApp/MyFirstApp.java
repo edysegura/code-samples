@@ -4,7 +4,6 @@
  * @author Edy Segura, edy@segura.pro.br
  *
  */
- 
 public class MyFirstApp {
 
 	public static void main (String[] args) {
