@@ -4,7 +4,6 @@
  * @author Edy Segura, edy@segura.pro.br
  *
  */
-
 import java.util.Scanner;
 
 public class EntradaSaida {
