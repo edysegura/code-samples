@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class SaidaFormatada {
 	public static void main(String[] args) {
 		Scanner c = new Scanner(System.in);
-		System.out.print("\nQual o numero inteiro para o limite? N: ");
+		System.out.println("Qual o numero inteiro para o limite? N: ");
 		
 		int limit = c.nextInt();
 		int soma  = 0;
