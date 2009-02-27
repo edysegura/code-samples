@@ -4,7 +4,6 @@
  * @author: Edy Segura, edy@segura.pro.br
  *
  */
-
 var DateUtil = {
 	
 	getFormatDate: function() {
@@ -17,27 +16,27 @@ var DateUtil = {
 		var year     = date.getFullYear(); // ano representado em números.
 		
 		var weekLabel = [
-			"Domingo", 
-			"Segunda", 
-			"Terça", 
-			"Quarta", 
-			"Quinta", 
-			"Sexta", 
+			"Domingo",
+			"Segunda",
+			"Terça",
+			"Quarta",
+			"Quinta",
+			"Sexta",
 			"Sábado"
 		];
 		
 		var monthLabel = [
-			"Janeiro", 
-			"Fevereiro", 
-			"Março", 
-			"Abril", 
-			"Maio", 
-			"Junho", 
-			"Julho", 
-			"Agosto", 
-			"Setembro", 
-			"Outubro", 
-			"Novembro", 
+			"Janeiro",
+			"Fevereiro",
+			"Março",
+			"Abril",
+			"Maio",
+			"Junho",
+			"Julho",
+			"Agosto",
+			"Setembro",
+			"Outubro",
+			"Novembro",
 			"Dezembro"
 		];
 		

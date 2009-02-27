@@ -5,7 +5,6 @@
  * @author: Edy Segura, edy@segura.pro.br
  *
  */
-
 var Index = {
 	
 	init: function() {
