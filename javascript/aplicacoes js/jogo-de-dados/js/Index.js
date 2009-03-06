@@ -6,8 +6,20 @@
  */
 var Index = {
 
+	images: [],
+	
 	init: function() {
+		Index.preloadImages();
 		Index.setForm();
+	},
+	
+	
+	preloadImages: function() {
+		for(var i=1; i<=6; i++) {
+			var image = new Image();
+			image.src = "images/dado0" + i + ".gif";
+			Index.images.push(image);
+		}
 	},
 	
 	
@@ -32,8 +44,8 @@ var Index = {
 		form.d1.value = valorD1;
 		form.d2.value = valorD2;
 		
-		imgDado1.src  = "images/dado0" + valorD1 + ".gif";
-		imgDado2.src  = "images/dado0" + valorD2 + ".gif";
+		imgDado1.src  = Index.images[valorD1-1].src; //"images/dado0" + valorD1 + ".gif";
+		imgDado2.src  = Index.images[valorD2-1].src; //"images/dado0" + valorD2 + ".gif";
 	},
 	
 	
