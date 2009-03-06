@@ -4,12 +4,12 @@
  * @author Edy Segura, edy@segura.pro.br
  *
  */
- 
 var Index = {
 
 	init: function() {
 		Index.setForm();
 	},
+	
 	
 	setForm: function() {
 		var form = document.forms[0];
@@ -20,6 +20,7 @@ var Index = {
 			}
 		}
 	},
+	
 	
 	showResult: function(form) {
 		var imgDado1  = document.getElementById('imgD1');
