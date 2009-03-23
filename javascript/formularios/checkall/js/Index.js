@@ -4,7 +4,6 @@
  * @author: Edy Segura - edy@segura.pro.br
  *
  */
-
 var Index = {
 	
 	init: function() {
@@ -21,9 +20,12 @@ var Index = {
 		];
 		
 		for(var i=0; i<inputs.length; i++) {
-			inputs[i].onclick = function() {
-				Form.checkAll(this);
-			};
+			var input = inputs[i];
+			if(input) {
+				input.onclick = function() {
+					Form.checkAll(this);
+				};
+			}
 		}
 	}
 	

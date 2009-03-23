@@ -1,10 +1,9 @@
 ﻿/**
  *
- * Metodo para selecionar todos os checkboxes especificados
+ * Método para selecionar todos os checkboxes especificados
  * @author: Edy Segura - edy@segura.pro.br
  *
  */
-
 var Form = {
 	
 	checkAll: function(inputCheck) {
