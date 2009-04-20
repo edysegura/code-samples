@@ -31,13 +31,13 @@ h3.subtitulo-2 {
 
 h3.subtitulo-3 {
 	border-bottom:1px solid #999;
-	background:#fff url(../imagens/graf.gif) no-repeat 5px 50%;
+	background:#fff url(images/graf.gif) no-repeat 5px 50%;
 	padding:3px 3px 5px 35px;
 	width:472px;
 }
 
 h3.subtitulo-4 {
-	background:#fff url(../imagens/bg_azul.jpg) no-repeat center top;
+	background:#fff url(images/bg_azul.jpg) no-repeat center top;
 	text-align:center;
 	color:#fff;
 	padding:5px;
