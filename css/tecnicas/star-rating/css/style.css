@@ -1,0 +1,62 @@
+/**
+ * 
+ * Regras CSS para a técnica "CSS Star Rating".
+ * @author: Edy Segura - edy@segura.pro.br
+ * 
+ */
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+h1 {
+	padding: 5px;
+	margin: 5px 0;
+}
+
+p {
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+ul {
+	margin-left: 10px;
+}
+
+/**
+ *
+ * Definições CSS para o sistema de Star Rating
+ *
+ */
+ul.rating {
+	background: url(images/star.jpg) bottom;
+  height: 21px; /* tamanho em altura das estrelas */
+  width: 115px; /* soma dos tamanhos em largura das 5 estrelas 23*5 = 115 */
+  overflow: hidden;
+}
+
+ul.rating li {
+	display: inline;
+}
+
+ul.rating a {
+	display: block;
+	width: 23px;
+	height: 21px;
+	float: left;
+	text-indent: -9999px;
+	position: relative;
+}
+
+ul.rating a:hover {
+	background: url(images/star.jpg) center;
+	width: 115px;
+	margin-left: -92px; /* tamanho total das 5 estrelas menos uma estrela. 115-23 = 92*/
+	position: static;
+}
+
+ul.rating a:active {
+	background-position: top;
+}
