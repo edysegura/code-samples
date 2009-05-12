@@ -4,7 +4,6 @@
  * @author: Edy Segura - edy@segura.pro.br
  *
  */
-
 var Index = {
 	
 	init: function() {
@@ -19,7 +18,8 @@ var Index = {
 		for(var i=0; i<elements.length; i++) {
 			var item    = document.createElement("li");
 			var element = elements[i];
-			item.appendChild(document.createTextNode(element.nodeName));
+			var text    = "<" + element.nodeName.toLowerCase() + " />";
+			item.appendChild(document.createTextNode(text));
 			list.appendChild(item);
 		}
 		
