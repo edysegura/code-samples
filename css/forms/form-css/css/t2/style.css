@@ -1,0 +1,61 @@
+/**
+ *
+ * Estilização do formulário de login
+ * @author Edy Segura, edy@segura.pro.br
+ *
+ */
+
+fieldset, legend ,
+input[type='text'],
+input[type='password'],
+input[type='submit'] {
+	border: 2px solid #781351;
+}
+
+fieldset {
+	width: 400px;
+	margin: 50px auto;
+	background: #FFFF99 url(images/bg-box-s1.gif) repeat-x bottom;
+}
+
+legend, 
+input[type='submit'] {
+	font-weight: bold;
+	background: #FFA20C;
+	color: #FFF;
+	text-transform: uppercase;	
+}
+
+legend {
+	padding: 2px 50px;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+input[type='text'],
+input[type='password'] {
+	width: 96%;
+	height: 20px;
+	background: #FEE3AD;
+}
+
+input[type='text']:hover,
+input[type='password']:hover {
+	background: #FFF;
+}
+
+input[type='text']:focus,
+input[type='password']:focus {
+	border: 2px solid red;
+}
+
+input[type='submit'] {
+	background: #FFA20F;
+	width: 100px;
+	margin: 0 auto;
+	display: block;
+	float: right;
+}
