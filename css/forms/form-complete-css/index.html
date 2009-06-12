@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link rel="stylesheet" href="css/style.css" type="text/css" title="Padrão" />
+<link rel="alternate stylesheet" href="css/silver.css" type="text/css" title="Silver" />
+<link rel="alternate stylesheet" href="css/orange.css" type="text/css" title="Orange" />
+<link rel="alternate stylesheet" href="css/blue-red.css" type="text/css" title="Blue and Red" />
+<link rel="alternate stylesheet" href="css/blue-green.css" type="text/css" title="Blue and Green" />
+<link rel="alternate stylesheet" href="css/pink.css" type="text/css" title="Pink" />
+
+
+<title>Tabela</title>
+
+</head>
+<body>
+
+	<form id="two" action="..." method="post">
+		<fieldset id="personal">
+			<legend>INFORMAÇÕES PESSOAIS</legend>
+			<label for="name">Nome : </label> 
+			<input name="name" id="name" type="text" tabindex="1" />
+			<br />
+			<label for="endereco">Endereço : </label>
+			<input name="endereco" id="endereco" type="text" tabindex="2" />
+			<br />
+			<label for="city">Cidade : </label> 
+			<input name="city" id="city" type="text" tabindex="3" />
+			<p>...mais informações pessoais...</p>
+		</fieldset>
+		
+		<fieldset id="medical">
+			<legend>HISTÓRICO MÉDICO</legend>
+			<label for="smallpox">Varíola : </label>
+			<input name="illness" id="smallpox" type="checkbox" value="smallpox" tabindex="20" />
+			<br />
+			<label for="mumps">Caxumba : </label> 
+			<input name="illness" id="mumps" type="checkbox" value="mumps" tabindex="21" />
+			<br />
+			<label for="dizziness">Tonturas : </label> 
+			<input name="illness" id="dizziness" type="checkbox" value="dizziness" tabindex="22" />
+			<br />
+			<label for="sneezing">Espirros : </label> 
+			<input name="illness" id="sneezing" type="checkbox" value="sneezing" tabindex="23" />
+			<p>...mais detalhes do histórico médico...</p>
+		</fieldset>
+		
+		<fieldset id="opt">
+			<legend>OPÇÕES</legend>
+			<select name="choice">
+				<option selected="selected" label="none" value="none">Nenhum</option>
+				<optgroup label="Grupo 1">
+					<option label="cg1a" value="val_1a">Seleção do grupo 1a</option>
+					<option label="cg1b" value="val_1b">Seleção do grupo 1b</option>
+					<option label="cg1c" value="val_1c">Seleção do grupo 1c</option>
+				</optgroup>
+				<optgroup label="Grupo 2">
+					<option label="cg2a" value="val_2a">Seleção do grupo 2a</option>
+					<option label="cg2b" value="val_2a">Seleção do grupo 2b</option>
+				</optgroup>
+				<optgroup label="Grupo 3">
+					<option label="cg3a" value="val_3a">Seleção do grupo 3a</option>
+					<option label="cg3a" value="val_3a">Seleção do grupo 3b</option>
+				</optgroup>
+			</select>
+		</fieldset>
+		
+		<fieldset id="current">
+			<legend>MEDICAÇÃO ATUAL</legend>
+			<p>...atualmente faz uso de algum medicamento?</p> 
+			<label for="yes">Sim : </label>
+			<input name="medication" id="yes" type="radio" value="yes" tabindex="35" />
+			<br />
+			<label for="no">Não : </label>
+			<input name="medication" id="no" type="radio" value="no" tabindex="35" />
+			<br />
+			<p>...se faz uso de algum medicamento, informe-o no espaço abaixo :</p>
+			<textarea name="current_medication" tabindex="40" cols="40" rows="10">
+			</textarea>
+		</fieldset>
+		
+		<p>
+			<input id="button1" type="submit" value="Enviar" /> 
+			<input id="button2" type="reset" />
+		</p>
+	</form>
+
+</body>
+</html>

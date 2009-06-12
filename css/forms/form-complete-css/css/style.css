@@ -1,0 +1,18 @@
+form#two {background:#dee; width:470px; padding:10px; border:1px solid #000; margin:0 auto;}
+form#two fieldset {width:450px; display:block; border:1px solid #fff; padding:5px; font-family:verdana, sans-serif; margin-bottom:0.5em; line-height:1.5em; font-size:12px;}
+form#two fieldset#personal {background:transparent url(../images/crutch.gif) no-repeat 400px 10px;}
+form#two fieldset#medical {background:transparent url(../images/sling.gif) no-repeat 400px 10px;}
+form#two fieldset#current {background:transparent url(../images/cold.gif) no-repeat 390px 10px;}
+* html form#two fieldset#personal, * html form#two fieldset#medical {background-position:400px 20px;}
+* html form#two fieldset#current {background-position:390px 20px;}
+form#two fieldset#opt {background:#dee;}
+form#two legend {font-family:georgia, sans-serif; font-size:12px; font-weight:bold; border:3px solid #fff; margin-bottom:5px; padding:3px; width:254px; background:#fff url(../images/form.gif) repeat-x center left;}
+form#two label {clear:left; display:block; float:left; width:100px; text-align:right; padding-right:10px; color:#888; margin-bottom:0.2em; font-size:12px;}
+form#two input {border:1px solid #fff; background:#fff url(../images/form.gif) repeat-x top left; padding-left:0.5em; margin-bottom:0.6em;}
+form#two select {margin-left:0.5em;}
+form#two textarea {width:410px; height:15em; border:1px solid #fff; padding:0.5em; overflow:auto; background:#fff url(../images/form.gif) repeat-x bottom left;}
+form#two option {background:#788; color:#fff;}
+form#two optgroup {background:#abb; color:#000; font-family:georgia, serif;}
+form#two optgroup option {background:#9aa; color:#fff;}
+form#two #button1, form#two #button2 {color:#c00; padding-right:0.5em; cursor:pointer; width:205px; margin-left:8px;}
+form#two #button1:hover, form#two #button2:hover {background-position:center left; color:#000;}

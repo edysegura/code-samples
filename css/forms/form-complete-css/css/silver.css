@@ -1,0 +1,18 @@
+/* CSS Document */
+/* sabine brings - www.brings-online.com - a form with style - www.cssplay.co.uk */
+form#two {font-size:1.4em; background:#bbb; width:470px; padding:10px; margin:0 auto; border-top:1px solid #e1e1e1; border-left:1px solid #e1e1e1; border-bottom:1px solid #999; border-right:1px solid #999;}
+form#two fieldset {width:450px; display:block; padding:5px; font-family:verdana, sans-serif; line-height:1.5em; border:1px solid #fff;}
+form#two fieldset#personal, #medical, #current {font-size:.75em; color:#555; font-style:italic; margin:15px 0 0 5px;}
+form#two fieldset#opt {font-size:.75em; color:#900; margin:15px 0 0 5px;}
+form#two legend { border:1px solid #666; font-family: "Courier New", Courier, mono; color:#555; font-size:1.4em; font-weight:normal; font-style:normal; margin-bottom:14px; padding:3px; width:254px; background:none;}
+form#two label {clear:left; display:block; float:left; width:100px; text-align:right; padding-right:10px; color:#fff; margin-bottom:0.5em; font-size:1em; line-height:1.5em; font-style:normal;}
+form#two fieldset#personal label {clear:left; display:block; float:left; width:100px; text-align:right; padding-right:10px; color:#fff; margin-bottom:0.6em; font-size:1em; line-height:1.8em; font-style:normal;}
+form#two input {padding:0; margin-bottom:0.8em;}
+form#two fieldset#personal input {border:1px dotted #e1e1e1; background:#fff; padding-left:0.5em; margin-bottom:1em;}
+form#two select {margin-left:0.5em; border:1px dotted #e1e1e1;}
+form#two textarea {width:425px; height:12em; border:1px solid #e1e1e1; padding:5px; margin:-8px 0 0 0; overflow:auto;}
+form#two option {background:#fff; color:#990033;}
+form#two optgroup {background:#fff; color:#666; font-family: Verdana, Arial, Helvetica, sans-serif;}
+form#two optgroup option {background:#fff; color:#990033;}
+form#two #button1, form#two #button2 { background:#666; border-bottom:1px solid #333; border-left:1px solid #999; border-top:1px solid #999; border-right:1px solid #333; color:#fff; padding-right:0.5em; cursor:pointer; width:205px; margin-left:12px;}
+form#two #button1:hover, form#two #button2:hover {background:#990033; border-bottom:1px solid #4A0018; border-right:1px solid #4A0018;  color:#fff; border-top:1px solid #cc0033; border-left: 1px solid #cc0033;}

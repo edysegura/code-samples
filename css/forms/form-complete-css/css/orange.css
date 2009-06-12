@@ -1,0 +1,32 @@
+/* CSS Document */
+/* sabine brings - www.brings-online.com - a form with style - www.cssplay.co.uk */
+form#two {background:url(../images/back.gif) left repeat-x; width:470px; padding:10px; border-right:1px solid #AE2C00; border-bottom:1px solid #AE2C00; border-top:1px solid #ececec; border-left:1px solid #ececec; margin:0 auto; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10pt;}
+form#two fieldset {width:450px; display:block; border:none; padding:5px; font-family:verdana, sans-serif; margin-bottom:0.5em; line-height:1.5em;}
+form#two fieldset#personal, #medical, #current {background:url(../images/pix.gif) top left; border:none; font-size:1em; line-height:1.5em; color:#111; font-weight:bold;}
+form#two fieldset#opt {background:url(../images/pix.gif) top left; border:none;}
+
+form#two legend {font-family:georgia, sans-serif; font-size:1.1em; font-weight:bold; margin-bottom:5px; padding:3px; width:254px; background:none;}
+form#two fieldset#personal legend {border:none; margin-bottom:10px; padding:3px; background:#d75d35; color:#fff; font-size:1.1em;}
+form#two fieldset#medical legend {border:none; color:#fff; font-size:1.1em; font-weight:bold; margin-bottom:10px; padding:3px; background:#df8060;}
+form#two fieldset#current legend {border:none; color:#fff; font-size:1.1em; font-weight:bold; margin-bottom:10px; padding:3px; background:#e8a189; line-height:1.5em;}
+form#two fieldset#opt legend {border:none; color:#fff; font-size:1.1em; font-weight:bold; margin-bottom:10px; padding:3px; background:#eaaa95;}
+
+form#two label {font-weight:normal; height:20px; border:1px solid #fff; float:left; width:100px; text-align:right; padding:0; background:#fff; margin:0 0 5px 5px; font-size:1em; color:#CC3300; line-height:1.5em;}
+form#two fieldset#personal label {font-weight:normal; height:20px; border:1px solid #fff; float:left; width:100px; text-align:right; padding:0; background:#fff; margin:0 0 5px 5px; font-size:1em; color:#CC3300; line-height:1.5em;}
+form#two fieldset#current label {font-weight:normal; height:20px; border:1px solid #fff; float:left; width:100px; text-align:right; padding:0; background:#fff; margin:7px 0 5px 5px; font-size:1em; color:#CC3300; line-height:1.5em;}
+
+form#two input { float:left; height:20px; border:1px solid #fff; background:#ccc; padding-left:10px; margin:0 0 15px 10px; font-size:1em; line-height:1.5em; text-align:left;}
+form#two fieldset#medical input {float:left; height:20px; border:none; background:none; padding:0; margin:0 300px 15px 10px; font-size:1em; line-height:1.5em; text-align:left;}
+form#two fieldset#current input {float:left; height:20px; border:none; background:none; padding-left:10px; margin:7px 300px 15px 10px; font-size:1em; line-height:1.5em; text-align:left;}
+form#two fieldset#personal input {float:left; height:20px; border:1px solid #fff; background:url(../images/field.gif) left repeat-x; padding:0; margin:0 60px 8px 0; font-size:1em; line-height:1.5em; width:270px; text-indent:.5em; color:#111;}
+
+form#two select {margin:0 0 1em 0.5em;}
+form#two textarea {width:420px; height:15em; border:1px solid #fff; padding:0.5em; overflow:auto; background:url(../images/area.gif) top left; margin:-15px 0 10px 5px;}
+
+form#two option {background:#fff; color:#111;}
+form#two optgroup {background:#fff; color:#cc3300; font-family: Verdana, Arial, Helvetica, sans-serif;}
+form#two optgroup option {background:#fff; color:#111;}
+
+form#two #button1, form#two #button2  {background:url(../images/field.gif) left repeat-x; border-right:1px solid #999; border-bottom:1px solid #999; border-top:1px solid #eee; border-left:1px solid #eee; color:#cc3300; padding:0; line-height:1.5em; cursor:pointer; width:210px; margin:-5px 0 0 12px;}
+form#two #button1:hover, form#two #button2:hover {color:#fff; background:#660000; border-right:1px solid #330000; border-bottom:1px solid #330000; border-top:1px solid #900; border-left:1px solid #900;}
+
