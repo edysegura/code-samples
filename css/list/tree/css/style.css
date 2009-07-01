@@ -1,0 +1,38 @@
+/**
+ *
+ * Uso da lista para representar uma estrutura
+ * em árvores.
+ * @author Edy Segura, edy@segura.pro.br
+ *
+ */
+ 
+ul.tree, ul.tree ul {
+	list-style-type: none;
+	background: url(images/vline.png) repeat-y;
+	margin: 0;
+	padding: 0;
+}
+
+ul.tree ul {
+	margin-left: 10px;
+}
+
+ul.tree li {
+	margin: 0;
+	padding: 0 12px;
+	line-height: 20px;
+	background: url(images/node.png) no-repeat;
+	color: #369;
+	font-weight: bold;
+}
+
+/* Funciona em todos os navegadores descentes o quer dizer que não funciona no IE */
+/*
+ul.tree li:last-child {
+	background: #fff url(images/lastnode.png) no-repeat;
+}
+*/
+
+ul.tree li.last {
+	background: #fff url(images/lastnode.png) no-repeat;
+}
