@@ -1,0 +1,32 @@
+/**
+ *
+ * Uso da lista de definição para estruturar
+ * formulários XHTML.
+ * @author Edy Segura, edy@segura.pro.br
+ *
+ */
+form.formulario {
+	font: 0.8em Arial, Helvetica, sans-serif;
+	width: 28.0em;
+	border: #ccc 1px solid;
+	padding: 10px 20px;
+	background-color: #fafafa;
+}
+
+input#nome, input#email, textarea#comentario {
+	width: 27.0em;
+	border: #eee 2px solid;
+}
+
+textarea#comentario {
+	width: 27.7em; 
+	height: 10.0em;
+}
+
+input#nome:focus, input#email:focus,
+textarea#comentario:focus {
+	background: #ffe;
+}
+
+dl.formulario dt  { margin-top: 1.5em; }
+dl.formulario dd { margin: 0; padding: 0; }
