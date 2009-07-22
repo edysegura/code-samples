@@ -1,5 +1,4 @@
-/* 
- * stylesheets.css
+/**
  *
  * Definicoes para pagina inicial
  * @author Edy Segura, edy@segura.pro.br
@@ -10,7 +9,6 @@ a {
 	color:#00F;
 }
 
-/* definicoes para tabela */
 table {
 	border:1px solid #000;
 	width:500px;
@@ -24,8 +22,18 @@ caption {
 	padding-bottom:5px;
 }
 
-col.name    { width: 130px; }
-col.content { width: 370px; }
-td, th      { border-bottom:1px solid #000; padding:2px; }
-thead       { background:#CCC; }
-tbody th    { text-align:right; }
+col.name { width:130px; }
+col.content { width:370px; }
+
+td, th { 
+	border-bottom:1px solid #000; 
+	padding:2px; 
+}
+
+thead  { background:#CCC; }
+thead th {text-align:left; }
+thead th { 
+	border-left:1px dotted #000;
+	text-indent: 4px;
+}
+tbody th  { text-align:right; }
