@@ -3,20 +3,23 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="author" content="Edy Segura" />
-<meta name="Reply-to" content="edy@segura.eti.br" />
-<meta name="Description" content="Exemplo do uso da técnica dos comentários condicionais" />
+<meta name="reply-to" content="edy@segura.pro.br" />
 <title>Conditional Comment</title>
 
 <!-- stylesheet -->
-<link rel="stylesheet" href="css/stylesheets.css" type="text/css" title="Padrão" />
+<link rel="stylesheet" href="css/style.css" type="text/css" />
 
 </head>
 <body>
 
 <h1>Conditional Comment</h1>
-<p>Conditional Comments trata-se de uma sintaxe especial para escrever comentários em documentos de (X)HTML que são interpretados somente pelo Internet Explorer. Para mais detalhes veja o código fonte.</p>
+<p>
+	Conditional Comments trata-se de uma sintaxe especial para escrever comentários 
+	em documentos de (X)HTML que são interpretados somente pelo Internet Explorer. <br />
+	Para mais detalhes veja o código fonte.
+</p>
 
-<p>Para mais informações:</p>
+<h2>Para mais informações</h2>
 <ul>
 	<li><a href="http://www.revolucao.etc.br/archives/conditional-comments-no-internet-explorer/" title="Mais informações sobre Conditional Comments">Conditional Comments no IE</a></li>
 	<li><a href="http://www.quirksmode.org/css/condcom.html" title="Conditional Comments - Quirk Mode">Conditionl Comments - Quirk Mode</a></li>
@@ -27,6 +30,18 @@
 
 <!--[if IE]>
 	<p class="info">Se você está lendo este paragrafo é porque você está no internet explorer.</p>
+<![endif]-->
+
+<!--[if IE 6]>
+	<p class="info">Se você está lendo este paragrafo é porque você está no internet explorer.</p>
+<![endif]-->
+
+<!--[if IE 7]>
+	<p class="info">Se você está lendo este paragrafo é porque você está no internet explorer versão 7.</p>
+<![endif]-->
+
+<!--[if IE 8]>
+	<p class="info">Se você está lendo este paragrafo é porque você está no internet explorer versão 8.</p>
 <![endif]-->
 
 <!--[if !IE]> 
