@@ -1,0 +1,33 @@
+/**
+ *
+ * CSS Document
+ *
+ */
+
+@import url(reset.css);
+@import url(tree.css);
+
+ul.measure-type-list {
+	margin-left: 50px;
+}
+
+div#measure-type h2 {
+	margin-top: 20px;
+	margin-left: 15px;
+	font-size: 16px;
+}
+
+ul ul.indicators {
+	display: none;
+}
+
+a {
+	color: blue;
+	text-decoration: none;
+}
+
+h1 {
+	margin-top: 5px;
+	margin-left: 15px;
+	font-size: 18px;
+}
