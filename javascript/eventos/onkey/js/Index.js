@@ -4,7 +4,6 @@
  * @author: Edy Segura - edy@segura.pro.br
  *
  */
-
 var Index = {
 	
 	init: function() {
@@ -13,25 +12,25 @@ var Index = {
 	
 	
 	setHandles: function() {
-		if(Event && Event.getEvent) {
+		if(Event && EventUtils.getEvent) {
 			var tableKeyPress = document.getElementById('keypress');
 			var tableKeyDown  = document.getElementById('keydown');
 			var tableKeyUp    = document.getElementById('keyup');
 			
 			document.onkeypress = function () {
-				Index.buildTable(Event.getEvent(), tableKeyPress);
+				Index.buildTable(EventUtils.getEvent(), tableKeyPress);
 			};
 			
 			document.onkeydown = function () {
-				Index.buildTable(Event.getEvent(), tableKeyDown);
+				Index.buildTable(EventUtils.getEvent(), tableKeyDown);
 			};
 			
 			document.onkeyup = function () {
-				Index.buildTable(Event.getEvent(), tableKeyUp);
+				Index.buildTable(EventUtils.getEvent(), tableKeyUp);
 			};
 		}
 		else {
-			alert("O componente Event.js é necessário. \nVerifique se o componente está sendo carregado corretamente.");
+			alert("O componente EventUtils.js é necessário. \nVerifique se o componente está sendo carregado corretamente.");
 		}
 	},
 	
