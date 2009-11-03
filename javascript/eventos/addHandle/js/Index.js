@@ -1,11 +1,9 @@
 ﻿/**
  * 
- * Script para teste do Event.js
+ * Script para teste do EventUtils.js
  * @author: Edy Segura - edy@segura.pro.br
  *
  */
-
-
 var Index = {
 	
 	//atributos
@@ -41,7 +39,7 @@ var Index = {
 	
 	
 	setButtons: function() {
-		if(Event && Event.getEvent) {
+		if(EventUtils && EventUtils.getEvent) {
 			var buttonAdd = document.getElementById("add");
 			var buttonRemove = document.getElementById("remove");
 			var buttonReload = document.getElementById("reload");
@@ -59,7 +57,7 @@ var Index = {
 			};
 		}
 		else {
-			alert("O componente Event.js é necessário. \nVerifique se o componente está sendo carregado corretamente.");
+			alert("O componente EventUtils.js é necessário. \nVerifique se o componente está sendo carregado corretamente.");
 		}
 	},
 	
@@ -81,7 +79,7 @@ var Index = {
 		
 		for(var i=0; i<checks.length; i++) {
 			if(isAdd && checks[i].checked && checks[i].id == "event4") {
-				Event.add(element, 'click', Event.getFunction(Index.withParams, eval('(' + checks[i].value + ')')));
+				EventUtils.add(element, 'click', EventUtils.getFunction(Index.withParams, eval('(' + checks[i].value + ')')));
 				log.value += "Evento Index.withParams adicionado.\n";
 				continue;
 			}
@@ -91,11 +89,11 @@ var Index = {
 			}
 			
 			if(isAdd && checks[i].checked) {
-				Event.add(element, 'click', eval(checks[i].value));
+				EventUtils.add(element, 'click', eval(checks[i].value));
 				log.value += "Evento " + checks[i].value + " adicionado.\n";
 			}
 			else if(checks[i].checked) {
-				Event.remove(element, 'click', eval(checks[i].value));
+				EventUtils.remove(element, 'click', eval(checks[i].value));
 				log.value += "Evento " + checks[i].value + " removido.\n";
 			}
 		}
