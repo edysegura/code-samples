@@ -1,0 +1,47 @@
+/**
+ *
+ * Document CSS
+ *
+ */
+
+* {
+	color: #222222;
+	font-family: Arial,Verdana,Helvetica,sans-serif;
+	font-size: 11px;
+	margin: 0;
+	outline-color: -moz-use-text-color;
+	outline-style: none;
+	outline-width: medium;
+	padding: 0;
+}
+
+#canvas-container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -250px;
+	margin-top: -200px;
+	width: 500px;
+	height: 400px;
+	overflow: hidden;
+	border: 1px solid #000;
+}
+
+.ring-node {
+	background-color: #FFDE9F;
+	border: 2px solid #E68040;
+	font-family: Verdana;
+	font-size: 8px;
+	position: absolute;
+	text-align: center;
+	overflow: hidden;
+	cursor: default;
+}
+
+.ring-node span {
+	cursor: default;
+}
+
+label[for="zoom-controller"] {
+	float: right;
+}
