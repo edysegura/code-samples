@@ -1,62 +1,58 @@
-﻿/* JavaScript Document
-Autor: Edy Segura - edy@segura.pro.br
-Descrição: Uso do método responseXML
-*/
-
+﻿/**
+ *
+ * Objeto Literal Index.js para uso da metodologia Ajax
+ * com XML
+ * @author Edy Segura, edy@segura.pro.br
+ *
+ */ 
 var Index = {
 
 	init: function() {
 		Index.setLink();
 	},
 
-
 	setLink: function() {
-		var oLink = document.links[0];
-		
-		oLink.onclick = function() {
+		var link = document.links[0];
+		link.onclick = function() {
 			Index.getXML();
 			return false;
 		};
-		
 	},
 
-
 	getXML: function() {
-		var oOldList = document.getElementsByTagName('ol')[0];
-				
-		if(oOldList) {
-			oOldList.parentNode.removeChild(oOldList);
+		var oldList = document.getElementsByTagName('ol')[0];
+		
+		if(oldList) {
+			oldList.parentNode.removeChild(oldList);
 		}
 		
-		Ajax.run({
+		Ajax.request({
 			url      : "xml/republicanos.xml",
 			callback : Index.showXML,
 			response : "xml",
+			update   : true,
 			loading  : true
 		});
 
 	},
 
-
-	showXML: function(oXMLDocument) {
-		var aRepublicanos = oXMLDocument.getElementsByTagName('nome');
-	
-		if(aRepublicanos.length) {
-			var oList = document.createElement("ol");
+	showXML: function(XMLDocument) {
+		var listNamesXML = XMLDocument.getElementsByTagName('nome');
+		
+		if(listNamesXML.length) {
+			var newList = document.createElement("ol"),
+			    listItem;
 			
-			for(var i=0; i<aRepublicanos.length; i++) {
-				var oListItem = document.createElement("li");
+			for(var i=0; i<listNamesXML.length; i++) {
+				listItem = document.createElement("li");
 				
-				oListItem.innerHTML = aRepublicanos[i].firstChild.nodeValue;
-				oList.appendChild(oListItem);
-
+				listItem.innerHTML = listNamesXML[i].firstChild.nodeValue;
+				newList.appendChild(listItem);
 			}
 			
-			document.body.appendChild(oList);
-		
+			document.body.appendChild(newList);
 		}
 	}
-
 };
 
 //inicialização
