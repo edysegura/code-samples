@@ -1,8 +1,10 @@
-/* JavaScript Document
-Autor: Edy Segura - edy@segura.pro.br
-Descrição: Script para busca do endereço por CEP
-*/
-
+/**
+ *
+ * Objeto Literal Index.js para uso da metodologia Ajax
+ * com JSON
+ * @author Edy Segura, edy@segura.pro.br
+ *
+ */
 var Index = {
 
 	init: function() {
@@ -10,77 +12,62 @@ var Index = {
 		Index.setButton();
 		Index.setFastCEP();
 	},
-
 	
 	setForm: function() {
-		var oForm = document.forms['frmCEP'];
-		
-		oForm.onsubmit = function() {
+		var form = document.forms['frmCEP'];
+		form.onsubmit = function() {
 			return false;
 		};
-
 	},
 	
-	
-	buscarEndereco: function(oForm) {
+	buscarEndereco: function(form) {
 		//remove qualquer coisa q não seja um digito.
-		var iCEP = oForm.cep.value.replace(/\D/g, "");
-
-		if(iCEP.length != 8) {
+		var cep = form.cep.value.replace(/\D/g, "");
+		
+		if(cep.length != 8) {
 			alert("Preencha corretamente seu CEP."); 
-			return oForm.cep.focus();
+			return form.cep.focus();
 		}
-
-		oForm.rua.value = "Aguarde, buscando endereço...";
-
-		Ajax.run({
-			url      : "json/cep" + iCEP + ".txt",
-			params   : oForm,
-			callback : Index.preencherCampos
+		
+		form.rua.value = "Aguarde, buscando endereço...";
+		
+		Ajax.request({
+			url      : "json/cep" + cep + ".txt",
+			params   : form,
+			callback : Index.preencherCampos,
+			update   : true
 		});
-
 	},
 
-
-	preencherCampos: function(sResponse, oForm) {
-		var oEndereco = eval('(' + sResponse + ')');
-
-		oForm.rua.value    = oEndereco.logradouro;
-		oForm.bairro.value = oEndereco.bairro;
-		oForm.cidade.value = oEndereco.cidade;
-		oForm.estado.value = oEndereco.estado;
-		oForm.numero.focus();
-
+	preencherCampos: function(response, form) {
+		var address = eval('(' + response + ')');
+		form.rua.value    = address.logradouro;
+		form.bairro.value = address.bairro;
+		form.cidade.value = address.cidade;
+		form.estado.value = address.estado;
+		form.numero.focus();
 	},
-	
 	
 	setFastCEP: function() {
-		var oSpans = document.getElementsByTagName('span');
-		
-		for(var i=0; i<oSpans.length; i++) {
-			oSpans[i].onclick = function() {
+		var spans = document.getElementsByTagName('span');
+		for(var i=0; i<spans.length; i++) {
+			spans[i].onclick = function() {
 				Index.fastCEP(this.innerHTML);
 			};
 		}
-		
 	},
-	
 	
 	setButton: function() {
-		var oButton = document.getElementsByTagName('button')[0];
-		
-		oButton.onclick = function() {
+		var button = document.getElementsByTagName('button')[0];
+		button.onclick = function() {
 			Index.buscarEndereco(this.form);
 		};
-		
 	},
 	
-	
-	fastCEP: function(sCep) {
-		var oForm = document.forms['frmCEP'];
-		
-		oForm.reset();
-		oForm.cep.value = sCep;
+	fastCEP: function(cep) {
+		var form = document.forms['frmCEP'];
+		form.reset();
+		form.cep.value = cep;
 	}
 
 };
