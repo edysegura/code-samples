@@ -4,7 +4,6 @@
  * @author: Edy Segura - edy@segura.pro.br
  *
  */
-
 var Messages = [
 	"XML - eXtensible Markup Language",
 	"XSL - eXtensible Stylesheet Language",
