@@ -4,7 +4,6 @@
  * @author: Edy Segura - edy@segura.pro.br
  *
  */
-
 var Nomes = [
 	"Edy Segura",
 	"Lidy Bernardes",
