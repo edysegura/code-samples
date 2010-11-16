@@ -18,10 +18,13 @@ var Index = {
 				if(form.nome.value != '' && form.email.value != '') {
 					if(form.emails.options[0].value == '') form.emails.options[0] = null;
 					Index.addOption(form.nome.value, form.email.value, form.emails);
+					form.nome.value = form.email.value = '';
+					form.nome.focus();
 				}
 				else {
 					alert('Preencha os campos corretamente.');
 				}
+				return false;
 			}
 			Index.setBtnDelete();
 		}
