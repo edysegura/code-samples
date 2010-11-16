@@ -1,42 +1,60 @@
-/* JavaScript Document
-Autor: Edy Segura - edy@segura.pro.br
-Descrição: Script para adicionar novos options
-*/
-
-function fnCheckToSubmit(oForm) {
-	//validando o formulário
-	if(oForm.email.value != "" && oForm.nome.value != "") {
-		if(oForm.emails.options[0].value == "") oForm.emails.options[0] = null;
-		fnAddOption(oForm.emails, oForm.nome.value, oForm.email.value);
-	}
-	else
-		alert("Preencha os campos corretamente.");
-
-	return false;
-}
-
-//adiciona novos options
-function fnAddOption(oSelect, sText, sValue) {
-	oSelect.options[oSelect.options.length] = new Option(sText, sValue);
-}
-
-//remove os options selecionados
-function fnRemoveOption(oSelect) {
-	for(var i=0; i<oSelect.options.length; i++) {
-		if(oSelect.options[i].selected) {
-			if(confirm("Remover " + oSelect.options[i].text + " - " + oSelect.options[i].value + "?"))
-				oSelect.options[i] = null;
+/**
+ *
+ * Script de exemplo para adicionar novos options
+ * em um elemento select
+ *
+ */
+var Index = {
+	
+	init: function() {
+		Index.setForm();
+	},
+	
+	
+	setForm: function() {
+		var form = document.getElementById('frm-emails');
+		if(form) {
+			form.onsubmit = function() {
+				if(form.nome.value != '' && form.email.value != '') {
+					if(form.emails.options[0].value == '') form.emails.options[0] = null;
+					Index.addOption(form.nome.value, form.email.value, form.emails);
+				}
+				else {
+					alert('Preencha os campos corretamente.');
+				}
+			}
+			Index.setBtnDelete();
+		}
+	},
+	
+	
+	setBtnDelete: function() {
+		var btn = document.getElementById('btn-delete');
+		if(btn) {
+			btn.onclick = function(){ Index.deleteOption(); };
+		}
+	},
+	
+	
+	addOption: function(text, value, select) {
+		select.options[select.options.length] = new Option(text, value);
+	},
+	
+	
+	deleteOption: function() {
+		var select = document.getElementById('emails');
+		if(select) {
+			for(var i=0; i<select.options.length; i++) {
+				if(select.options[i].selected) {
+					if(confirm("Remover " + select.options[i].text + " - " + select.options[i].value + "?")) {
+						select.options[i] = null;
+					}
+				}
+			}
 		}
 	}
-}
+	
+};
 
-//remove todos os options
-function fnClearOptions(oSelect) {
-	oSelect.options.length = 0;
-}
-
-//shortcut for document.getElementById()
-function $(sElementId) {
-  return document.getElementById(sElementId);
-}
-
+//inicializacao
+window.onload = Index.init;

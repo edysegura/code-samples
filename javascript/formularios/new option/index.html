@@ -8,22 +8,22 @@
 <title>New Option</title>
 
 <!-- stylesheet -->
-<link rel="stylesheet" href="css/stylesheets.css" type="text/css" title="Padrão" />
+<link rel="stylesheet" href="css/style.css" type="text/css" />
 <!--[if IE]><link rel="stylesheet" href="css/ie_corretions.css" type="text/css" /><![endif]-->
 
 <!-- javascript -->
-<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/Index.js"></script>
 
 </head>
 <body>
 
 <h1>New Option</h1>
-<p>Essa aplicação mostra como é criado e manipulado novos options dinamicamente. Para mais detalhes veja o código fonte.</p>
+<p>
+	Essa aplicação mostra como é criado e manipulado novos options dinamicamente. <br />
+	Para mais detalhes veja o código fonte.
+</p>
 
-<!-- resultado -->
-<h2>Resultado</h2>
-
-<form action="" method="post" onsubmit="return fnCheckToSubmit(this)">
+<form id="frm-emails" action="" method="post">
 	<fieldset class="dados">
 		<legend>Dados pessoais:</legend>
 		
@@ -34,8 +34,8 @@
 		<input type="text" name="email" id="email" />
 		
 		<div class="botoes">
-			<button type="submit">Cadastrar</button>
-			<button type="button" onclick="fnRemoveOption($('emails'))">Remover</button>
+			<input type="submit" value="Cadastrar" />
+			<input type="button" value="Remover" id="btn-delete" />
 		</div>
 		
 		<fieldset>
@@ -44,7 +44,6 @@
 				<option value="" selected="selected">Nenhum e-mail cadastrado</option>
 			</select>
 		</fieldset>
-		
 	</fieldset>
 </form>
 
