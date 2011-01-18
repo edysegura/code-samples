@@ -1,0 +1,14 @@
+/**
+ * CSS Document
+ */
+ 
+article,
+nav,
+section,
+header,
+aside,
+figure,
+legend,
+footer {
+	display: block;
+}
