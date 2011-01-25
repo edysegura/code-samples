@@ -1,0 +1,30 @@
+/*@font-face {
+	font-family: 'CantarellRegularWebfont';
+	src: url('../fonts/Cantarell-Regular-webfont.eot');
+	src: local('CantarellRegularWebfont'), url('../fonts/Cantarell-Regular-webfont.woff') format('woff'), url('../fonts/Cantarell-Regular-webfont.ttf') format('truetype'), url('../fonts/Cantarell-Regular-webfont.svg#webfontBCWc3P7o') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Lobster13RegularWebfont';
+	src: url('../fonts/Lobster_1.3-webfont.eot');
+	src: local('Lobster13RegularWebfont'), url('../fonts/Lobster_1.3-webfont.woff') format('woff'), url('../fonts/Lobster_1.3-webfont.ttf') format('truetype'), url('../fonts/Lobster_1.3-webfont.svg#webfontHqcYMIZJ') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}*/
+
+
+
+@font-face {
+    font-family: "ArialNueva";
+    src: url("fonts/carbon.eot");
+}
+@font-face {
+    font-family: "ArialNueva";
+    src: url("fonts/carbon.ttf");
+}
+
+p {
+    font:20px ArialNueva,arial,verdana,tahoma,helvetica,sans-serif;
+}
