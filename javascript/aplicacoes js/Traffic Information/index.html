@@ -16,7 +16,7 @@
 
 <div class="header">
 	<h1>Traffic  Information</h1>
-	<p class="date-time">03/22/2011 12:00</p>
+	<p class="date-time">MONDAY, 20 JAN, 6:00PM</p>
 </div>
 
 <div class="sidebar">
@@ -35,10 +35,16 @@
 			<label>Starting Point <input type="text" id="startPoint" /></label>
 			<label>Destination <input type="text" id="endPoint" /></label>
 			<input type="submit" class="button" value="Search" />
-			<div id="map" style="width:600px;height:400px;"></div>
+			<div id="map" style="width:800px;height:400px;"></div>
+			<div id="journey-info" style="display:none">
+				<h2>Journey Information</h2>
+				<ul>
+					<li>Duration: <span id="duration"></span></li>
+					<li>Distance: <span id="distance"></span></li>
+				</ul>
+			</div>
 		</div>
 	</form>
-	<div class="advertising"></div>
 </div>
 
 <div class="footer">

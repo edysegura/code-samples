@@ -24,9 +24,9 @@ var JourneyPlanner = {
 					startPoint: inputStart.value,
 					endPoint: inputEnd.value
 				};
-				if(!JourneyPlanner.map) {
+				//if(!JourneyPlanner.map) {
 					JourneyPlanner.initializeMap();
-				}
+				//}
 				JourneyPlanner.getDirection(params);
 			}
 			
@@ -55,7 +55,45 @@ var JourneyPlanner = {
 	showJourney: function(result, status) {
 		if (status == google.maps.DirectionsStatus.OK) {
       JourneyPlanner.directionsDisplay.setDirections(result);
+			JourneyPlanner.showJourneyInfo(result);
     }
+	},
+	
+	showJourneyInfo: function(result) {
+		var divJourneyInfo = document.getElementById('journey-info');
+		if(divJourneyInfo) {
+			var spanDuration = document.getElementById('duration'),
+			    spanDistance = document.getElementById('distance');
+			if(spanDuration && spanDistance) {
+				spanDuration.innerHTML = result.routes[0].legs[0].duration.text;
+				spanDistance.innerHTML = result.routes[0].legs[0].distance.text;
+			}
+			divJourneyInfo.style.display = "block";
+		}
+		//show traffic cam
+		var path = result.routes[0].overview_path;
+		var middle = parseInt(path.length / 2);
+		var addressLatLng = new google.maps.LatLng(path[middle].lat(), path[middle].lng());
+		JourneyPlanner.showTrafficCam(addressLatLng);
+	},
+	
+	showTrafficCam: function(addressLatLng) {
+		var contentString = '<div id="content"><img src="images/transito.jpg" alt="" /></div>';
+
+		var infowindow = new google.maps.InfoWindow({
+			content: contentString
+		});
+		
+		var marker = new google.maps.Marker({
+			position: addressLatLng,
+			map: JourneyPlanner.map,
+			icon: "images/camera.png",
+			title: "Traffic Camera"
+		});
+
+		google.maps.event.addListener(marker, 'click', function() {
+			infowindow.open(JourneyPlanner.map,marker);
+		});
 	},
 	
 	getDirectionsRequest: function(params) {
