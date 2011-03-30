@@ -1,0 +1,17 @@
+<!-- 
+	Exemplo de Regular Expression para replace:
+	Obs: Cuidado para não salvar o arquivo de exemplo
+	
+	<menuItem\sid="(\w+)"\stext="([\w\s]+)"\stargetXML="([\w.\s]+)"\s/>
+	<li><a href="#\1" rel="\3">\2</a></li>
+-->
+<menu id="mainMenu" defautTargetXML="channelsMenuItem">
+	<menuItem id="digitalLockerMenuItem" text="Digital Locker" targetXML="DigitalLocker.xml" />
+	<menuItem id="tvGuideMenuItem" text="TV Guide" targetXML="TVGuide.xml" />
+	<menuItem id="searchMenuItem" text="Search" targetXML="Search.xml" />
+	<menuItem id="channelsMenuItem" text="Channels" targetXML="Channels.xml" />
+	<menuItem id="watchItFirstMenuItem" text="Watch it First" targetXML="WatchItFirst.xml" />
+	<menuItem id="internetRadioMenuItem" text="Internet Radio" targetXML="InternetRadio.xml" />
+	<menuItem id="onDemandMenuItem" text="On Demand" targetXML="OnDemand.xml" />
+	<menuItem id="newsMenuItem" text="News" targetXML="News.xml" />
+</menu>
