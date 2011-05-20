@@ -19,10 +19,7 @@ var Index = {
 		    textConcat = "", charactere;
 		
 		for(var i=0; i<text.length; i++) {
-			charactere = text.charAt(i);
-			if(/\s+/.test(character)) {
-				textConcat += "<span>" + character + "</span>";
-			}
+			textConcat += "<span>" + text.charAt(i) + "</span>";
 		}
 		
 		h2.innerHTML = textConcat;
