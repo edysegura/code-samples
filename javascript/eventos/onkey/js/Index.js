@@ -12,7 +12,7 @@ var Index = {
 	
 	
 	setHandles: function() {
-		if(Event && EventUtils.getEvent) {
+		if(typeof EventUtils != 'undefined' && EventUtils.getEvent) {
 			var tableKeyPress = document.getElementById('keypress');
 			var tableKeyDown  = document.getElementById('keydown');
 			var tableKeyUp    = document.getElementById('keyup');
