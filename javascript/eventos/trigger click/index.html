@@ -1,0 +1,71 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" 
+  "http://www.w3.org/TR/html4/loose.dtd"> 
+<html lang="en" dir="ltr"> 
+<head> 
+   <meta http-equiv="Content-Type" 
+     content="text/html; charset=iso-8859-1"> 
+   <meta http-equiv="Content-Script-Type" content="text/javascript"> 
+   <title>Dispatching events</title> 
+   <script type="text/javascript"> 
+     /* Add the event listener */ 
+     function init() { 
+       var elm = null; 
+       if(document.getElementById) { 
+         elm = document.getElementById('test'); 
+       } 
+       if(elm && elm.addEventListener) { 
+         elm.addEventListener('click', function() { 
+           alert('Level 2 listener activated'); 
+         }, false); 
+       } 
+     } 
+     /* Dispatch a click event into the document tree 
+      * 
+      * Note: I would have called this function fireEvent, or 
+      *       dispatchEvent, however, this would have resulted in the 
+      *       browser-supplied functions (former in IE, latter in DOM- 
+      *       compliant browsers) being called. Be sure to avoid that. 
+      */ 
+     function doEventDispatch() { 
+       var evt = null, 
+           elm = null; 
+       if(document.getElementById) { 
+         elm = document.getElementById('test'); 
+       } 
+       if(document.createEvent) { 
+         evt = document.createEvent('MouseEvents'); 
+       } 
+       if(elm && elm.dispatchEvent && evt && evt.initMouseEvent) { 
+         evt.initMouseEvent( 
+           'click', 
+           true,     // Click events bubble 
+           true,     // and they can be cancelled 
+           document.defaultView,  // Use the default view 
+           1,        // Just a single click 
+           0,        // Don't bother with co-ordinates 
+           0, 
+           0, 
+           0, 
+           false,    // Don't apply any key modifiers 
+           false, 
+           false, 
+           false, 
+           0,        // 0 - left, 1 - middle, 2 - right 
+           null);    // Click events don't have any targets other than 
+                     // the recipient of the click 
+         elm.dispatchEvent(evt); 
+       } 
+     } 
+   </script> 
+</head> 
+<body onload="init()"> 
+   <div> 
+     <a id="test" href="http://www.google.com/" 
+       onclick="alert('Level 0 listener activated');">Test</a> 
+   </div> 
+   <div style="margin-top: 1em"> 
+     <button type="button" 
+       onclick="doEventDispatch()">Dispatch event</button> 
+   </div> 
+</body> 
+</html>
