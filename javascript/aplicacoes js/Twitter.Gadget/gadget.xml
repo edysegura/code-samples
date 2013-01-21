@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<gadget>
+  <name>HTML5 News</name>
+  <version>1.0.0.0</version>
+  <author name="Edy Segura">
+    <info url="www.edy.com.br" />
+  </author>
+  <copyright>&#169; Inatel.</copyright>
+  <description>HTML5 news Sidebar gadget sample.</description>
+	<icons>
+    <icon height="64" width="64" src="icon.png" />
+  </icons>
+  <hosts>
+    <host name="sidebar">
+      <base type="HTML" apiVersion="1.0.0" src="main.html" />
+      <permissions>Full</permissions>
+      <platform minPlatformVersion="1.0" />
+    </host>
+  </hosts>
+</gadget>
