@@ -1,21 +1,13 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br">
+<!DOCTYPE html>
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-<title>Polimorfismo com PHP</title>
-
-<!-- javascript -->
-<script type="text/javascript">
-	//transporte de dados do PHP para o JavaScript
-	var vs_index="<?php echo $_POST['instrumento']; ?>";
-</script>
-<script type="text/javascript" src="js/script.js"></script>
-
+	<meta charset="UTF-8" />
+	<title>Polimorfismo com PHP</title>
 </head>
 <body>
 
 <h1>Polimorfismo com PHP</h1>
-<p>Exemplo de polimorfismo no PHP5, para mais detalhes veja o código fonte.</p>
+<p>Exemplo de polimorfismo no PHP5, para mais detalhes veja o cï¿½digo fonte.</p>
 
 <!-- Resultado -->
 <h2>Resultado</h2>
@@ -26,13 +18,21 @@
 			<option value="" selected="selected">Instrumentos</option>
 			<option value="s">Saxofone</option>
 			<option value="p">Piano</option>
-			<option value="v">Violão</option>
+			<option value="v">ViolÃ£o</option>
 			<option value="b">Bateria</option>
 		</select>
 		<button type="submit">OK</button>
 	</fieldset>
 </form>
+
 <p><?php require("paginas/pgn_factory.php"); ?></p>
+
+<!-- javascript -->
+<script type="text/javascript">
+	//transporte de dados do PHP para o JavaScript
+	var vs_index="<?php echo $_POST['instrumento']; ?>";
+</script>
+<script src="js/script.js"></script>
 
 </body>
 </html>
